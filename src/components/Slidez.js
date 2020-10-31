@@ -13,7 +13,6 @@ function Slidez() {
     pauseOnHover: true,
     centerMode: true,
     variableWidth: true,
-    // adaptiveHeight: true,
     focusOnSelect: true,
     swipeToSlide: true,
   };

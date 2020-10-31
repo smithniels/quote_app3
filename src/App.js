@@ -2,19 +2,17 @@ import React from "react";
 // import Quotes from "./Quotes.js";
 import Header from "./components/Header.js";
 import "./App.css";
-// React-Slick carousel
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slidez from "./components/Slidez";
-// React-Bootcamp carousel
-// import BootstrapCaro from "./components/BootstrapCaro.js";
 import { Button } from "react-bootstrap";
+import Carousel from "react-bootstrap/Carousel";
+import BootstrapCarousel from "./components/BootstrapCarousel";
 
 class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      // quoties: Quotes,
       id: 0,
     };
   }
@@ -23,8 +21,9 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header style={Headers.stylesHeader} />
+        <BootstrapCarousel></BootstrapCarousel>
         <Button variant="success">I do nothing, and that's okay!</Button>
-        {/* {BootstrapCaro} */}
+        {BootstrapCarousel}
         {Slidez}
       </div>
     );

@@ -1,34 +1,41 @@
-import React from "react";
-import Quotes from "../Quotes.js";
+import React, { Component } from "react";
 import Carousel from "react-bootstrap/Carousel";
-
-function BootstrapCaro() {
-  const caroCard = {};
-  return (
-    <div>
-      {Quotes.map((quote) => (
-        <Carousel>
-          <Carousel.Item className="d-block w-100">
-            {"what "}
-            <img
-              src="https://picsum.photos/500/200/?blur.jpg"
-              alt="randomly generated placeholder"
-              style={{ justifyContent: "center" }}
-            ></img>
-            key={quote.ID}><h1>"{quote.quote}"</h1>
-            <h2> - {quote.source}</h2>
-          </Carousel.Item>
-        </Carousel>
-      ))}
-      {/* <Carousel>
-        <Carousel.Item className="d-block w-100"></Carousel.Item>
-        <Carousel.Item className="d-block w-100">text2 text text</Carousel.Item>
-        <Carousel.Item className="d-block w-100">
-          text3 why won't you love me?????
-        </Carousel.Item>
-      </Carousel> */}
-    </div>
-  );
+export class BootstrapCarousel extends Component {
+  render() {
+    return (
+      <div>
+        <div class="container-fluid">
+          <div className="row title" style={{ marginBottom: "20px" }}>
+            <div class="col-sm-12 btn btn-warning">
+              How To Use Bootstrap Carousel In ReactJS
+            </div>
+          </div>
+        </div>
+        <div className="container-fluid">
+          <Carousel>
+            <Carousel.Item style={{ height: "300px" }}>
+              <p>lorem1</p>
+              <Carousel.Caption>
+                <h3>First Demo </h3>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item style={{ height: "300px" }}>
+              <p>lorem2</p>
+              <Carousel.Caption>
+                <h3>Second Demo</h3>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item style={{ height: "300px" }}>
+              <p>lorem3</p>
+              <Carousel.Caption>
+                <h3>Third Demo</h3>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
+        </div>
+      </div>
+    );
+  }
 }
 
-export default BootstrapCaro();
+export default BootstrapCarousel;
