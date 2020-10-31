@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slidez from "./components/Slidez";
 import { Button } from "react-bootstrap";
-import Carousel from "react-bootstrap/Carousel";
+
 import BootstrapCarousel from "./components/BootstrapCarousel";
 
 class App extends React.Component {
@@ -22,9 +22,9 @@ class App extends React.Component {
       <div className="App">
         <Header style={Headers.stylesHeader} />
         <BootstrapCarousel></BootstrapCarousel>
-        <Button variant="success">I do nothing, and that's okay!</Button>
+        {/* <Button variant="success">I do nothing, and that's okay!</Button> */}
         {BootstrapCarousel}
-        {Slidez}
+        {/* {Slidez} */}
       </div>
     );
   }

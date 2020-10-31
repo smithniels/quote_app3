@@ -1014,7 +1014,7 @@ const Quotes = [
   {
     ID: 108,
     quote:
-      "When suffering knocks at your door and you say there is no seat for him, he tells you not to worry because he has brought his own stool. When a coward sees a man he can beat he becomes hungry for a fight.",
+      "When suffering knocks at your door and you say there is no seat for him, he tells you not to worry because he has brought his own stool.",
     source: "Chinua Achebe",
     motive: false,
     comedy: false,

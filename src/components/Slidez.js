@@ -19,7 +19,7 @@ function Slidez() {
 
   return (
     <div>
-      <div className="theSlider ">
+      <div className="theSlider">
         <Slider {...settings}>
           {Quotes.map((quote) => (
             <div key={quote.ID}>
