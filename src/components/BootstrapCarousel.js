@@ -6,10 +6,13 @@ export class BootstrapCarousel extends Component {
   render() {
     return (
       <div>
-        <div class="container-fluid">
+        <div className="container-fluid">
           <div className="row title" style={{ marginBottom: "20px" }}>
-            <div class="col-sm-12 btn btn-warning">
-              How To Use Bootstrap Carousel In ReactJS
+            <div className="col-sm-12 btn btn-warning">
+              <h2>
+                Text Will Go Here If Biden Wins This Week If Not Then Massive
+                Depression...
+              </h2>
             </div>
           </div>
         </div>
@@ -31,6 +34,9 @@ export class BootstrapCarousel extends Component {
                 >
                   <h1>"{quote.quote}"</h1>
                   <h5> - {quote.source}</h5>
+                  <h6>
+                    <a href={quote.sourceLink}>Text</a>
+                  </h6>
                 </div>
               </Carousel.Item>
             ))}
