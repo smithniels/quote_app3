@@ -28,14 +28,16 @@ export class BootstrapCarousel extends Component {
                 <div
                   style={{
                     backgroundColor: "rgb(254, 215, 21)",
-                    padding: "30px 200px",
+                    padding: "70px 200px",
                   }}
                   key={quote.ID}
                 >
                   <h1>"{quote.quote}"</h1>
                   <h5> - {quote.source}</h5>
                   <h6>
-                    <a href={quote.sourceLink}>Text</a>
+                    <a href={quote.sourceLink} style={{ zIndex: "101" }}>
+                      Text
+                    </a>
                   </h6>
                 </div>
               </Carousel.Item>
