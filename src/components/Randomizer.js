@@ -13,7 +13,7 @@ function Quotestwo(Quotes) {
     Quotes[i] = Quotes[j];
     Quotes[j] = temp;
   }
-  return Quotes;
+  return Quotestwo;
 }
 console.log(Quotes);
 export default Quotestwo;

@@ -834,7 +834,7 @@ const Quotes = [
   },
   {
     ID: 80,
-    quote: "'I don't care I say, caringly, as I care deeply",
+    quote: "'I don't care' I say, caringly, as I care deeply",
     source: "chavvesty - Tumblr",
     sourcelink: "",
     motiv: false,

@@ -9,12 +9,13 @@ import "./App.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import BootstrapCarousel from "./components/BootstrapCarousel";
+import Quotestwo from "./components/Randomizer";
 
 class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      // id: 0,
+      id: 0,
     };
   }
 
@@ -23,6 +24,7 @@ class App extends React.Component {
       <div className="App">
         <Header style={Headers.stylesHeader} />
         <BootstrapCarousel />
+        <Quotestwo />
       </div>
     );
   }
