@@ -4,9 +4,6 @@ import Header from "./components/Header.js";
 import "./App.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slidez from "./components/Slidez";
-import { Button } from "react-bootstrap";
-
 import BootstrapCarousel from "./components/BootstrapCarousel";
 
 class App extends React.Component {

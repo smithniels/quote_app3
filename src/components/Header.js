@@ -6,7 +6,7 @@ function Header() {
   var stylesHeader = {
     margin: "0 auto",
     display: "flex",
-    alignItems: "flex-end",
+    alignItems: "center",
     // alignContent: "center",
     justifyContent: "center",
     width: "560px",
@@ -37,11 +37,10 @@ function Header() {
     <div className="container">
       <div style={stylesHeader}>
         <h2>Sometimes Quotable</h2>
-        <span style={subHeader}>
-          "Here's a handful of quotes I like" -niels
-        </span>
+
+        <h5 style={subHeader}>"Here's a handful of quotes I like" -niels</h5>
       </div>
-      <button style={siteLink}>
+      {/* <button style={siteLink}>
         <a
           href="https://smithniels.github.io/nsPortfolio/"
           rel="noopener noreferrer"
@@ -49,7 +48,7 @@ function Header() {
         >
           <>My Portfolio Site</>
         </a>
-      </button>
+      </button> */}
     </div>
   );
 }

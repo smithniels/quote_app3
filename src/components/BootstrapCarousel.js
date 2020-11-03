@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import Quotes from "../Quotes.js";
-// import Slidez from "../components/Slidez.js";
 export class BootstrapCarousel extends Component {
   render() {
     return (
@@ -22,7 +21,7 @@ export class BootstrapCarousel extends Component {
               <Carousel.Item
                 style={{
                   color: "black",
-                  height: "100%",
+                  height: "90%",
                 }}
               >
                 <div
@@ -34,11 +33,12 @@ export class BootstrapCarousel extends Component {
                 >
                   <h1>"{quote.quote}"</h1>
                   <h5> - {quote.source}</h5>
-                  <h6>
+                  {/* broken for now */}
+                  {/* <h6>
                     <a href={quote.sourceLink} style={{ zIndex: "101" }}>
                       Text
                     </a>
-                  </h6>
+                  </h6> */}
                 </div>
               </Carousel.Item>
             ))}
