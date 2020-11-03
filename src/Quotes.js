@@ -1033,7 +1033,7 @@ const Quotes = [
   },
   {
     ID: 101,
-    quote: "That's out of pocket.",
+    quote: "That's outta pocket.",
     source: "McClymonds High School - West Oakland",
     sourcelink: "",
     motive: false,

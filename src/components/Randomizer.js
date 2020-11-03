@@ -15,6 +15,7 @@ function Quotestwo(Quotes) {
   }
   return Quotes;
 }
+console.log(Quotes);
 export default Quotestwo;
 // function RecommendedQuotes({ Quotes }) {
 //   const shuffledQuotes = shuffleArray(Quotes);

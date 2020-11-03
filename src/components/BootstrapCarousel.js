@@ -7,16 +7,6 @@ class BootstrapCarousel extends Component {
   render() {
     return (
       <div>
-        {/* <div className="container-fluid">
-          <div className="row title" style={{ marginBottom: "20px" }}>
-            <div className="col-sm-12 btn btn-warning">
-              <h2>
-                Text Will Go Here If Biden Wins This Week If Not Then Massive
-                Depression...
-              </h2>
-            </div>
-          </div>
-        </div> */}
         <div className="container-fluid">
           <Carousel>
             {Quotes.map((quote) => (
@@ -29,7 +19,9 @@ class BootstrapCarousel extends Component {
                 <div
                   style={{
                     backgroundColor: "rgb(254, 215, 21)",
-                    padding: "20px 70px",
+                    padding: "35px 70px",
+                    border: "2px black solid",
+                    borderRadius: "25px",
                   }}
                   key={quote.ID}
                 >

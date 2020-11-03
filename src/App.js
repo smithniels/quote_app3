@@ -1,5 +1,4 @@
 // TODO: Figure out how to do separate line of text in the carousel
-// TODO: Change the BIDEN text
 // TODO: Figure out how to randomize items in array
 // TODO: Figure out how to add in clickable SourceLinks
 
@@ -15,7 +14,7 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      id: 0,
+      // id: 0,
     };
   }
 

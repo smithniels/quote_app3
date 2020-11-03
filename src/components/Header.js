@@ -16,14 +16,14 @@ function Header() {
     padding: "50px",
   };
 
-  var siteLink = {
-    background: "#FED715",
-    borderRadius: "25px",
-    textDecoration: "none",
-    color: "black",
-    border: "black 2px solid",
-    padding: "25px",
-  };
+  // var siteLink = {
+  //   background: "#FED715",
+  //   borderRadius: "25px",
+  //   textDecoration: "none",
+  //   color: "black",
+  //   border: "black 2px solid",
+  //   padding: "25px",
+  // };
 
   var subHeader = {
     fontSize: "20px",
