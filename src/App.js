@@ -1,3 +1,8 @@
+// TODO: Figure out how to do separate line of text in the carousel
+// TODO: Change the BIDEN text
+// TODO: Figure out how to randomize items in array
+// TODO: Figure out how to add in clickable SourceLinks
+
 import React from "react";
 // import Quotes from "./Quotes.js";
 import Header from "./components/Header.js";

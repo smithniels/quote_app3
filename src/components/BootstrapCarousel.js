@@ -7,7 +7,7 @@ class BootstrapCarousel extends Component {
   render() {
     return (
       <div>
-        <div className="container-fluid">
+        {/* <div className="container-fluid">
           <div className="row title" style={{ marginBottom: "20px" }}>
             <div className="col-sm-12 btn btn-warning">
               <h2>
@@ -16,7 +16,7 @@ class BootstrapCarousel extends Component {
               </h2>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="container-fluid">
           <Carousel>
             {Quotes.map((quote) => (
@@ -29,18 +29,12 @@ class BootstrapCarousel extends Component {
                 <div
                   style={{
                     backgroundColor: "rgb(254, 215, 21)",
-                    padding: "20px 100px",
+                    padding: "20px 70px",
                   }}
                   key={quote.ID}
                 >
                   <h1>"{quote.quote}"</h1>
                   <h5> - {quote.source}</h5>
-                  {/* broken for now */}
-                  {/* <h6>
-                    <a href={quote.sourceLink} style={{ zIndex: "101" }}>
-                      Text
-                    </a>
-                  </h6> */}
                 </div>
               </Carousel.Item>
             ))}
