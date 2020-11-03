@@ -19,7 +19,6 @@ class App extends React.Component {
       <div className="App">
         <Header style={Headers.stylesHeader} />
         <BootstrapCarousel />
-        {BootstrapCarousel}
       </div>
     );
   }

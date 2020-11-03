@@ -1166,7 +1166,7 @@ const Quotes = [
       "A pessimist is somebody who complains about the noise when opportunity knocks.",
     source: "Oscar Wilde",
     sourcelink: "",
-    motive: false,
+    motive: true,
     comedy: false,
     romantic: false,
     bigBrain: false,

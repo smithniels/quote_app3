@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import Quotes from "../Quotes.js";
-export class BootstrapCarousel extends Component {
+import Quotestwo from "./Randomizer.js";
+
+class BootstrapCarousel extends Component {
   render() {
     return (
       <div>
@@ -27,7 +29,7 @@ export class BootstrapCarousel extends Component {
                 <div
                   style={{
                     backgroundColor: "rgb(254, 215, 21)",
-                    padding: "70px 200px",
+                    padding: "20px 100px",
                   }}
                   key={quote.ID}
                 >
