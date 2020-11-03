@@ -18,10 +18,8 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header style={Headers.stylesHeader} />
-        <BootstrapCarousel></BootstrapCarousel>
-        {/* <Button variant="success">I do nothing, and that's okay!</Button> */}
+        <BootstrapCarousel />
         {BootstrapCarousel}
-        {/* {Slidez} */}
       </div>
     );
   }

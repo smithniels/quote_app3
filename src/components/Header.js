@@ -1,13 +1,10 @@
 import React from "react";
-// import { fadeIn } from "react-animations";
-// import { StyleSheet, css } from "aphrodite";
 
 function Header() {
   var stylesHeader = {
     margin: "0 auto",
     display: "flex",
     alignItems: "center",
-    // alignContent: "center",
     justifyContent: "center",
     width: "560px",
     height: "100px",
