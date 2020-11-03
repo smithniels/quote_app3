@@ -21,7 +21,7 @@ const Quotes = [
     //https://www.goodreads.com/author/quotes/5350.L_M_Montgomery
     ID: 1,
     quote:
-      "Isn't it nice to think that tomorrow is a new day with no mistakes in it yet?",
+      "Isn't it nice to think that \ntomorrow is a new day with no mistakes in it yet?",
     source: "Lucy Maud Montgomery O.B.E.",
     sourcelink: "https://www.goodreads.com/author/quotes/5350.L_M_Montgomery",
     motiv: true,
@@ -1171,16 +1171,16 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  // {
-  //   ID: 115,
-  //   quote: "",
-  //   source: "",
-  //   sourcelink:"",
-  //motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 115,
+    quote: "The best way to enjoy your job is to imagine yourself without one",
+    source: "Oscar Wilde",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
   // {
   //   ID: 116,
   //   quote: "",

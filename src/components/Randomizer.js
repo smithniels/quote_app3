@@ -3,6 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 import Quotes from "../Quotes.js";
 import { Link } from "react-router";
 
+//stackoverflow.com/questions/38101522/how-to-render-random-objects-from-an-array-in-react./
 console.log(Quotes.length);
 function Quotestwo(Quotes) {
   console.log(Quotes.length);
@@ -13,9 +14,9 @@ function Quotestwo(Quotes) {
     Quotes[i] = Quotes[j];
     Quotes[j] = temp;
   }
-  return Quotestwo;
+  return Quotes;
 }
-console.log(Quotes);
+console.log(Quotes, "Console logging Quotes in randomizer");
 export default Quotestwo;
 // function RecommendedQuotes({ Quotes }) {
 //   const shuffledQuotes = shuffleArray(Quotes);
