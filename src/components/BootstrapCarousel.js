@@ -19,7 +19,7 @@ class BootstrapCarousel extends Component {
                 <div
                   style={{
                     backgroundColor: "rgb(254, 215, 21)",
-                    padding: "35px 70px",
+                    padding: "35px 120px",
                     border: "2px black solid",
                     borderRadius: "25px",
                   }}

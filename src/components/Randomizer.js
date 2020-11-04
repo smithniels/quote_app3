@@ -4,7 +4,7 @@ import Quotes from "../Quotes.js";
 import { Link } from "react-router";
 
 //stackoverflow.com/questions/38101522/how-to-render-random-objects-from-an-array-in-react./
-console.log(Quotes.length);
+console.log(Quotes, "Console logging before function");
 function Quotestwo(Quotes) {
   console.log(Quotes.length);
   let i = Quotes.length - 1;
@@ -14,7 +14,7 @@ function Quotestwo(Quotes) {
     Quotes[i] = Quotes[j];
     Quotes[j] = temp;
   }
-  return Quotes;
+  return Quotestwo;
 }
 console.log(Quotes, "Console logging Quotes in randomizer");
 export default Quotestwo;

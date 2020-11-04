@@ -677,8 +677,9 @@ const Quotes = [
   },
   {
     ID: 65,
-    quote: "Der er ingen ko på isen.",
-    source: "There are no cows on the ice.",
+    quote: "Det är ingen ko på isen så länge halva är på land.",
+    source:
+      "There is no cow on the ice as long as half of it is on land. -Translated from Swedish",
     sourcelink: "",
     motiv: false,
     comedy: false,
