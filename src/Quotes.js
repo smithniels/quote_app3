@@ -667,7 +667,7 @@ const Quotes = [
   {
     ID: 64,
     quote:
-      "But when exactly can we say that someone is overcomplicating things? A good rule of thumb is when you’re writing code that solves problems you don’t have.",
+      "But when exactly can we say that someone is over complicating things? A good rule of thumb is when you’re writing code that solves problems you don’t have.",
     source: "Daan - Blogger on Medium",
     sourcelink: "",
     motiv: false,
