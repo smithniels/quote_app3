@@ -645,8 +645,8 @@ const Quotes = [
   {
     ID: 62,
     quote:
-      "But the only way I’d fall is if I jumped. That’s why you’re afraid to come over here. Because a tiny part of you wants to jump. Because it would be so easy. But, I don’t want to jump. So, I’m not afraid. I would never do that. I’m having too good of a time.",
-    source: "Parker Posey - Louie S03E04(?)",
+      "But the only way I’d fall is if I jumped. That’s why you’re afraid to come over here. Because a tiny part of you wants to jump. Because it would be so easy. But, I don’t want to jump, so, I’m not afraid. I would never do that. I’m having too good of a time.",
+    source: "Parker Posey - Louie S03E04",
     sourcelink: "",
     motiv: true,
     comedy: false,
@@ -742,7 +742,7 @@ const Quotes = [
   {
     ID: 71,
     quote: "The only person I'd run through an airport for is you",
-    source: "The Sister - Fleabag SE2E6(?)",
+    source: "The Sister - Fleabag SE2E6",
     sourcelink: "",
     motiv: false,
     comedy: false,
@@ -780,18 +780,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  // // This quote is too long... :(
-  // {
-  //   ID: 75,
-  //   quote:
-  //     "The next suitable person you’re in light conversation with, you stop suddenly in the middle of the conversation and look at the person closely and say, “What’s wrong?” You say it in a concerned way. He’ll say, “What do you mean?” You say, “Something’s wrong. I can tell. What is it?” And he’ll look stunned and say, “How did you know?” He doesn’t realize something’s always wrong, with everybody. Often more than one thing. \n He doesn’t know everybody’s always going around all the time with something wrong and believing they’re exerting great willpower and control to keep other people, for whom they think nothing’s ever wrong, from seeing it. This is the way of people. Suddenly ask what’s wrong and whether they open up and spill their guts or deny it and pretend you’re off, they’ll think you’re perceptive and understanding. They’ll either be grateful, or they’ll be frightened and avoid you from then on. Both reactions have their uses, as we’ll get to. You can play it either way. This works over 90 percent of the time.",
-  //   source: "David Foster Wallace",
-  //   sourcelink:"",
-  // motiv: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: true,
-  // },
+  // I deleted that long ass David Foster Wallace (RIP) post. It was ID 75
   {
     ID: 76,
     quote: "What's the most important step a person can take? The next one.",
@@ -814,7 +803,7 @@ const Quotes = [
   },
   {
     ID: 78,
-    quote: "America can, should, and must blow up the moon.",
+    quote: "America can, should, and must blow up the moon",
     source: "David Cross - The Man Show",
     sourcelink: "",
     motiv: false,
@@ -1047,7 +1036,7 @@ const Quotes = [
     ID: 102,
     quote:
       "Kill your darlings, kill your darlings, even when it breaks your egocentric little scribbler’s heart, kill your darlings.",
-    source: "Stepthen King",
+    source: "Stephen King",
     sourcelink: "",
     motive: true,
     comedy: false,
@@ -1069,7 +1058,7 @@ const Quotes = [
   {
     ID: 104,
     quote:
-      "When there is overwhelming complexity in a proposed architecture or solution, I always like to take a step back, re-evaluate what we’re really trying to solve/build and think if there is a much simpler way to get to the same goal. Sometimes you’ll realize —",
+      "When there is overwhelming complexity in a proposed architecture or solution, I always like to take a step back, re-evaluate what we’re really trying to solve/build and think if there is a much simpler way to get to the same goal. Sometimes, you’ll realize",
     source: "Jacky Wong - Medium",
     sourcelink: "",
     motive: true,
@@ -1185,23 +1174,24 @@ const Quotes = [
   {
     ID: 116,
     quote: "You can't fix people",
-    source: "Karen Hansen-Smith",
+    source: "Karen Hansen-Smith - librarian, Mother, Dane",
     sourcelink: "",
     motive: false,
     comedy: false,
     romantic: false,
-    bigBrain: false,
+    bigBrain: true,
   },
-  // {
-  //   ID: 117,
-  //   quote: "",
-  //   source: "",
-  //   sourcelink:"",
-  //motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 117,
+    quote:
+      "~That means she gets it (Not the exact quote. I need to rewatch this.",
+    source: "Ralph Fiennes - The Grand Budapest Hotel",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
   // {
   //   ID: 118,
   //   quote: "",
