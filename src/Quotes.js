@@ -1184,7 +1184,7 @@ const Quotes = [
   {
     ID: 117,
     quote:
-      "~That means she gets it (Not the exact quote. I need to rewatch this.",
+      "...That means she gets it (Not the exact quote. I need to rewatch this.",
     source: "Ralph Fiennes - The Grand Budapest Hotel",
     sourcelink: "",
     motive: false,
@@ -1192,16 +1192,17 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  // {
-  //   ID: 118,
-  //   quote: "",
-  //   source: "",
-  //   sourcelink:"",
-  //motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 118,
+    quote:
+      "Life isn’t Jeopardy — you don’t have to jump in with an answer the first chance you get",
+    source: "Michael Thompson - Medium",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
   // {
   //   ID: 119,
   //   quote: "",
