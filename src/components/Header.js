@@ -15,6 +15,7 @@ const Styles = styled.div`
       flexDirection: column,
       borderRadius: 25px,
       padding: 50px,
+      backgroundColor:blue;
 }
 
   .subHeader{
@@ -43,16 +44,14 @@ const Styles = styled.div`
 `;
 const Header = () => {
   return (
-    <div>
-      <Styles>
-        <div className="header">
-          <h2>Sometimes Quotable!</h2>
-          <h5 className="subHeader">
-            "Here's a handful of quotes I like" -niels
-          </h5>
-        </div>
-      </Styles>
-    </div>
+    <Styles>
+      <div className="header">
+        <h2>Sometimes Quotable!</h2>
+        <h5 className="subHeader">
+          "Here's a handful of quotes I like" -niels
+        </h5>
+      </div>
+    </Styles>
   );
 };
 

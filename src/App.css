@@ -23,38 +23,11 @@ html {
   box-shadow: 0 0 1px rgba(0, 0, 0, 0) !important;
 }
 
-body:before {
-  content: "";
-  display: block;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -10;
-  background-image: url("https://picsum.photos/1200/900?grayscale");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: top;
-}
-
-body a {
-  color: black;
-}
-
-h1 {
-  display: flex;
-  justify-content: center;
-}
-
 .App-header {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
 }
 
 .container {
@@ -67,62 +40,6 @@ h1 {
   justify-content: space-around;
   flex-wrap: wrap;
   color: black;
-}
-
-.theSlider {
-  display: flex;
-  width: 70%;
-  height: 730px;
-  /* overflow: hidden; */
-  /* border: 4px rgba(0, 0, 255, 0.1) solid; */
-  /* this "align-items: center;" will make the side arrows move around. bummers */
-  /* align-items: flex-start; */
-  margin: 0 auto;
-  justify-content: center;
-  margin-left: 200px;
-  max-width: 850px;
-}
-
-.slick-next:before {
-  content: ">";
-  color: red;
-  font-size: 30px;
-  height: 200px;
-}
-
-.single-item {
-  margin-right: 35px;
-  margin-left: 15px;
-  padding: 50px;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-}
-
-.single-item:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.variable-width {
-  width: 100%;
-}
-
-.slick-slide > div {
-  /* margin: 0 10px; */
-  margin: 50px;
-  border: black solid 2px;
-  padding: 25px;
-  min-width: 550px;
-  max-width: 700px;
-  height: 100%;
-  background: var(--color-primary);
-  line-height: 1.5;
-  border-radius: 25px;
-  overflow: visible;
-}
-
-.slick-list {
-  margin: 0 -20px;
-  display: flex;
-  overflow: hidden;
 }
 
 /* responsive below */

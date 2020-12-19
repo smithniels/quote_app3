@@ -10,12 +10,18 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import BootstrapCarousel from "./components/BootstrapCarousel.js";
 import styled from "styled-components";
+import { Container, Col, Row } from "react-bootstrap";
 
 const Styles = styled.div`
+  :root {
+    --color-primary: #fed715;
+  }
+
   html {
     box-sizing: border-box;
     background-attachment: fixed;
     list-style-type: none;
+    font-size: calc(10px + 2vmin);
     font-family: "Helvetica Neue", Quicksand, sans-serif;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -42,6 +48,23 @@ const Styles = styled.div`
     padding: 0;
   }
 
+  body:before {
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background-image: url("https://picsum.photos/1200/900?grayscale");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: top;
+  }
+
   .classic:before {
     content: "";
     display: block;
@@ -52,7 +75,7 @@ const Styles = styled.div`
     height: 100%;
     z-index: -10;
   }
-`
+`;
 class App extends React.Component {
   constructor() {
     super();
@@ -64,10 +87,16 @@ class App extends React.Component {
   render() {
     return (
       <Styles>
-          <div className="App">
-          <Header />
-          <BootstrapCarousel />
-        </div>
+        <Container>
+          <Col>
+            <Row>
+              <Header />
+            </Row>
+            <Row>
+              <BootstrapCarousel />
+            </Row>
+          </Col>
+        </Container>
       </Styles>
     );
   }

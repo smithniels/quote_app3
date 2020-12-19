@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import Carousel from "react-bootstrap/Carousel";
+import {Carousel} from "react-bootstrap";
 import Quotes from "../Quotes.js";
 import Quotestwo from "./Randomizer.js";
 
-class BootstrapCarousel extends Component {
+export const BootstrapCarousel = () => {
   render() {
     return (
       <div>
@@ -22,6 +22,11 @@ class BootstrapCarousel extends Component {
                     padding: "35px 120px",
                     border: "2px black solid",
                     borderRadius: "25px",
+                    width: "800px",
+                    minWidth: "800px",
+                    maxWidth: "800px",
+                    height: "100%",
+                    minHeight: "200px",
                   }}
                   key={quote.ID}
                 >
@@ -37,4 +42,4 @@ class BootstrapCarousel extends Component {
   }
 }
 
-export default BootstrapCarousel;
+
