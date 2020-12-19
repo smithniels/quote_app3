@@ -72,7 +72,7 @@ const Quotes = [
   {
     ID: 6,
     quote: "I'm a rebel without a cause who has a personal cause",
-    source: "mor (mom)",
+    source: "Karen Hansen-Smith - librarian, Mother, Dane",
     sourcelink: "",
     motiv: false,
     comedy: false,
@@ -82,7 +82,7 @@ const Quotes = [
   {
     ID: 7,
     quote: "English is my second language",
-    source: "mor (mom)",
+    source: "Karen Hansen-Smith - librarian, Mother, Dane",
     sourcelink: "",
     motiv: false,
     comedy: false,
