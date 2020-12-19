@@ -303,7 +303,7 @@ const Quotes = [
   {
     ID: 29,
     quote: "Aggressively mediocre white guy",
-    source: "Hank (DavID Duchovny - Californication",
+    source: "Hank (David Duchovny - Californication",
     sourcelink: "",
     motiv: false,
     comedy: true,

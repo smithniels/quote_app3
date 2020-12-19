@@ -40,6 +40,15 @@ body:before {
   background-position: top;
 }
 
+body a {
+  color: black;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
 .App-header {
   display: flex;
   flex-direction: column;
@@ -48,13 +57,8 @@ body:before {
   font-size: calc(10px + 2vmin);
 }
 
-h1 {
-  display: flex;
-  justify-content: center;
-}
-
 .container {
-  width: 100%;
+  width: 40%;
   min-width: 450px;
   padding: 20px;
   margin: 0 auto;
@@ -72,10 +76,11 @@ h1 {
   /* overflow: hidden; */
   /* border: 4px rgba(0, 0, 255, 0.1) solid; */
   /* this "align-items: center;" will make the side arrows move around. bummers */
-  align-items: flex-start;
+  /* align-items: flex-start; */
   margin: 0 auto;
   justify-content: center;
   margin-left: 200px;
+  max-width: 850px;
 }
 
 .slick-next:before {
@@ -120,6 +125,11 @@ h1 {
   overflow: hidden;
 }
 
-body a {
-  color: black;
+/* responsive below */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .single-item {
+    margin: 10px;
+    padding: 5px;
+  }
 }
