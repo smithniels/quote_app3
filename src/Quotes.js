@@ -92,7 +92,7 @@ const Quotes = [
   {
     ID: 8,
     quote: "The love of your life wouldn't have given up on you",
-    source: "reddit.com/r/breakups",
+    source: "/r/breakups - Reddit",
     sourcelink: "",
     motiv: true,
     comedy: false,
@@ -161,7 +161,7 @@ const Quotes = [
     quote:
       "With the black kids, I wasn't constantly trying to be. With the black kids, I just was",
     source:
-      "Trevor Noah (On growing up mixed race in South Africa - Born a Crime",
+      "Trevor Noah (On growing up mixed race in South Africa) - Born a Crime",
     sourcelink: "",
     motiv: false,
     comedy: false,
@@ -181,7 +181,7 @@ const Quotes = [
   {
     ID: 17,
     quote: "God, you're pretty",
-    source: "Collin Ferrell 'In Bruges'",
+    source: "Collin Ferrell (In Bruges)",
     sourcelink: "",
     motiv: false,
     comedy: true,
@@ -313,7 +313,7 @@ const Quotes = [
   {
     ID: 30,
     quote: "You're not going to be this angry forever",
-    source: "Someone on - Atypical",
+    source: " Doug Gardner (Michael Rapaport)- Atypical (S2E5)",
     sourcelink: "",
     motiv: false,
     comedy: false,
@@ -344,7 +344,7 @@ const Quotes = [
   {
     ID: 33,
     quote: "She is a lovely person. A living breathing sunrise",
-    source: "Reddit u/if_horses_could_draw",
+    source: "u/if_horses_could_draw - Reddit ",
     sourcelink: "",
     motiv: false,
     comedy: false,
@@ -396,7 +396,7 @@ const Quotes = [
   {
     ID: 38,
     quote: "Some people have dreams, and some people have goals",
-    source: "Reddit u/magnetic_couch",
+    source: "u/magnetic_couch - Reddit ",
     sourcelink: "",
     motiv: true,
     comedy: false,
@@ -438,7 +438,7 @@ const Quotes = [
   {
     ID: 42,
     quote: "'No' is a complete sentence",
-    source: "CASHI",
+    source: "CASHI Meeting",
     sourcelink: "",
     motiv: false,
     comedy: false,
@@ -489,7 +489,7 @@ const Quotes = [
   {
     ID: 47,
     quote: "Don't threaten me with a good time",
-    source: "Panic at the Disco (2016)",
+    source: "Panic at the Disco",
     sourcelink: "",
     motiv: false,
     comedy: true,
@@ -500,7 +500,7 @@ const Quotes = [
     ID: 48,
     quote:
       "Well done girl. Find someone who cherishes you, and wants to have sex with you not from you",
-    source: "Reddit u/klassz",
+    source: "u/klassz - Reddit",
     sourcelink: "",
     motiv: false,
     comedy: false,
@@ -520,7 +520,7 @@ const Quotes = [
   {
     ID: 50,
     quote: "I've been told I wake up happy",
-    source: "Tinder woman's profile from Baltimore",
+    source: "Tinder woman in Baltimore",
     sourcelink: "",
     motiv: false,
     comedy: true,
@@ -530,7 +530,7 @@ const Quotes = [
   {
     ID: 51,
     quote: "She's jokes man. She's quality",
-    source: "Some dude - Too Hot to Handle",
+    source: "? - Too Hot to Handle",
     sourcelink: "",
     motiv: false,
     comedy: true,
@@ -581,7 +581,7 @@ const Quotes = [
   {
     ID: 56,
     quote: "...yesterday finally came.",
-    source: "u/Anonymous - Reddit",
+    source: "u/? - Reddit",
     sourcelink: "",
     motiv: false,
     comedy: false,
@@ -634,7 +634,7 @@ const Quotes = [
   {
     ID: 61,
     quote:
-      "The question you've got to ask yourself, the white population of America's gotta ask itself, is why it was necessary to have a nigger in the first place. I'm not a nigger... But if you think I'm a nigger, it means you need it.",
+      "The question you've got to ask yourself, the white population of America's gotta ask itself, is why it was necessary to have a nigger in the first place. I'm not a nigger, but if you think I'm a nigger, it means you need it.",
     source: "James Baldwin",
     sourcelink: "",
     motiv: false,
@@ -679,7 +679,7 @@ const Quotes = [
     ID: 65,
     quote: "Det är ingen ko på isen så länge halva är på land.",
     source:
-      "There is no cow on the ice as long as half of it is on land. -Translated from Swedish",
+      "There is no cow on the ice as long as half of it is on land. \n - Translated from Swedish",
     sourcelink: "",
     motiv: false,
     comedy: false,
@@ -720,7 +720,7 @@ const Quotes = [
   {
     ID: 69,
     quote:
-      "She walked away and I got the first wave of a sensation that would become familiar to me: Missing her.",
+      "She walked away and I got the first wave of a sensation that would become familiar to me; \n Missing her.",
     source: "David Mitchell on first meeting his wife (Victoria Coren)",
     sourcelink: "",
     motiv: false,
@@ -783,7 +783,7 @@ const Quotes = [
   // I deleted that long ass David Foster Wallace (RIP) post. It was ID 75
   {
     ID: 76,
-    quote: "What's the most important step a person can take? The next one.",
+    quote: "What's the most important step a person can take? \n The next one.",
     source: "Dalinar Kholin",
     sourcelink: "",
     motiv: true,
@@ -1184,7 +1184,7 @@ const Quotes = [
   {
     ID: 117,
     quote:
-      "...That means she gets it (Not the exact quote. I need to rewatch this.",
+      "...That means she gets it (Not the exact quote. I need to rewatch this to find it..",
     source:
       "Ralph Fiennes - somewhere in the 2nd half of The Grand Budapest Hotel",
     sourcelink: "",
