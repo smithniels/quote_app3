@@ -1214,16 +1214,17 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  // {
-  //   ID: 120,
-  //   quote: "",
-  //   source: "",
-  //   sourcelink:"",
-  //motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 120,
+    quote:
+      "Oh, it's cool how you found a way for a compliment to shake me to my core. ",
+    source: "Missy (Ayo Edebiri) - Big Mouth",
+    sourcelink: "",
+    motive: false,
+    comedy: true,
+    romantic: false,
+    bigBrain: false,
+  },
 ];
 
 export default Quotes;
