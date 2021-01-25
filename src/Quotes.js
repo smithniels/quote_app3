@@ -2,8 +2,7 @@
 
 // Don't forget:
 // 1. ID is capitalized
-// 2. quote is lowercase
-// 3. source is lowercase
+// 2. source & quote are both lowercase
 
 // NOTES
 // -> I need to figure out how to make line breaks \n  strings work in React
@@ -140,12 +139,13 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
+  ,
   // // too sad
   // {
   //   ID: 13,
   //   quote: "Sorry, you aren't drug naive",
   //   source: "Faria Amjad, MD",
-  // },
+  //   }
   {
     ID: 14,
     quote: "That's the worst thing that's ever happened to me",
