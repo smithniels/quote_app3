@@ -9,7 +9,7 @@
 // -> I need to figure out how to make line breaks \n  strings work in React
 
 // Things I just realized by chance:
-// -> Selecting a string of characters and hitting:   SHIFT + " ( )
+// -> Selecting a string of characters and hitting:   SHIFT + "
 // ---> Will wrap the text in quotation marks/parenthesis.
 // ----> Crazy.
 
