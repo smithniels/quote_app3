@@ -1225,6 +1225,17 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
+  {
+    ID: 121,
+    quote:
+      "Every great dream begins with a dreamer. Always remember, you have within you the strength, the patience, and the passion to change the world.",
+    source: "Harriet Tubman",
+    sourcelink: "",
+    motive: false,
+    comedy: true,
+    romantic: false,
+    bigBrain: false,
+  },
 ];
 
 export default Quotes;
