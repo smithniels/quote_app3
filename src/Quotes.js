@@ -8,13 +8,14 @@
 // -> I need to figure out how to make line breaks \n  strings work in React
 
 // Things I just realized by chance:
-// -> Selecting a string of characters and hitting:   SHIFT + "
-// ---> Will wrap the text in quotation marks/parenthesis.
+// -> Selecting a string of characters and hitting: SHIFT + "
+// ---> Will wrap the text in quotation "marks"/parenthesis.
 // ----> Crazy.
 
 //TODO
 //Add in a Quote adding function/submission
 
+/*jshint esversion: 6 */
 const Quotes = [
   {
     //https://www.goodreads.com/author/quotes/5350.L_M_Montgomery

@@ -2,12 +2,17 @@ import React from "react";
 import styled from "styled-components";
 
 const Styles = styled.div`
+
+    :root {
+      --color-primary: #fed715;
+  }
+
     .header{
       margin: 0 auto,
       display: flex,
       alignItems: center,
       justifyContent: center,
-      width: 50%,
+      width: 60%,
       height: 150px,
       backgroundColor: #FED715,
       border: black 2px solid,
@@ -15,7 +20,8 @@ const Styles = styled.div`
       flexDirection: column,
       borderRadius: 25px,
       padding: 50px,
-      backgroundColor:blue;
+      margin-top:;
+;
 }
 
   .subHeader{
@@ -23,23 +29,23 @@ const Styles = styled.div`
     font-style:i italic;
     display: flex;
     justify-content: center;
-    color: orange;
+    color:  --color-primary;
+    border-bottom: #fed715 5px solid;
+    margin-bottom:10%;
+  }
   }
   
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
     .header{
       padding: auto;
-      margin: auto 5333px;
+      margin: auto 0;
       height:150px;
       color:pink;
     }
-
     .subheader{
       color:purple;
     }
-
-
   }
 
 `;

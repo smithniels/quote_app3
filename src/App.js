@@ -57,7 +57,9 @@ const Styles = styled.div`
     width: 100%;
     height: 100%;
     z-index: -10;
-    background-image: url("https://picsum.photos/1200/900?grayscale");
+    ${
+      "" /* background-image: url("https://picsum.photos/1200/900?grayscale"); */
+    }
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -75,6 +77,12 @@ const Styles = styled.div`
     height: 100%;
     z-index: -10;
   }
+
+  .mainBit { 
+    color: purple;
+    border: 2px solid #fed715;
+    margin-top: 2%;
+  }
 `;
 class App extends React.Component {
   constructor() {
@@ -87,16 +95,18 @@ class App extends React.Component {
   render() {
     return (
       <Styles>
-        <Container>
-          <Col>
-            <Row>
-              <Header />
-            </Row>
-            <Row>
-              <BootstrapCarousel />
-            </Row>
-          </Col>
-        </Container>
+        <div className="mainBit">
+          <Container>
+            <Col>
+              <Row>
+                <Header />
+              </Row>
+              <Row>
+                <BootstrapCarousel />
+              </Row>
+            </Col>
+          </Container>
+        </div>
       </Styles>
     );
   }
