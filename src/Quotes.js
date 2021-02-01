@@ -140,11 +140,10 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  ,
   // // too sad
   // {
   //   ID: 13,
-  //   quote: "Sorry, you aren't drug naive",
+  //   quote: "I'm sorry, but this means you aren't drug naive",
   //   source: "Faria Amjad, MD",
   //   }
   {
@@ -1012,6 +1011,8 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
+
+  // One of my favorite quotes
   {
     ID: 100,
     quote: "What I regret most in my life are failures of kindness",

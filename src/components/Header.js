@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 
 const Styles = styled.div`
-
     :root {
       --color-primary: #fed715;
   }
@@ -19,20 +18,19 @@ const Styles = styled.div`
       fontSize: 50px,
       flexDirection: column,
       borderRadius: 25px,
-      padding: 50px,
-      margin-top:;
-;
+      padding: 10vmin 1rem;
 }
 
-  .subHeader{
-    font-size: 15px;
-    font-style:i italic;
-    display: flex;
-    justify-content: center;
-    color:  --color-primary;
-    border-bottom: #fed715 5px solid;
-    margin-bottom:10%;
-  }
+    .subHeader{
+      font-size: 15px;
+      font-style:i italic;
+      display: flex;
+      justify-content: center;
+      color:  --color-primary;
+      border-bottom: #fed715 5px solid;
+      border-radius: 5px 20px 5px;
+      margin-bottom:10%;
+    }
   }
   
 

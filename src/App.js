@@ -83,7 +83,9 @@ const Styles = styled.div`
     border: 2px solid #fed715;
     margin-top: 2%;
   }
+
 `;
+
 class App extends React.Component {
   constructor() {
     super();
