@@ -44,8 +44,8 @@ const Styles = styled.div`
   body {
     height: 100vh;
     width: 100vw;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
   }
 
   body:before {
@@ -56,10 +56,7 @@ const Styles = styled.div`
     top: 0;
     width: 100%;
     height: 100%;
-    z-index: -10;
-    ${
-      "" /* background-image: url("https://picsum.photos/1200/900?grayscale"); */
-    }
+    ${"" /* z-index: -10; */}
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -79,11 +76,9 @@ const Styles = styled.div`
   }
 
   .mainBit { 
-    color: purple;
-    border: 2px solid #fed715;
+    border: 12px solid #fed715;
     margin-top: 2%;
   }
-
 `;
 
 class App extends React.Component {

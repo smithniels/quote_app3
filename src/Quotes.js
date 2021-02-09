@@ -624,7 +624,7 @@ const Quotes = [
     ID: 60,
     quote:
       "The Doctor put her hands over my liver. She told me my resentment’s getting smaller",
-    source: "Phobe BrIDgers - Garden Song",
+    source: "Phobe Bridgers - Garden Song",
     sourcelink: "",
     motiv: false,
     comedy: false,
@@ -1250,16 +1250,18 @@ const Quotes = [
     bigBrain: true,
   },
 
-  // {
-  //   ID: ,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 123,
+    quote:
+      "Attention is a limited resource, so pay attention to where you pay 	attention.",
+    source: "Howard Rheingold",
+    sourcelink: "",
+    motive: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
+
   // {
   //   ID: ,
   //   quote: "Text",
