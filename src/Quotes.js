@@ -13,7 +13,9 @@
 // ----> Crazy.
 
 //TODO
-//Add in a Quote adding function/submission
+// Add in a Quote adding function/submission
+// Add in a filter(higher order function)!
+// Add a progress bar to show progress? (cool idea)
 
 /*jshint esversion: 6 */
 const Quotes = [
