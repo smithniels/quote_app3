@@ -1,6 +1,5 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import Quotes from "../Quotes.js";
 import Quotestwo from "./Randomizer.js";
 
 export const BootstrapCarousel = () => {
@@ -10,7 +9,7 @@ export const BootstrapCarousel = () => {
     <div>
       <div className="container-fluid">
         <Carousel>
-          {Quotes.map((quote) => (
+          {Quotestwo.map((quote) => (
             <Carousel.Item
               style={{
                 color: "black",
