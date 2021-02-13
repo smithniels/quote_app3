@@ -8,10 +8,9 @@ import Header from "./components/Header.js";
 import "./App.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Shuffle from "./components/BootstrapCarousel.js";
+import { BootstrapCarousel } from "./components/BootstrapCarousel.js";
 import styled from "styled-components";
 import { Container, Col, Row } from "react-bootstrap";
-import PropTypes from "prop-types";
 
 const Styles = styled.div`
   :root {
@@ -105,8 +104,7 @@ class App extends React.Component {
                 <Header />
               </Row>
               <Row>
-                del-text
-                <Shuffle />
+                <BootstrapCarousel />
               </Row>
             </Col>
           </Container>
