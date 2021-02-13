@@ -1,8 +1,11 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import Quotes from "../Quotes.js";
+import Quotestwo from "./Randomizer.js";
 
 export const BootstrapCarousel = () => {
+  // var QuotesB = Quotes[Math.floor(Math.random() * Quotes.length)]};
+  // let QuotesB = Math.floor(Math.random() * Quotes.length);
   return (
     <div>
       <div className="container-fluid">
@@ -25,3 +28,5 @@ export const BootstrapCarousel = () => {
     </div>
   );
 };
+
+//var randomItem = myArray[Math.floor(Math.random()*myArray.length)];

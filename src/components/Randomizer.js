@@ -1,23 +1,27 @@
-import React, { Component } from "react";
-import Carousel from "react-bootstrap/Carousel";
+import React /* , { Component */ from "react";
+// import Carousel from "react-bootstrap/Carousel";
 import Quotes from "../Quotes.js";
-import { Link } from "react-router";
+// import { Link } from "react-router";
 
 //stackoverflow.com/questions/38101522/how-to-render-random-objects-from-an-array-in-react./
-console.log(Quotes, "Console logging before function");
-export function Quotestwo(Quotes) {
-  // console.log(Quotes.length);s
-  let i = Quotes.length - 1;
-  for (; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    const temp = Quotes[i];
-    Quotes[i] = Quotes[j];
-    Quotes[j] = temp;
-  }
-  return Quotestwo;
+console.log(typeof Quotes);
+if (Quotes.constructor.name == "Array") {
+  console.log("that's an array!!!!"); // true
 }
 
-console.log(Quotes, "Console logging Quotes in randomizer");
+console.log("it's an array");
+console.log(Quotes, "Console logging before function");
+
+export const Quotestwo = () => {
+  const Quotestwo = Quotes[Math.floor(Math.random() * Quotes.length)];
+  console.log(Quotestwo);
+  console.log(Quotestwo, "Console logging after function");
+  return Quotestwo;
+};
+console.log(Quotestwo);
+console.log(typeof Quotestwo); // function
+console.log(typeof Quotes); // object
+
 export default Quotestwo;
 // function RecommendedQuotes({ Quotes }) {
 //   const shuffledQuotes = shuffleArray(Quotes);
