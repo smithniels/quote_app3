@@ -8,7 +8,6 @@ import Quotes from "../Quotes.js";
     2. Randomize it
     3. Return it
 */
-const QuotesRand = {};
 
 function shuffle(array) {
   let counter = array.length;
@@ -26,7 +25,8 @@ function shuffle(array) {
   console.log(array);
   return array;
 }
-this.QuotesRand = shuffle(Quotes);
-console.log(this.QuotesRand);
 
-export default QuotesRand;
+// const Quotes = {}; 
+QuotesRand = shuffle(Quotes);
+console.log(QuotesRand)
+};
