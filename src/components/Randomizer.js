@@ -1,6 +1,6 @@
-import React from "react";
-import Quotes from "../Quotes.js";
 // FISHER-YATES Shuffle Algorithm
+
+import Quotes from "../Quotes.js";
 
 /*
   What this component needs to do:
@@ -23,8 +23,10 @@ function shuffle(array) {
     array[counter] = array[index];
     array[index] = temp;
   }
+  console.log(array);
   return array;
 }
-QuotesRand = shuffle(Quotes);
+this.QuotesRand = shuffle(Quotes);
+console.log(this.QuotesRand);
 
 export default QuotesRand;

@@ -3,8 +3,6 @@ import { Carousel } from "react-bootstrap";
 import QuotesRand from "./Randomizer.js";
 
 export const BootstrapCarousel = () => {
-  //  ;
-  // let QuotesB = Math.floor(Math.random() * Quotes.length);
   return (
     <div>
       <div className="container-fluid">
