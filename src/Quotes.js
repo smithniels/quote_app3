@@ -31,7 +31,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 2,
     quote: "My car goes in reverse not my life",
@@ -42,7 +42,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 3,
     quote: "Aren't we all always thinkin' about somewhere else?",
@@ -53,7 +53,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 4,
     quote: "She may forget how much she loves her sister",
@@ -64,7 +64,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 5,
     quote: "The water be swimming",
@@ -75,7 +75,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 6,
     quote: "I'm a rebel without a cause who has a personal cause",
@@ -86,7 +86,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 7,
     quote: "English is my second language",
@@ -97,7 +97,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 8,
     quote: "The love of your life wouldn't have given up on you",
@@ -108,7 +108,7 @@ const Quotes = [
     romantic: true,
     bigBrain: false,
   },
-  
+
   {
     ID: 9,
     quote: "They already starting with the madness",
@@ -119,7 +119,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 10,
     quote: "I have no special talent. I am only passionately curious.",
@@ -130,7 +130,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 11,
     quote: "Sittin' on your biscuit, too 'fraid to risk it",
@@ -141,7 +141,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 12,
     quote:
@@ -169,7 +169,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 15,
     quote:
@@ -182,7 +182,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 16,
     quote: "They did you a favor",
@@ -193,7 +193,7 @@ const Quotes = [
     romantic: true,
     bigBrain: true,
   },
-  
+
   {
     ID: 17,
     quote: "God, you're pretty",
@@ -204,7 +204,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 18,
     quote: "Why be timid; death is coming",
@@ -215,7 +215,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 19,
     quote: "When your day is a museum of disappointments",
@@ -226,7 +226,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 20,
     quote:
@@ -238,7 +238,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 21,
     quote: "Begin again",
@@ -249,7 +249,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 22,
     quote:
@@ -261,7 +261,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 23,
     quote: "Being nice isn't easy sometimes",
@@ -272,7 +272,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 24,
     quote: "My religion is kindness",
@@ -283,7 +283,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 25,
     quote: "Half-merican Army",
@@ -294,7 +294,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 26,
     quote: "Filler text",
@@ -305,7 +305,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 27,
     quote: "I had not sufficiently appreciated it",
@@ -316,7 +316,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 28,
     quote: "I love you more than one more day",
@@ -327,7 +327,7 @@ const Quotes = [
     romantic: true,
     bigBrain: true,
   },
-  
+
   {
     ID: 29,
     quote: "Aggressively mediocre white guy",
@@ -338,7 +338,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 30,
     quote: "You're not going to be this angry forever",
@@ -349,7 +349,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 31,
     quote: "She helped me trust myself",
@@ -360,7 +360,7 @@ const Quotes = [
     romantic: true,
     bigBrain: false,
   },
-  
+
   {
     ID: 32,
     quote:
@@ -372,7 +372,7 @@ const Quotes = [
     romantic: true,
     bigBrain: false,
   },
-  
+
   {
     ID: 33,
     quote: "She is a lovely person. A living breathing sunrise",
@@ -383,7 +383,7 @@ const Quotes = [
     romantic: true,
     bigBrain: false,
   },
-  
+
   {
     // This one makes little to no sense
     ID: 34,
@@ -395,7 +395,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 35,
     quote:
@@ -407,7 +407,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 36,
     quote: "Live it, dream it, fuck it",
@@ -418,7 +418,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 37,
     quote: "Don't you forget about me",
@@ -429,7 +429,7 @@ const Quotes = [
     romantic: true,
     bigBrain: false,
   },
-  
+
   {
     ID: 38,
     quote: "Some people have dreams, and some people have goals",
@@ -440,7 +440,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 39,
     quote: "I like to feed my eyes",
@@ -451,7 +451,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 40,
     quote:
@@ -463,7 +463,7 @@ const Quotes = [
     romantic: true,
     bigBrain: false,
   },
-  
+
   {
     ID: 41,
     quote:
@@ -475,7 +475,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 42,
     quote: "'No' is a complete sentence",
@@ -486,7 +486,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 43,
     quote: "What matters to you?",
@@ -497,7 +497,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 44,
     quote: "I'm just having an allergic reaction to the universe",
@@ -508,7 +508,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 45,
     quote: "Say what you mean, mean what you say, and don't say it mean",
@@ -519,7 +519,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 46,
     quote:
@@ -531,7 +531,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 47,
     quote: "Don't threaten me with a good time",
@@ -542,7 +542,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 48,
     quote:
@@ -554,7 +554,7 @@ const Quotes = [
     romantic: true,
     bigBrain: false,
   },
-  
+
   {
     ID: 49,
     quote: "Sometimes the juice is worth the squeeze",
@@ -565,7 +565,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 50,
     quote: "I've been told I wake up happy",
@@ -576,7 +576,7 @@ const Quotes = [
     romantic: true,
     bigBrain: false,
   },
-  
+
   {
     ID: 51,
     quote: "She's jokes man. She's quality",
@@ -587,7 +587,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 52,
     quote: "Let's just leave this conversation, okay?",
@@ -598,7 +598,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 53,
     quote: "There is only one thing I dread, not to be worthy of my suffering",
@@ -609,7 +609,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 54,
     quote:
@@ -621,7 +621,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 55,
     quote: "If the door doesn't open, it's not your door",
@@ -632,7 +632,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 56,
     quote: "...yesterday finally came.",
@@ -643,7 +643,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 57,
     quote: "On a scale of 1 to 'Not', could you?",
@@ -654,7 +654,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 58,
     quote:
@@ -666,7 +666,7 @@ const Quotes = [
     romantic: true,
     bigBrain: true,
   },
-  
+
   {
     ID: 59,
     quote:
@@ -678,7 +678,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 60,
     quote:
@@ -690,7 +690,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 61,
     quote:
@@ -702,7 +702,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 62,
     quote:
@@ -714,7 +714,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 63,
     quote:
@@ -726,7 +726,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 64,
     quote:
@@ -738,7 +738,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 65,
     quote: "Det är ingen ko på isen så länge halva är på land.",
@@ -750,7 +750,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 66,
     quote: "I missed you all",
@@ -761,7 +761,7 @@ const Quotes = [
     romantic: true,
     bigBrain: false,
   },
-  
+
   {
     ID: 67,
     quote: "Your passion is waiting for your courage to catch up.",
@@ -772,7 +772,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 68,
     quote:
@@ -784,7 +784,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 69,
     quote:
@@ -796,7 +796,7 @@ const Quotes = [
     romantic: true,
     bigBrain: false,
   },
-  
+
   {
     ID: 70,
     quote:
@@ -808,7 +808,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 71,
     quote: "The only person I'd run through an airport for is you",
@@ -819,7 +819,7 @@ const Quotes = [
     romantic: true,
     bigBrain: false,
   },
-  
+
   {
     ID: 72,
     quote: "I have brain damage, nothing I do counts",
@@ -830,7 +830,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 73,
     quote:
@@ -842,7 +842,7 @@ const Quotes = [
     romantic: true,
     bigBrain: false,
   },
-  
+
   {
     ID: 74,
     quote: "Well, you’re sitting, eating, and breathing, so the other thing.",
@@ -864,7 +864,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 77,
     quote: "and here you are living \n despite it all",
@@ -875,7 +875,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 78,
     quote: "America can, should, and must blow up the moon",
@@ -886,7 +886,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 79,
     quote:
@@ -898,7 +898,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 80,
     quote: "'I don't care' I say, caringly, as I care deeply",
@@ -909,7 +909,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 81,
     quote: "You'll believe it a little more if it's followed by applause",
@@ -920,7 +920,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 82,
     quote:
@@ -932,7 +932,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 83,
     quote:
@@ -944,7 +944,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 84,
     quote:
@@ -956,7 +956,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 85,
     quote: "The cost of procrastination is the life you could've lived",
@@ -967,7 +967,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 86,
     quote:
@@ -979,7 +979,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 88,
     quote:
@@ -991,7 +991,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 89,
     quote: "You have a place in my space",
@@ -1002,7 +1002,7 @@ const Quotes = [
     romantic: true,
     bigBrain: false,
   },
-  
+
   {
     ID: 91,
     quote:
@@ -1014,7 +1014,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 92,
     quote: "Life is far too important a thing ever to talk seriously about.",
@@ -1025,7 +1025,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 93,
     quote: "He has no enemies, but is intensely disliked by his friends.",
@@ -1036,7 +1036,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 94,
     quote:
@@ -1048,7 +1048,7 @@ const Quotes = [
     romantic: true,
     bigBrain: true,
   },
-  
+
   {
     ID: 95,
     quote:
@@ -1060,7 +1060,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 96,
     quote: "Fuck all the way off, motherfuckers",
@@ -1071,7 +1071,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 97,
     quote: "Never giving up is how you win",
@@ -1082,7 +1082,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 98,
     quote: "Chill! Your failures are going to make your TED talk longer",
@@ -1093,7 +1093,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 99,
     quote:
@@ -1117,7 +1117,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 101,
     quote: "That's outta pocket.",
@@ -1152,7 +1152,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 104,
     quote:
@@ -1164,7 +1164,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 105,
     quote: "Do not, under any circumstances, depend on a partial feeling.",
@@ -1175,7 +1175,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 106,
     quote:
@@ -1187,7 +1187,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 107,
     quote: "What does your ideal day look like?",
@@ -1198,7 +1198,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 108,
     quote:
@@ -1210,7 +1210,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 109,
     quote: "You have to make a habit of challenging yourself.",
@@ -1221,7 +1221,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 111,
     quote:
@@ -1233,7 +1233,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 112,
     quote:
@@ -1245,7 +1245,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 113,
     quote: "What seems to us as bitter trials are often blessings in disguise",
@@ -1256,7 +1256,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 114,
     quote:
@@ -1268,7 +1268,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 115,
     quote: "The best way to enjoy your job is to imagine yourself without one",
@@ -1279,7 +1279,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 116,
     quote: "You can't fix people",
@@ -1290,7 +1290,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 117,
     quote:
@@ -1303,7 +1303,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 118,
     quote:
@@ -1315,7 +1315,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 119,
     quote: "Dream big dreams. Small dreams have no magic",
@@ -1326,7 +1326,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  
+
   {
     ID: 120,
     quote:
@@ -1338,7 +1338,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  
+
   {
     ID: 121,
     quote:
@@ -1363,7 +1363,7 @@ const Quotes = [
   },
 
   {
-    ID: ,
+    ID: 123,
     quote: "I can do this, I thought. Then: And even if I can't, I have to",
     source: "Anonymous",
     sourcelink: "",

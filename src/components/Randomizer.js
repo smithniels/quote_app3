@@ -1,5 +1,6 @@
 import React from "react";
 import Quotes from "../Quotes.js";
+// FISHER-YATES Shuffle Algorithm
 
 /*
   What this component needs to do:
@@ -7,23 +8,23 @@ import Quotes from "../Quotes.js";
     2. Randomize it
     3. Return it
 */
+const QuotesRand = {};
 
-console.log(typeof Quotes);
-
-export const Quotestwo = () => {
-  const QuotesRand = Quotes.reverse(); //Quotes[Math.floor(Math.random() * Quotes.length)];
-
-  if (Quotes.constructor.name === "Array") {
-    console.log("that's an array!!!!"); // true
+function shuffle(array) {
+  let counter = array.length;
+  // While there are elements in the array
+  while (counter > 0) {
+    // Pick a random index
+    let index = Math.floor(Math.random() * counter);
+    // Decrease counter by 1
+    counter--;
+    // And swap the last element with it
+    let temp = array[counter];
+    array[counter] = array[index];
+    array[index] = temp;
   }
-  return QuotesRand;
+  return array;
+}
+QuotesRand = shuffle(Quotes);
 
-  console.log(QuotesRand);
-};
-
-// console.log(Quotestwo);
-// console.log(typeof Quotestwo); // function
-// console.log(typeof Quotes); // object
-// console.log("end");
-
-export default Quotestwo;
+export default QuotesRand;
