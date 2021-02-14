@@ -1,15 +1,15 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import Quotestwo from "./Randomizer.js";
+import QuotesRand from "./Randomizer.js";
 
 export const BootstrapCarousel = () => {
-  // var QuotesB = Quotes[Math.floor(Math.random() * Quotes.length)]};
+  //  ;
   // let QuotesB = Math.floor(Math.random() * Quotes.length);
   return (
     <div>
       <div className="container-fluid">
         <Carousel>
-          {Quotestwo.map((quote) => (
+          {QuotesRand.map((quote) => (
             <Carousel.Item
               style={{
                 color: "black",

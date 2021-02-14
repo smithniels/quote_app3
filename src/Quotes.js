@@ -1252,16 +1252,16 @@ const Quotes = [
     bigBrain: true,
   },
 
-  // {
-  //   ID: ,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: ,
+    quote: "I can do this, I thought. Then: And even if I can't, I have to",
+    source: "Anonymous",
+    sourcelink: "",
+    motive: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
   // {
   //   ID: ,
   //   quote: "Text",
