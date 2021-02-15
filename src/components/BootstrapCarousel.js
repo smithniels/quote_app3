@@ -1,6 +1,6 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import { QuotesRand } from "./Randomizer.js";
+import QuotesRand  from "./Randomizer.js";
 
 export const BootstrapCarousel = () => {
   return (
