@@ -23,9 +23,9 @@ const Quotes = [
     //https://www.goodreads.com/author/quotes/5350.L_M_Montgomery
     ID: 1,
     quote:
-      "Isn't it nice to think that \ntomorrow is a new day with no mistakes in it yet?",
+      "Isn't it nice to think that tomorrow is a new day with no mistakes in it yet?",
     source: "Lucy Maud Montgomery O.B.E.",
-    sourcelink: "https://www.goodreads.com/author/quotes/5350.L_M_Montgomery",
+    // sourcelink: "https://www.goodreads.com/author/quotes/5350.L_M_Montgomery",
     motiv: true,
     comedy: false,
     romantic: false,
@@ -1372,8 +1372,18 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
+  {
+    ID: 124,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
   // {
-  //   ID: ,
+  //   ID: 125,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1382,8 +1392,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
+  //   ID: 126,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1392,8 +1403,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
+  //   ID: 127,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1402,8 +1414,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
+  //   ID: 128,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1412,18 +1425,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
-  // {
-  //   ID: ,
+  //   ID: 129,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1434,7 +1438,7 @@ const Quotes = [
   // },
 
   // {
-  //   ID: ,
+  //   ID: 130,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1443,8 +1447,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
+  //   ID: 131,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1453,8 +1458,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
+  //   ID: 132,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1463,8 +1469,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
+  //   ID: 133,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1473,8 +1480,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
+  //   ID: 134,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1483,8 +1491,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
+  //   ID: 135,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1493,8 +1502,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
+  //   ID: 136,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1503,7 +1513,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },  // {
-  //   ID: ,
+  //   ID: 137 ,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1512,8 +1522,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
+  //   ID: 138,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1522,8 +1533,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
+  //   ID: 139,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1532,8 +1544,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
+  //   ID: 140,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1542,8 +1555,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
+  //   ID: 141,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1552,8 +1566,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
+  //   ID: 142,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1562,8 +1577,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
+  //   ID: 143,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1572,8 +1588,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
+  //   ID: 144,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1582,8 +1599,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
+  //   ID: 145,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1592,8 +1610,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
+  //   ID: 146,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1602,8 +1621,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
+  //   ID: 147,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1612,8 +1632,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
+  //   ID: 148,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1622,8 +1643,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
+  //   ID: 149,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1632,8 +1654,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
+  //   ID: 150,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1642,8 +1665,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
+  //   ID: 151,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1652,8 +1676,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
+  //   ID: 152,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1662,8 +1687,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
+  //   ID: 153,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1672,8 +1698,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
+  //   ID: 154,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1682,8 +1709,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
+  //   ID: 155,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1692,8 +1720,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
+  //   ID:156 ,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1702,8 +1731,9 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
+  
   // {
-  //   ID: ,
+  //   ID: 157,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",

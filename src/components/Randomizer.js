@@ -1,15 +1,6 @@
 // FISHER-YATES Shuffle Algorithm
 
 import Quotes from "../Quotes.js";
-
-/*
-  What this component needs to do:
-    1. Call the quotes array
-    2. Randomize it
-    3. Return it
-*/
-
-
 function shuffle(array) {
   let counter = array.length;
   // While there are elements in the array
@@ -26,13 +17,5 @@ function shuffle(array) {
   // console.log(array);
   return array;
 }
-
-// const Quotes = {}; 
 var QuotesRand = shuffle(Quotes);
-// console.log(QuotesRand);
-console.log(QuotesRand)
-var QuotesRand2 = shuffle(QuotesRand);
-console.log(QuotesRand2, "This is the second one!")
-// export default const QuotesRand
-
 export default QuotesRand
