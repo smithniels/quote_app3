@@ -19,4 +19,5 @@ function shuffle(array) {
   return array;
 }
 var QuotesRand = shuffle(Quotes);
-export default QuotesRand
+console.log(QuotesRand);
+export default QuotesRand;

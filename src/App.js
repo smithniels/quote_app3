@@ -27,6 +27,7 @@ const Styles = styled.div`
     -o-background-size: cover;
     background-size: cover;
     background-position: right top;
+    background-color: #f5f5f5;
     padding: 0 auto;
   }
 
