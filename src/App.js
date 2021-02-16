@@ -10,7 +10,6 @@ import "slick-carousel/slick/slick-theme.css";
 import { BootstrapCarousel } from "./components/BootstrapCarousel.js";
 import styled from "styled-components";
 import { Container, Col, Row } from "react-bootstrap";
-import Quotestwo from "./components/Randomizer.js";
 
 const Styles = styled.div`
   :root {
@@ -80,7 +79,8 @@ const Styles = styled.div`
 
   .mainBit { 
     color: purple;
-    border: 2px solid #fed715;
+    border-top: 2px solid #fed715;
+    
     margin-top: 2%;
   }
 

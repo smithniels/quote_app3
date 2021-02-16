@@ -1,8 +1,8 @@
 // PATH: /Users/nielssmith/sometimequotatable/src/Quotes.js
 
 // Don't forget:
-// 1. ID is capitalized
-// 2. source & quote are both lowercase
+//    1. ID is capitalized
+//    2. source & quote are both lowercase
 
 // NOTES
 // -> I need to figure out how to make line breaks \n  strings work in React

@@ -1,4 +1,6 @@
 // FISHER-YATES Shuffle Algorithm
+// User: CoolAJ86
+// https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 
 import Quotes from "../Quotes.js";
 function shuffle(array) {
@@ -14,7 +16,6 @@ function shuffle(array) {
     array[counter] = array[index];
     array[index] = temp;
   }
-  // console.log(array);
   return array;
 }
 var QuotesRand = shuffle(Quotes);
