@@ -46,7 +46,7 @@ const Quotes = [
   {
     ID: 3,
     quote: "Aren't we all always thinkin' about somewhere else?",
-    source: "Moni",
+    source: "Moni - Bread for the City (Washington DC Nonprofit)",
     sourcelink: "",
     motiv: false,
     comedy: false,
@@ -87,21 +87,21 @@ const Quotes = [
     bigBrain: false,
   },
 
-  {
-    ID: 7,
-    quote: "English is my second language",
-    source: "Karen Hansen-Smith - librarian, Mother, Dane",
-    sourcelink: "",
-    motiv: false,
-    comedy: false,
-    romantic: false,
-    bigBrain: false,
-  },
+  // {
+  //   ID: 7,
+  //   quote: "English is my second language",
+  //   source: "Karen Hansen-Smith - librarian, Mother, Dane",
+  //   sourcelink: "",
+  //   motiv: false,
+  //   comedy: false,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
 
   {
     ID: 8,
     quote: "The love of your life wouldn't have given up on you",
-    source: "/r/breakups - Reddit",
+    source: "r/breakups - Reddit",
     sourcelink: "",
     motiv: true,
     comedy: false,
@@ -109,16 +109,16 @@ const Quotes = [
     bigBrain: false,
   },
 
-  {
-    ID: 9,
-    quote: "They already starting with the madness",
-    source: "Leslie Jones (Watching Olympic figure skating)",
-    sourcelink: "",
-    motiv: false,
-    comedy: true,
-    romantic: false,
-    bigBrain: false,
-  },
+  // {
+  //   ID: 9,
+  //   quote: "They already starting with the madness",
+  //   source: "Leslie Jones (Watching Olympic figure skating)",
+  //   sourcelink: "",
+  //   motiv: false,
+  //   comedy: true,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
 
   {
     ID: 10,
@@ -186,7 +186,7 @@ const Quotes = [
   {
     ID: 16,
     quote: "They did you a favor",
-    source: "Mal Blum's Lionel Richie & breakups story",
+    source: "Mal Blum's Lionel Richie & breakup story",
     sourcelink: "",
     motiv: true,
     comedy: false,
@@ -194,16 +194,16 @@ const Quotes = [
     bigBrain: true,
   },
 
-  {
-    ID: 17,
-    quote: "God, you're pretty",
-    source: "Collin Ferrell (In Bruges)",
-    sourcelink: "",
-    motiv: false,
-    comedy: true,
-    romantic: false,
-    bigBrain: false,
-  },
+  // {
+  //   ID: 17,
+  //   quote: "God, you're pretty",
+  //   source: "Collin Ferrell (In Bruges)",
+  //   sourcelink: "",
+  //   motiv: false,
+  //   comedy: true,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
 
   {
     ID: 18,
@@ -239,16 +239,16 @@ const Quotes = [
     bigBrain: false,
   },
 
-  {
-    ID: 21,
-    quote: "Begin again",
-    source: "James Baldwin",
-    sourcelink: "",
-    motiv: true,
-    comedy: false,
-    romantic: false,
-    bigBrain: false,
-  },
+  // {
+  //   ID: 21,
+  //   quote: "Begin again",
+  //   source: "James Baldwin",
+  //   sourcelink: "",
+  //   motiv: true,
+  //   comedy: false,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
 
   {
     ID: 22,
@@ -284,27 +284,27 @@ const Quotes = [
     bigBrain: false,
   },
 
-  {
-    ID: 25,
-    quote: "Half-merican Army",
-    source: "Jess - Coffee Meets Bagel",
-    sourcelink: "",
-    motiv: false,
-    comedy: false,
-    romantic: false,
-    bigBrain: false,
-  },
+  // {
+  //   ID: 25,
+  //   quote: "Half-merican Army",
+  //   source: "Jess - Coffee Meets Bagel",
+  //   sourcelink: "",
+  //   motiv: false,
+  //   comedy: false,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
 
-  {
-    ID: 26,
-    quote: "Filler text",
-    source: "Phil T.",
-    sourcelink: "",
-    motiv: false,
-    comedy: false,
-    romantic: false,
-    bigBrain: true,
-  },
+  // {
+  //   ID: 26,
+  //   quote: "Filler text",
+  //   source: "Phil T.",
+  //   sourcelink: "",
+  //   motiv: false,
+  //   comedy: false,
+  //   romantic: false,
+  //   bigBrain: true,
+  // },
 
   {
     ID: 27,
@@ -328,16 +328,16 @@ const Quotes = [
     bigBrain: true,
   },
 
-  {
-    ID: 29,
-    quote: "Aggressively mediocre white guy",
-    source: "Hank (David Duchovny - Californication",
-    sourcelink: "",
-    motiv: false,
-    comedy: true,
-    romantic: false,
-    bigBrain: false,
-  },
+  // {
+  //   ID: 29,
+  //   quote: "Aggressively mediocre white guy",
+  //   source: "Hank (David Duchovny - Californication",
+  //   sourcelink: "",
+  //   motiv: false,
+  //   comedy: true,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
 
   {
     ID: 30,
@@ -364,7 +364,7 @@ const Quotes = [
   {
     ID: 32,
     quote:
-      "Diane Court : No one thinks this will work do they? Lloyd Dobler: You just described the beginning of every great success story",
+      "Diane Court : No one thinks this will work do they? \n Lloyd Dobler: You just described the beginning of every great success story",
     source: "Say Anything",
     sourcelink: "",
     motiv: true,
@@ -408,27 +408,27 @@ const Quotes = [
     bigBrain: true,
   },
 
-  {
-    ID: 36,
-    quote: "Live it, dream it, fuck it",
-    source: "Tyler Coe - RT",
-    sourcelink: "",
-    motiv: false,
-    comedy: false,
-    romantic: false,
-    bigBrain: false,
-  },
+  // {
+  //   ID: 36,
+  //   quote: "Live it, dream it, fuck it",
+  //   source: "Tyler Coe - RT",
+  //   sourcelink: "",
+  //   motiv: false,
+  //   comedy: false,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
 
-  {
-    ID: 37,
-    quote: "Don't you forget about me",
-    source: "Last song in the Breakfast Club",
-    sourcelink: "",
-    motiv: false,
-    comedy: false,
-    romantic: true,
-    bigBrain: false,
-  },
+  // {
+  //   ID: 37,
+  //   quote: "Don't you forget about me",
+  //   source: "Last song in the Breakfast Club",
+  //   sourcelink: "",
+  //   motiv: false,
+  //   comedy: false,
+  //   romantic: true,
+  //   bigBrain: false,
+  // },
 
   {
     ID: 38,
@@ -441,40 +441,40 @@ const Quotes = [
     bigBrain: true,
   },
 
-  {
-    ID: 39,
-    quote: "I like to feed my eyes",
-    source: "Moni",
-    sourcelink: "",
-    motiv: false,
-    comedy: false,
-    romantic: false,
-    bigBrain: true,
-  },
+  // {
+  //   ID: 39,
+  //   quote: "I like to feed my eyes",
+  //   source: "Moni - Bread for",
+  //   sourcelink: "",
+  //   motiv: false,
+  //   comedy: false,
+  //   romantic: false,
+  //   bigBrain: true,
+  // },
 
-  {
-    ID: 40,
-    quote:
-      "A: If I could time travel, I'd go back to the night we met. B: What would you change? A: Nothing",
-    source: "Daniel Radcliff - What If ",
-    sourcelink: "",
-    motiv: false,
-    comedy: false,
-    romantic: true,
-    bigBrain: false,
-  },
+  // {
+  //   ID: 40,
+  //   quote:
+  //     "A: If I could time travel, I'd go back to the night we met. B: What would you change? A: Nothing",
+  //   source: "Daniel Radcliff - What If ",
+  //   sourcelink: "",
+  //   motiv: false,
+  //   comedy: false,
+  //   romantic: true,
+  //   bigBrain: false,
+  // },
 
-  {
-    ID: 41,
-    quote:
-      "On a scale of one to ten, how are you today?...(response)..Why isn't it lower?",
-    source: "Anonymous",
-    sourcelink: "",
-    motiv: false,
-    comedy: false,
-    romantic: false,
-    bigBrain: true,
-  },
+  // {
+  //   ID: 41,
+  //   quote:
+  //     "On a scale of one to ten, how are you today?...(response)..Why isn't it lower?",
+  //   source: "Anonymous",
+  //   sourcelink: "",
+  //   motiv: false,
+  //   comedy: false,
+  //   romantic: false,
+  //   bigBrain: true,
+  // },
 
   {
     ID: 42,
@@ -532,28 +532,28 @@ const Quotes = [
     bigBrain: true,
   },
 
-  {
-    ID: 47,
-    quote: "Don't threaten me with a good time",
-    source: "Panic at the Disco",
-    sourcelink: "",
-    motiv: false,
-    comedy: true,
-    romantic: false,
-    bigBrain: false,
-  },
+  // {
+  //   ID: 47,
+  //   quote: "Don't threaten me with a good time",
+  //   source: "Panic at the Disco",
+  //   sourcelink: "",
+  //   motiv: false,
+  //   comedy: true,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
 
-  {
-    ID: 48,
-    quote:
-      "Well done girl. Find someone who cherishes you, and wants to have sex with you not from you",
-    source: "u/klassz - Reddit",
-    sourcelink: "",
-    motiv: false,
-    comedy: false,
-    romantic: true,
-    bigBrain: false,
-  },
+  // {
+  //   ID: 48,
+  //   quote:
+  //     "Well done girl. Find someone who cherishes you, and wants to have sex with you not from you",
+  //   source: "u/klassz - Reddit",
+  //   sourcelink: "",
+  //   motiv: false,
+  //   comedy: false,
+  //   romantic: true,
+  //   bigBrain: false,
+  // },
 
   {
     ID: 49,
@@ -577,27 +577,27 @@ const Quotes = [
     bigBrain: false,
   },
 
-  {
-    ID: 51,
-    quote: "She's jokes man. She's quality",
-    source: "? - Too Hot to Handle",
-    sourcelink: "",
-    motiv: false,
-    comedy: true,
-    romantic: false,
-    bigBrain: false,
-  },
+  // {
+  //   ID: 51,
+  //   quote: "She's jokes man. She's quality",
+  //   source: "? - Too Hot to Handle",
+  //   sourcelink: "",
+  //   motiv: false,
+  //   comedy: true,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
 
-  {
-    ID: 52,
-    quote: "Let's just leave this conversation, okay?",
-    source: "Kem - Love Island",
-    sourcelink: "",
-    motiv: false,
-    comedy: true,
-    romantic: false,
-    bigBrain: false,
-  },
+  // {
+  //   ID: 52,
+  //   quote: "Let's just leave this conversation, okay?",
+  //   source: "Kem - Love Island",
+  //   sourcelink: "",
+  //   motiv: false,
+  //   comedy: true,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
 
   {
     ID: 53,
@@ -633,27 +633,27 @@ const Quotes = [
     bigBrain: false,
   },
 
-  {
-    ID: 56,
-    quote: "...yesterday finally came.",
-    source: "u/? - Reddit",
-    sourcelink: "",
-    motiv: false,
-    comedy: false,
-    romantic: false,
-    bigBrain: false,
-  },
+  // {
+  //   ID: 56,
+  //   quote: "...yesterday finally came.",
+  //   source: "u/? - Reddit",
+  //   sourcelink: "",
+  //   motiv: false,
+  //   comedy: false,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
 
-  {
-    ID: 57,
-    quote: "On a scale of 1 to 'Not', could you?",
-    source: "Jeremey - Achievement Hunter",
-    sourcelink: "",
-    motiv: false,
-    comedy: true,
-    romantic: false,
-    bigBrain: false,
-  },
+  //    {
+  //   ID: 57,
+  //   quote: "On a scale of 1 to 'Not', could you?",
+  //   source: "Jeremey - Achievement Hunter",
+  //   sourcelink: "",
+  //   motiv: false,
+  //   comedy: true,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
 
   {
     ID: 58,
@@ -702,7 +702,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-
+  //This is a fav
   {
     ID: 62,
     quote:
@@ -845,11 +845,11 @@ const Quotes = [
 
   {
     ID: 74,
-    quote: "Well, you’re sitting, eating, and breathing, so the other thing.",
-    source: "Wayne - Letterkenny",
+    quote: "number74",
+    source: "",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedy: false,
     romantic: false,
     bigBrain: false,
   },
@@ -1106,7 +1106,7 @@ const Quotes = [
     bigBrain: true,
   },
 
-  // One of my favorite quotes
+  // One of my favorite quotes!
   {
     ID: 100,
     quote: "What I regret most in my life are failures of kindness",
@@ -1294,7 +1294,7 @@ const Quotes = [
   {
     ID: 117,
     quote:
-      "...That means she gets it (Not the exact quote. I need to rewatch this to find it..",
+      "...That means she gets it. (Not the exact quote. I need to rewatch this to find it..",
     source:
       "Ralph Fiennes - somewhere in the 2nd half of The Grand Budapest Hotel",
     sourcelink: "",
