@@ -683,7 +683,7 @@ const Quotes = [
     ID: 60,
     quote:
       "The Doctor put her hands over my liver. She told me my resentment’s getting smaller",
-    source: "Phobe BrIDgers - Garden Song",
+    source: "Phobe Bridgers - Garden Song",
     sourcelink: "",
     motiv: false,
     comedy: false,
