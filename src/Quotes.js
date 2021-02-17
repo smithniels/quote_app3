@@ -1392,7 +1392,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID: 126,
   //   quote: "Text",
@@ -1403,7 +1403,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID: 127,
   //   quote: "Text",
@@ -1414,7 +1414,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID: 128,
   //   quote: "Text",
@@ -1425,7 +1425,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID: 129,
   //   quote: "Text",
@@ -1447,7 +1447,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID: 131,
   //   quote: "Text",
@@ -1458,7 +1458,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID: 132,
   //   quote: "Text",
@@ -1469,7 +1469,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID: 133,
   //   quote: "Text",
@@ -1480,7 +1480,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID: 134,
   //   quote: "Text",
@@ -1491,7 +1491,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID: 135,
   //   quote: "Text",
@@ -1502,7 +1502,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID: 136,
   //   quote: "Text",
@@ -1522,7 +1522,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID: 138,
   //   quote: "Text",
@@ -1533,7 +1533,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID: 139,
   //   quote: "Text",
@@ -1544,7 +1544,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID: 140,
   //   quote: "Text",
@@ -1555,7 +1555,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID: 141,
   //   quote: "Text",
@@ -1566,7 +1566,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID: 142,
   //   quote: "Text",
@@ -1577,7 +1577,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID: 143,
   //   quote: "Text",
@@ -1588,7 +1588,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID: 144,
   //   quote: "Text",
@@ -1599,7 +1599,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID: 145,
   //   quote: "Text",
@@ -1610,7 +1610,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID: 146,
   //   quote: "Text",
@@ -1621,7 +1621,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID: 147,
   //   quote: "Text",
@@ -1632,7 +1632,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID: 148,
   //   quote: "Text",
@@ -1643,7 +1643,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID: 149,
   //   quote: "Text",
@@ -1654,7 +1654,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID: 150,
   //   quote: "Text",
@@ -1665,7 +1665,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID: 151,
   //   quote: "Text",
@@ -1676,7 +1676,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID: 152,
   //   quote: "Text",
@@ -1687,7 +1687,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID: 153,
   //   quote: "Text",
@@ -1698,7 +1698,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID: 154,
   //   quote: "Text",
@@ -1709,7 +1709,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID: 155,
   //   quote: "Text",
@@ -1720,7 +1720,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID:156 ,
   //   quote: "Text",
@@ -1731,7 +1731,7 @@ const Quotes = [
   //   romantic: false,
   //   bigBrain: false,
   // },
-  
+
   // {
   //   ID: 157,
   //   quote: "Text",
