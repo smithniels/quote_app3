@@ -15,7 +15,7 @@ const Styles = styled.div`
     height: 150px,
     backgroundColor: #FED715,
     border: black 2px solid,
-    fontSize: 50px,
+    fontSize: 50px, 
     flexDirection: column,
     borderRadius: 25px,
     padding: 10vmin 1rem;

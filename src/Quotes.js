@@ -109,16 +109,18 @@ const Quotes = [
     bigBrain: false,
   },
 
-  // {
-  //   ID: 9,
-  //   quote: "They already starting with the madness",
   //   source: "Leslie Jones (Watching Olympic figure skating)",
-  //   sourcelink: "",
-  //   motiv: false,
-  //   comedy: true,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 9,
+    quote:
+      "“It doesn't matter who you are, where you come from. The ability to triumph begins with you. Always.”",
+    source: "Oprah Winfrey",
+    sourcelink: "",
+    motiv: true,
+    comedy: true,
+    romantic: false,
+    bigBrain: false,
+  },
 
   {
     ID: 10,
