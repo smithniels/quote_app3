@@ -157,15 +157,15 @@ const Quotes = [
 
   {
     ID: 13,
-    quote: "“If you can understand human behavior, it can’t hurt you nearly as much.”",
+    quote:
+      "If you can understand human behavior, it can’t hurt you nearly as much.",
     source: "Carol Plum-Ucci",
     sourcelink: "",
     motiv: true,
     comedy: false,
     romantic: false,
     bigBrain: true,
-    }
-
+  },
   {
     ID: 14,
     quote: "That's the worst thing that's ever happened to me",
@@ -203,7 +203,8 @@ const Quotes = [
 
   {
     ID: 17,
-    quote: "“A person who is nice to you, but rude to the waiter, is not a nice person.”",
+    quote:
+      "A person who is nice to you, but rude to the waiter, is not a nice person.",
     source: "Dave Barry",
     sourcelink: "",
     motiv: false,
@@ -248,7 +249,8 @@ const Quotes = [
 
   {
     ID: 21,
-    quote: " What is it that you wanted me to reconcile myself to. I was born here more than 60 years ago. I'm not going to live another 60 years. You always told me that it's going to take time. It’s taken my father’s time, my mother’s time, my uncle’s time, my brothers’ and my sisters’ time, my nieces and my nephew's time. How much time do you want for your progress?",
+    quote:
+      " What is it that you wanted me to reconcile myself to. I was born here more than 60 years ago. I'm not going to live another 60 years. You always told me that it's going to take time. It’s taken my father’s time, my mother’s time, my uncle’s time, my brothers’ and my sisters’ time, my nieces and my nephew's time. How much time do you want for your progress?",
     source: "James Baldwin",
     sourcelink: "",
     motiv: true,
