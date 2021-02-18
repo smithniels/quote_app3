@@ -80,11 +80,10 @@ const Styles = styled.div`
 
   .mainBit { 
     color: purple;
-    border-top: 2px solid #fed715;
-    
-    margin-top: 2%;
+    border: 2px solid #fed715;
+    border:22px solid red;
+    margin-top: 3%;
   }
-
 `;
 
 class App extends React.Component {
@@ -98,7 +97,7 @@ class App extends React.Component {
   render() {
     return (
       <Styles>
-        <div className="mainBit">
+        <div className="mainbit">
           <Container>
             <Col>
               <Row>

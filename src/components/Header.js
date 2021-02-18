@@ -31,6 +31,12 @@ const Styles = styled.div`
     border-radius: 5px 20px 5px;
     margin-bottom:10%;
   }
+
+  .subheader:hover
+{
+        border-radius:50%;
+        border: #f9f7f2 2px solid;
+}
 }
 
 
@@ -41,9 +47,6 @@ const Styles = styled.div`
       height:150px;
       color:pink;
     }
-    .subheader{
-      color:purple;
-    }
   }
 
 `;
@@ -52,8 +55,8 @@ const Header = () => {
     <Styles>
       <div className="header">
         <h2>Sometimes Quotable!</h2>
-        <h5 className="subHeader">
-          "Here's a handful of quotes I like" -niels
+        <h5 className="subHeader element">
+          "Here's a handful of quotes I enjoy" niels
         </h5>
       </div>
     </Styles>
