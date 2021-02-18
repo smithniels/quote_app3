@@ -109,7 +109,6 @@ const Quotes = [
     bigBrain: false,
   },
 
-  //   source: "Leslie Jones (Watching Olympic figure skating)",
   {
     ID: 9,
     quote:
