@@ -250,7 +250,7 @@ const Quotes = [
   {
     ID: 21,
     quote:
-      " What is it that you wanted me to reconcile myself to. I was born here more than 60 years ago. I'm not going to live another 60 years. You always told me that it's going to take time. It’s taken my father’s time, my mother’s time, my uncle’s time, my brothers’ and my sisters’ time, my nieces and my nephew's time. How much time do you want for your progress?",
+      " What is it that you wanted me to reconcile myself to. I was born here more than 60 years ago. I'm not going to live another 60 years. You always told me that it's going to take time. It’s taken my father’s time, my mother’s time, my uncle’s time, my brothers’ and my sisters’ time, my nieces' and my nephews' time. How much time do you want for your progress?",
     source: "James Baldwin",
     sourcelink: "",
     motiv: true,
@@ -1383,8 +1383,9 @@ const Quotes = [
   },
   {
     ID: 124,
-    quote: "Text",
-    source: "Speaker",
+    quote:
+      "When you make the courageous decision to deliberately choose discomfort, you prove to yourself that you are no longer satisfied with the way things are and you won’t tolerate it any longer. You’re ready for change, for growth. You are ready to accept and embrace suffering because you want a better life for yourself, your family, and/or your business.",
+    source: "Green Beret Jason B. A. Van Camp",
     sourcelink: "",
     motive: false,
     comedy: false,
