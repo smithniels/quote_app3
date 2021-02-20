@@ -87,16 +87,17 @@ const Quotes = [
     bigBrain: false,
   },
 
-  // {
-  //   ID: 7,
-  //   quote: "English is my second language",
-  //   source: "Karen Hansen-Smith - librarian, Mother, Dane",
-  //   sourcelink: "",
-  //   motiv: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 7,
+    quote:
+      "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
+    source: "Maya Angelou",
+    sourcelink: "",
+    motiv: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
 
   {
     ID: 8,
@@ -862,7 +863,18 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  // I deleted that long ass David Foster Wallace (RIP) post. It was ID 75
+
+  {
+    ID: 75,
+    quote: "number75",
+    source: "",
+    sourcelink: "",
+    motiv: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
+
   {
     ID: 76,
     quote: "What's the most important step a person can take? \n The next one.",
@@ -1381,17 +1393,19 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
+
   {
     ID: 124,
     quote:
       "When you make the courageous decision to deliberately choose discomfort, you prove to yourself that you are no longer satisfied with the way things are and you won’t tolerate it any longer. You’re ready for change, for growth. You are ready to accept and embrace suffering because you want a better life for yourself, your family, and/or your business.",
-    source: "Green Beret Jason B. A. Van Camp",
+    source: "Green Beret, Jason B. A. Van Camp",
     sourcelink: "",
-    motive: false,
+    motive: true,
     comedy: false,
     romantic: false,
     bigBrain: false,
   },
+
   // {
   //   ID: 125,
   //   quote: "Text",
