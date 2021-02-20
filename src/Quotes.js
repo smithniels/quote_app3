@@ -294,27 +294,16 @@ const Quotes = [
     bigBrain: false,
   },
 
-  // {
-  //   ID: 25,
-  //   quote: "Half-merican Army",
-  //   source: "Jess - Coffee Meets Bagel",
-  //   sourcelink: "",
-  //   motiv: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
-
-  // {
-  //   ID: 26,
-  //   quote: "Filler text",
-  //   source: "Phil T.",
-  //   sourcelink: "",
-  //   motiv: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: true,
-  // },
+  {
+    ID: 26,
+    quote: "Sometimes I get emotional over fonts",
+    source: "Kanye West",
+    sourcelink: "",
+    motiv: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
 
   {
     ID: 27,
@@ -338,16 +327,17 @@ const Quotes = [
     bigBrain: true,
   },
 
-  // {
-  //   ID: 29,
-  //   quote: "Aggressively mediocre white guy",
-  //   source: "Hank (David Duchovny - Californication",
-  //   sourcelink: "",
-  //   motiv: false,
-  //   comedy: true,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 29,
+    quote:
+      "If they can get you asking the wrong questions, they don't have to worry about answers.",
+    source: "Thomas Pynchon, Gravity's Rainbow",
+    sourcelink: "",
+    motiv: false,
+    comedy: true,
+    romantic: false,
+    bigBrain: false,
+  },
 
   {
     ID: 30,
@@ -418,16 +408,17 @@ const Quotes = [
     bigBrain: true,
   },
 
-  // {
-  //   ID: 36,
-  //   quote: "Live it, dream it, fuck it",
-  //   source: "Tyler Coe - RT",
-  //   sourcelink: "",
-  //   motiv: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 36,
+    quote:
+      "Give me 6 hours to chop a tree, I will spend the first 4 sharpening my axe.",
+    source: "Abe Lincoln",
+    sourcelink: "",
+    motiv: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
 
   // {
   //   ID: 37,
