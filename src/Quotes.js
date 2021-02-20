@@ -251,7 +251,7 @@ const Quotes = [
   {
     ID: 21,
     quote:
-      " What is it that you wanted me to reconcile myself to. I was born here more than 60 years ago. I'm not going to live another 60 years. You always told me that it's going to take time. It’s taken my father’s time, my mother’s time, my uncle’s time, my brothers’ and my sisters’ time, my nieces' and my nephews' time. How much time do you want for your progress?",
+      "What is it that you wanted me to reconcile myself to. I was born here more than 60 years ago. I'm not going to live another 60 years. You always told me that it's going to take time. It’s taken my father’s time, my mother’s time, my uncle’s time, my brothers’ and my sisters’ time, my nieces' and my nephews' time. How much time do you want for your progress?",
     source: "James Baldwin",
     sourcelink: "",
     motiv: true,
@@ -275,7 +275,7 @@ const Quotes = [
   {
     ID: 23,
     quote: "Being nice isn't easy sometimes",
-    source: "Genevie - BFTC Trans Info Meeting",
+    source: "Genevie - BFTC Trans People Information Meeting",
     sourcelink: "",
     motiv: false,
     comedy: false,
@@ -414,22 +414,23 @@ const Quotes = [
       "Give me 6 hours to chop a tree, I will spend the first 4 sharpening my axe.",
     source: "Abe Lincoln",
     sourcelink: "",
+    motiv: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
+
+  {
+    ID: 37,
+    quote:
+      "The world is a comedy to those that think; a tragedy to those that feel",
+    source: "orace Walpole",
+    sourcelink: "",
     motiv: false,
     comedy: false,
     romantic: false,
-    bigBrain: false,
+    bigBrain: true,
   },
-
-  // {
-  //   ID: 37,
-  //   quote: "Don't you forget about me",
-  //   source: "Last song in the Breakfast Club",
-  //   sourcelink: "",
-  //   motiv: false,
-  //   comedy: false,
-  //   romantic: true,
-  //   bigBrain: false,
-  // },
 
   {
     ID: 38,
@@ -442,40 +443,39 @@ const Quotes = [
     bigBrain: true,
   },
 
-  // {
-  //   ID: 39,
-  //   quote: "I like to feed my eyes",
-  //   source: "Moni - Bread for",
-  //   sourcelink: "",
-  //   motiv: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: true,
-  // },
+  {
+    ID: 39,
+    quote: "If we do it now, we'll never run out of time",
+    source: "Anonymous Redditor's 6 year old",
+    sourcelink: "",
+    motiv: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
 
-  // {
-  //   ID: 40,
-  //   quote:
-  //     "A: If I could time travel, I'd go back to the night we met. B: What would you change? A: Nothing",
-  //   source: "Daniel Radcliff - What If ",
-  //   sourcelink: "",
-  //   motiv: false,
-  //   comedy: false,
-  //   romantic: true,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 40,
+    quote:
+      "The test of a first rate intelligence is the ability to hold two opposed ideas in the mind at the same time, and still retain the ability to function",
+    source: "F. Scott Fitzgerald",
+    sourcelink: "",
+    motiv: true,
+    comedy: false,
+    romantic: true,
+    bigBrain: true,
+  },
 
-  // {
-  //   ID: 41,
-  //   quote:
-  //     "On a scale of one to ten, how are you today?...(response)..Why isn't it lower?",
-  //   source: "Anonymous",
-  //   sourcelink: "",
-  //   motiv: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: true,
-  // },
+  {
+    ID: 41,
+    quote: "A ship in harbor is safe, but that's not why ships are built",
+    source: "Fortune Cookie",
+    sourcelink: "",
+    motiv: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
 
   {
     ID: 42,
@@ -533,28 +533,29 @@ const Quotes = [
     bigBrain: true,
   },
 
-  // {
-  //   ID: 47,
-  //   quote: "Don't threaten me with a good time",
-  //   source: "Panic at the Disco",
-  //   sourcelink: "",
-  //   motiv: false,
-  //   comedy: true,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 47,
+    quote:
+      "Another flaw in the human character is that everyone wants to build and nobody wants to do maintenance.",
+    source: "Kurt Vonnegut",
+    sourcelink: "",
+    motiv: false,
+    comedy: true,
+    romantic: false,
+    bigBrain: true,
+  },
 
-  // {
-  //   ID: 48,
-  //   quote:
-  //     "Well done girl. Find someone who cherishes you, and wants to have sex with you not from you",
-  //   source: "u/klassz - Reddit",
-  //   sourcelink: "",
-  //   motiv: false,
-  //   comedy: false,
-  //   romantic: true,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 48,
+    quote:
+      "Nothing in this world can take the place of persistence. Talent will not: nothing is more common than unsuccessful men with talent. Genius will not; unrewarded genius is almost a proverb. Education will not: the world is full of educated derelicts. Persistence and determination alone are omnipotent.",
+    source: "Calvin Coolidge",
+    sourcelink: "",
+    motiv: true,
+    comedy: false,
+    romantic: true,
+    bigBrain: true,
+  },
 
   {
     ID: 49,
@@ -578,27 +579,29 @@ const Quotes = [
     bigBrain: false,
   },
 
-  // {
-  //   ID: 51,
-  //   quote: "She's jokes man. She's quality",
-  //   source: "? - Too Hot to Handle",
-  //   sourcelink: "",
-  //   motiv: false,
-  //   comedy: true,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 51,
+    quote:
+      "I thoroughly disapprove of duels. If a man should challenge me, I would take him kindly and forgivingly by the hand and lead him to a quiet place and kill him.",
+    source: "Mark Twain",
+    sourcelink: "",
+    motiv: false,
+    comedy: true,
+    romantic: false,
+    bigBrain: false,
+  },
 
-  // {
-  //   ID: 52,
-  //   quote: "Let's just leave this conversation, okay?",
-  //   source: "Kem - Love Island",
-  //   sourcelink: "",
-  //   motiv: false,
-  //   comedy: true,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 52,
+    quote:
+      "Suppose you were a congressman and suppose you were an idiot...ah but I repeat myself",
+    source: "Mark Twain",
+    sourcelink: "",
+    motiv: false,
+    comedy: true,
+    romantic: false,
+    bigBrain: false,
+  },
 
   {
     ID: 53,
@@ -633,28 +636,29 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
+  {
+    ID: 56,
+    quote:
+      "You can't give up hope just because its hopeless! You gotta hope even more! And cover your ears and go 'blah blah blah blah'.",
+    source: "Fry - Futurama",
+    sourcelink: "",
+    motiv: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
 
-  // {
-  //   ID: 56,
-  //   quote: "...yesterday finally came.",
-  //   source: "u/? - Reddit",
-  //   sourcelink: "",
-  //   motiv: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
-
-  //    {
-  //   ID: 57,
-  //   quote: "On a scale of 1 to 'Not', could you?",
-  //   source: "Jeremey - Achievement Hunter",
-  //   sourcelink: "",
-  //   motiv: false,
-  //   comedy: true,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 57,
+    quote:
+      "I always wonder why birds choose to stay in the same place when they can fly anywhere on earth. Then I ask myself the same question",
+    source: "Harun Yahya",
+    sourcelink: "",
+    motiv: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
 
   {
     ID: 58,
@@ -664,7 +668,7 @@ const Quotes = [
     sourcelink: "",
     motiv: false,
     comedy: false,
-    romantic: true,
+    romantic: false,
     bigBrain: true,
   },
 
@@ -1397,27 +1401,28 @@ const Quotes = [
     bigBrain: false,
   },
 
-  // {
-  //   ID: 125,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 125,
+    quote:
+      "When I was a boy and I would see scary things in the news, my mother would say to me, 'Look for the helpers. You will always find people who are helping.'",
+    source: "Mr. Rogers",
+    sourcelink: "",
+    motive: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
 
-  // {
-  //   ID: 126,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 126,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
 
   // {
   //   ID: 127,
