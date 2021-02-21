@@ -364,8 +364,8 @@ const Quotes = [
   {
     ID: 32,
     quote:
-      "Diane Court : No one thinks this will work do they? \n Lloyd Dobler: You just described the beginning of every great success story",
-    source: "Say Anything",
+      "The best way to not feel hopeless is to get up and do something. Don’t wait for good things to happen to you. If you go out and make some good things happen, you will fill the world with hope, you will fill yourself with hope.",
+    source: "President Barack Obama",
     sourcelink: "",
     motiv: true,
     comedy: false,

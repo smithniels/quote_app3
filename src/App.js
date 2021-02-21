@@ -4,6 +4,7 @@
 
 import React from "react";
 import Header from "./components/Header.js";
+import Footer from "./components/Footer.js";
 import "./App.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -80,9 +81,13 @@ const Styles = styled.div`
 
   .mainBit { 
     color: purple;
-    border: 2px solid #fed715;
-    border:22px solid red;
+    border: 1.8px solid #fed715;
     margin-top: 3%;
+    ${"" /* margin-left:10%;
+    margin-right:10%; */}
+    ${"" /* padding-right:5%;
+    padding-left:5%; */}
+    ${"" /* overflow:wrap; */}
   }
 `;
 
@@ -97,7 +102,7 @@ class App extends React.Component {
   render() {
     return (
       <Styles>
-        <div className="mainbit">
+        <div className="mainBit">
           <Container>
             <Col>
               <Row>
@@ -106,6 +111,7 @@ class App extends React.Component {
               <Row>
                 <BootstrapCarousel />
               </Row>
+              <Footer />
             </Col>
           </Container>
         </div>

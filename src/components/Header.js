@@ -7,36 +7,29 @@ const Styles = styled.div`
   }
 
   .header{
-    margin: 0 auto,
+    margin-bottom:1.4rem
     display: flex,
     alignItems: center,
     justifyContent: center,
-    width: 60%,
-    height: 150px,
-    backgroundColor: #FED715,
+    width: 100%,
+    backgroundColor: #fed715;
     border: black 2px solid,
     fontSize: 50px, 
     flexDirection: column,
     borderRadius: 25px,
     padding: 10vmin 1rem;
 }
-
   .subHeader{
     font-size: 15px;
     font-style:i italic;
     display: flex;
-    justify-content: center;
+    justifyContent: center;
     color:  --color-primary;
+    
     border-bottom: #fed715 5px solid;
     border-radius: 5px 20px 5px;
     margin-bottom:10%;
   }
-
-  .subheader:hover
-{
-        border-radius:50%;
-        border: #f9f7f2 2px solid;
-}
 }
 
 

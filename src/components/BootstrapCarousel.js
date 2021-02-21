@@ -1,27 +1,36 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import QuotesRand from "./Randomizer.js";
+import styled from "styled-components";
+
+const Styles = styled.div`
+  Carousel {
+    {
+    color: "yelow",
+    height: "50%",
+    marginBottom: "4rem",
+    width:75%;  
+    }
+  }
+`;
 
 export const BootstrapCarousel = () => {
   return (
     <div>
-      <div className="container-fluid">
-        <Carousel>
-          {QuotesRand.map((quote) => (
-            <Carousel.Item
-              style={{
-                color: "black",
-                height: "50%",
-              }}
-            >
-              <div key={quote.ID}>
-                <h1>"{quote.quote}"</h1>
-                <h5> - {quote.source}</h5>
-              </div>
-            </Carousel.Item>
-          ))}
-        </Carousel>
-      </div>
+      <Styles>
+        <div className="container-fluid">
+          <Carousel>
+            {QuotesRand.map((quote) => (
+              <Carousel.Item>
+                <div key={quote.ID}>
+                  <h1>"{quote.quote}"</h1>
+                  <h5> - {quote.source}</h5>
+                </div>
+              </Carousel.Item>
+            ))}
+          </Carousel>
+        </div>
+      </Styles>
     </div>
   );
 };
