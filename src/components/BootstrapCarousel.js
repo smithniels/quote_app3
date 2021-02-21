@@ -5,11 +5,13 @@ import styled from "styled-components";
 
 const Styles = styled.div`
   Carousel {
-    {
-    color: "yelow",
+     {
+      ${
+        "" /* color: "yelow",
     height: "50%",
     marginBottom: "4rem",
-    width:75%;  
+    width:75%;   */
+      }
     }
   }
 `;
@@ -21,7 +23,13 @@ export const BootstrapCarousel = () => {
         <div className="container-fluid">
           <Carousel>
             {QuotesRand.map((quote) => (
-              <Carousel.Item>
+              <Carousel.Item
+                style={{
+                  color: "black",
+                  height: "50%",
+                  fontSize: "20px",
+                }}
+              >
                 <div key={quote.ID}>
                   <h1>"{quote.quote}"</h1>
                   <h5> - {quote.source}</h5>
