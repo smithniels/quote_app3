@@ -21,15 +21,15 @@ export const BootstrapCarousel = () => {
     <div>
       <Styles>
         <div className="container-fluid">
-          <Carousel>
+          <Carousel
+            style={{
+              color: "black",
+              height: "50%",
+              fontSize: "1px",
+            }}
+          >
             {QuotesRand.map((quote) => (
-              <Carousel.Item
-                style={{
-                  color: "black",
-                  height: "50%",
-                  fontSize: "20px",
-                }}
-              >
+              <Carousel.Item>
                 <div key={quote.ID}>
                   <h1>"{quote.quote}"</h1>
                   <h5> - {quote.source}</h5>
