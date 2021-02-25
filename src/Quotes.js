@@ -1,4 +1,4 @@
-// PATH: /Users/nielssmith/sometimequotatable/src/Quotes.js
+// Path -->  /Users/nielssmith/Documents/GitHub/quote_app3/src/Quotes.js
 
 // Don't forget:
 //    1. ID is capitalized

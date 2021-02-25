@@ -3,18 +3,7 @@ import { Carousel } from "react-bootstrap";
 import QuotesRand from "./Randomizer.js";
 import styled from "styled-components";
 
-const Styles = styled.div`
-  Carousel {
-     {
-      ${
-        "" /* color: "yelow",
-    height: "50%",
-    marginBottom: "4rem",
-    width:75%;   */
-      }
-    }
-  }
-`;
+const Styles = styled.div``;
 
 export const BootstrapCarousel = () => {
   return (
