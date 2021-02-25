@@ -8,7 +8,7 @@
 // -> I need to figure out how to make line breaks \n  strings work in React
 
 // Things I just realized by chance:
-// -> Selecting a string of characters and hitting: SHIFT + "
+// -> Selecting a string of characters and hitting: SHIFT + apostrophe either ' or  "
 // ---> Will wrap the text in quotation "marks"/parenthesis.
 // ----> Crazy.
 
@@ -1424,27 +1424,29 @@ const Quotes = [
     bigBrain: false,
   },
 
-  // {
-  //   ID: 127,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 127,
+    quote:
+      "One of the great tragedies of mankind is that morality has been hijacked by religion.",
+    source: "Arthur C. Clarke",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
 
-  // {
-  //   ID: 128,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 128,
+    quote:
+      "If you can't fly then run, if you can't run then walk, if you can't walk then crawl, but whatever you do you have to keep moving forward.",
+    source: "Martin Luther King Jr .",
+    sourcelink: "",
+    motive: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
 
   // {
   //   ID: 129,
