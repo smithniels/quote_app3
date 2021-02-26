@@ -10,13 +10,7 @@ export const BootstrapCarousel = () => {
     <div>
       <Styles>
         <div className="container-fluid">
-          <Carousel
-            style={{
-              color: "black",
-              height: "50%",
-              fontSize: "1px",
-            }}
-          >
+          <Carousel>
             {QuotesRand.map((quote) => (
               <Carousel.Item>
                 <div key={quote.ID}>

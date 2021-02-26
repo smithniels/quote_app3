@@ -8,14 +8,16 @@
 // -> I need to figure out how to make line breaks \n  strings work in React
 
 // Things I just realized by chance:
-// -> Selecting a string of characters and hitting: SHIFT + apostrophe either ' or  "
+// -> Selecting a string of characters and hitting: SHIFT + apostrophe (either ' or  ")
 // ---> Will wrap the text in quotation "marks"/parenthesis.
 // ----> Crazy.
 
-//TODO
+//TODOs
 // Add in a Quote adding function/submission
 // Add in a filter(higher order function)!
 // Add a progress bar to show progress? (cool idea)
+// Link up to an api to pull quotes from a site
+// Add in a filer!
 
 /*jshint esversion: 6 */
 const Quotes = [
@@ -1415,13 +1417,14 @@ const Quotes = [
 
   {
     ID: 126,
-    quote: "Text",
-    source: "Speaker",
+    quote:
+      "If you can understand human behavior, it can’t hurt you nearly as much.",
+    source: "Carol Plum-Ucci",
     sourcelink: "",
     motive: false,
     comedy: false,
     romantic: false,
-    bigBrain: false,
+    bigBrain: true,
   },
 
   {
@@ -1448,16 +1451,17 @@ const Quotes = [
     bigBrain: true,
   },
 
-  // {
-  //   ID: 129,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 129,
+    quote:
+      "You can easily judge the character of a man by how he treats those who can do nothing for him",
+    source: "Malcolm S. Forbes",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
 
   // {
   //   ID: 130,
