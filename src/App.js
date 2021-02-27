@@ -9,9 +9,16 @@ import "./App.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BootstrapCarousel } from "./components/BootstrapCarousel.js";
-import styled from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 import { Container, Col, Row } from "react-bootstrap";
-import GlobalFonts from "./fonts/Fonts.js";
+import GlobalFonts from "./Assets/fonts/Fonts.js";
+import { Globalstyle } from "./style";
+
+Globalstyle = createGlobalStyle`　
+body{
+　　margin: 0;
+　　padding: 0
+　}`;
 
 const Styles = styled.div`
   :root {
@@ -104,20 +111,21 @@ class App extends React.Component {
   render() {
     return (
       <Styles>
-        <GlobalFonts />
-        <div className="mainBit">
-          <Container>
-            <Col>
-              <Row>
-                <Header />
-              </Row>
-              <Row>
-                <BootstrapCarousel />
-              </Row>
-              <Footer />
-            </Col>
-          </Container>
-        </div>
+        <GlobalFonts>
+          <div className="mainBit">
+            <Container>
+              <Col>
+                <Row>
+                  <Header />
+                </Row>
+                <Row>
+                  <BootstrapCarousel />
+                </Row>
+                <Footer />
+              </Col>
+            </Container>
+          </div>
+        </GlobalFonts>
       </Styles>
     );
   }

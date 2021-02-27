@@ -1,12 +1,11 @@
 import { createGlobalStyle } from "styled-components";
-
-import NameOfYourFontWoff from "./Galliard Roman.woff";
-import NameOfYourFontWoff2 from "./Galliard Roman.woff2";
+import GaliliardRoman from "./Assets/fonts/ITC Galliard Roman.woff";
+// import NameOfYourFontWoff2 from "./Assets/fonts/ITC Galliard Roman.woff2";
 
 export default createGlobalStyle`
     @font-face {
-        font-family: 'Galliard Roman';
-        src: local('FGalliard Roman'), local('Galliard Roman'),
+        font-family: 'GalliardRoman';
+        src: local('FGalliardRoman'), local('Galliard Roman'),
         url(${NameOfYourFontWoff2}) format('woff2'),
         url(${NameOfYourFontWoff}) format('woff');
         font-weight: 300;
