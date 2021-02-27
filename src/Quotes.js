@@ -1463,16 +1463,16 @@ const Quotes = [
     bigBrain: true,
   },
 
-  // {
-  //   ID: 130,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 130,
+    quote: "Please stop petitioning my dreams.",
+    source: "Lindsay Brown - Medium",
+    sourcelink: "",
+    motive: false,
+    comedy: true,
+    romantic: false,
+    bigBrain: false,
+  },
 
   // {
   //   ID: 131,
