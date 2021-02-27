@@ -11,6 +11,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { BootstrapCarousel } from "./components/BootstrapCarousel.js";
 import styled from "styled-components";
 import { Container, Col, Row } from "react-bootstrap";
+import GlobalFonts from "./fonts/Fonts.js";
 
 const Styles = styled.div`
   :root {
@@ -22,7 +23,7 @@ const Styles = styled.div`
     background-attachment: fixed;
     list-style-type: none;
     font-size: calc(10px + 2vmin);
-    font-family: "Helvetica Neue", sans-serif !important;
+    font-family:"Galliard Roman", "Helvetica Neue", sans-serif !important;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -89,6 +90,7 @@ const Styles = styled.div`
     padding-left:5%; */}
     ${"" /* overflow:wrap; */}
   }
+  
 `;
 
 class App extends React.Component {
@@ -102,6 +104,7 @@ class App extends React.Component {
   render() {
     return (
       <Styles>
+        <GlobalFonts />
         <div className="mainBit">
           <Container>
             <Col>

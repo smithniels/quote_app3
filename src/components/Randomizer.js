@@ -3,7 +3,7 @@
 // https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 
 import Quotes from "../Quotes.js";
-console.log("is this working?");
+
 function shuffle(array) {
   let counter = array.length;
   // While there are elements in the array
@@ -20,7 +20,5 @@ function shuffle(array) {
   return array;
 }
 var QuotesRand = shuffle(Quotes);
-
-console.log(QuotesRand);
 
 export default QuotesRand;
