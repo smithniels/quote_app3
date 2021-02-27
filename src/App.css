@@ -6,7 +6,7 @@ html {
   box-sizing: border-box;
   background-attachment: fixed;
   list-style-type: none;
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", serif !important;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

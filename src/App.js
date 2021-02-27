@@ -22,7 +22,7 @@ const Styles = styled.div`
     background-attachment: fixed;
     list-style-type: none;
     font-size: calc(10px + 2vmin);
-    font-family: "Helvetica Neue", Quicksand, sans-serif;
+    font-family: "Helvetica Neue", sans-serif !important;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

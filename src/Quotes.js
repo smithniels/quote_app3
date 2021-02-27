@@ -19,6 +19,8 @@
 // Link up to an api to pull quotes from a site
 // Add in a filer!
 
+// https://www.reddit.com/r/AskReddit/comments/47v7tm/what_quote_has_actually_stuck_with_you_and/
+
 /*jshint esversion: 6 */
 const Quotes = [
   {
@@ -760,13 +762,14 @@ const Quotes = [
 
   {
     ID: 66,
-    quote: "I missed you all",
-    source: "Seven - Umbrella Academy",
+    quote:
+      "It's so hard to forget pain, but it's even harder to remember sweetness. We have no scar to show for happiness. We learn so little from peace.",
+    source: "Chuck Palahniuk",
     sourcelink: "",
     motiv: false,
     comedy: false,
     romantic: true,
-    bigBrain: false,
+    bigBrain: true,
   },
 
   {
@@ -1474,38 +1477,38 @@ const Quotes = [
     bigBrain: false,
   },
 
-  // {
-  //   ID: 131,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 131,
+    quote: "Nothing is particularly hard if you divide them into small jobs",
+    source: "Henry Ford",
+    sourcelink: "",
+    motive: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
 
-  // {
-  //   ID: 132,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 132,
+    quote: "Speak only if you can improve the silence",
+    source: "Mahatma Gandhi",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
 
-  // {
-  //   ID: 133,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 133,
+    quote: "Inside every cynical person, there is a disappointed idealist",
+    source: "George Carlin",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
 
   // {
   //   ID: 134,
