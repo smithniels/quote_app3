@@ -9,16 +9,8 @@ import "./App.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BootstrapCarousel } from "./components/BootstrapCarousel.js";
-import styled, { createGlobalStyle } from "styled-components";
+import styled from "styled-components";
 import { Container, Col, Row } from "react-bootstrap";
-import GlobalFonts from "./Assets/fonts/Fonts.js";
-import { Globalstyle } from "./style";
-
-Globalstyle = createGlobalStyle`　
-body{
-　　margin: 0;
-　　padding: 0
-　}`;
 
 const Styles = styled.div`
   :root {
@@ -30,7 +22,7 @@ const Styles = styled.div`
     background-attachment: fixed;
     list-style-type: none;
     font-size: calc(10px + 2vmin);
-    font-family:"Galliard Roman", "Helvetica Neue", sans-serif !important;
+    font-family: "Helvetica Neue", sans-serif !important;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -88,7 +80,7 @@ const Styles = styled.div`
   }
 
   .mainBit { 
-    color: purple;
+    color: #1c1c1c; ;
     border: 1.8px solid #fed715;
     margin-top: 3%;
     ${"" /* margin-left:10%;
@@ -111,9 +103,9 @@ class App extends React.Component {
   render() {
     return (
       <Styles>
-        <GlobalFonts>
-          <div className="mainBit">
-            <Container>
+        <div className="mainBit">
+          <Container fluid>
+            <Col>
               <Col>
                 <Row>
                   <Header />
@@ -123,9 +115,10 @@ class App extends React.Component {
                 </Row>
                 <Footer />
               </Col>
-            </Container>
-          </div>
-        </GlobalFonts>
+              <Col>Doot De Doot</Col>
+            </Col>
+          </Container>
+        </div>
       </Styles>
     );
   }
