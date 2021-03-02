@@ -1510,16 +1510,17 @@ const Quotes = [
     bigBrain: true,
   },
 
-  // {
-  //   ID: 134,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 134,
+    quote:
+      "What I don’t understand is why so many people think whining has a negative connotation. I don’t. Whining is the first step toward change. It’s the moment when you realize something is very wrong and that you have to take the initiative to do something about it… People who don’t whine are punching bags. They just go about their days, their jobs, their lives, knowing there is nothing they can do to change a darn thing, so why say a word? They see no reason to whine because they know they are incapable of effecting change. Call me a whiner any day.",
+    source: "Mark Cuban",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
 
   // {
   //   ID: 135,

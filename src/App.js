@@ -1,6 +1,7 @@
 // TODO: Figure out how to do separate line of text in the carousel
 // TODO: Figure out how to add in clickable SourceLinks inside the cards
 // TODO: I need to learn more about React Hooks/life cycle components
+// TODO: Use filter.array() to filter results --> Create a menu/button afterwards!
 
 import React from "react";
 import Header from "./components/Header.js";
