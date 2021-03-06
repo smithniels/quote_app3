@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 const Styles = styled.div`
   .footer {
-    margin-top: 2rem;
     padding: 1rem 0rem;
     background-color: #fed715;
     position: fixed;
@@ -13,6 +12,7 @@ const Styles = styled.div`
     display: flex;
     align-content: center;
     justify-content: center;
+    z-index: 10000;
   }
 
   a {

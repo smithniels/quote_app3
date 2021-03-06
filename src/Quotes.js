@@ -1,4 +1,5 @@
 // Path -->  /Users/nielssmith/Documents/GitHub/quote_app3/src/Quotes.js
+// in Terminal --> cd /Users/nielssmith/Documents/GitHub/quote_app3 && yarn start
 
 // Don't forget:
 //    1. ID is capitalized
@@ -117,7 +118,7 @@ const Quotes = [
   {
     ID: 9,
     quote:
-      "“It doesn't matter who you are, where you come from. The ability to triumph begins with you. Always.”",
+      "It doesn't matter who you are, where you come from. The ability to triumph begins with you. Always.",
     source: "Oprah Winfrey",
     sourcelink: "",
     motiv: true,
@@ -140,7 +141,7 @@ const Quotes = [
   {
     ID: 11,
     quote: "Sittin' on your biscuit, too 'fraid to risk it",
-    source: "Elyse (FunHaus)",
+    source: "Elyse Willems",
     sourcelink: "",
     motiv: true,
     comedy: false,
@@ -171,10 +172,11 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
+
   {
     ID: 14,
-    quote: "That's the worst thing that's ever happened to me",
-    source: "Simon Amstell",
+    quote: "#14",
+    source: "",
     sourcelink: "",
     motiv: false,
     comedy: true,
@@ -1383,6 +1385,7 @@ const Quotes = [
     bigBrain: true,
   },
 
+  // Quarantine motivator circa 2020-2021
   {
     ID: 123,
     quote: "I can do this, I thought. Then: And even if I can't, I have to",
@@ -1516,108 +1519,118 @@ const Quotes = [
       "What I don’t understand is why so many people think whining has a negative connotation. I don’t. Whining is the first step toward change. It’s the moment when you realize something is very wrong and that you have to take the initiative to do something about it… People who don’t whine are punching bags. They just go about their days, their jobs, their lives, knowing there is nothing they can do to change a darn thing, so why say a word? They see no reason to whine because they know they are incapable of effecting change. Call me a whiner any day.",
     source: "Mark Cuban",
     sourcelink: "",
+    motive: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
+
+  {
+    ID: 135,
+    quote:
+      "Anxiety both overestimates risk and underestimates your ability to cope.",
+    source: "u/annieohnotme's therapist",
+    sourcelink: "",
+    motive: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
+
+  {
+    ID: 136,
+    quote:
+      "I write while listening to music, mostly because the world beyond my headphones is too chaotic",
+    source: "Dean Bakopoulos",
+    sourcelink: "",
     motive: false,
     comedy: false,
     romantic: false,
     bigBrain: false,
   },
 
-  // {
-  //   ID: 135,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 137,
+    quote:
+      "The most important thing is to enjoy your life - to be happy - it's all that matters.",
+    source: "Audrey Hepburn",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
 
-  // {
-  //   ID: 136,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },  // {
-  //   ID: 137 ,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 138,
+    quote:
+      "We're born alone, we live alone, we die alone. Only through our love and friendship can we create the illusion for the moment that we're not alone.",
+    source: "Orson Welles",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
 
-  // {
-  //   ID: 138,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 139,
+    quote:
+      "Keep your face always toward the sunshine - and shadows will fall behind you.",
+    source: "Walt Whitman",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
 
-  // {
-  //   ID: 139,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 140,
+    quote: "It takes a long time to grow an old friend.",
+    source: "John Leonard",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
 
-  // {
-  //   ID: 140,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 141,
+    quote:
+      "Out of suffering have emerged the strongest souls; the most massive characters are seared with scars.",
+    source: "Kahlil Gibran",
+    sourcelink: "",
+    motive: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
 
-  // {
-  //   ID: 141,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 142,
+    quote:
+      "Happiness can be found, even in the darkest of times, if only one remembers to turn on the light.",
+    source: "Albus Dumbledore",
+    sourcelink: "",
+    motive: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
 
-  // {
-  //   ID: 142,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
-
-  // {
-  //   ID: 143,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 143,
+    quote:
+      "No man ever steps in the same river twice, for it's not the same river and he's not the same man.",
+    source: "Heraclitus",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
 
   // {
   //   ID: 144,

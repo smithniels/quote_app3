@@ -2,33 +2,34 @@ import React from "react";
 import styled from "styled-components";
 
 const Styles = styled.div`
-  :root {
-    --color-primary: #fed715;
-  }
-
   .header{
     margin-bottom:1.4rem
     display: flex,
-    alignItems: center,
-    justifyContent: center,
-    width: 100%,
-    backgroundColor: #fed715;
+    align-items: center,
+    width: 80%,
+    background-color: #fed715;
     border: black 2px solid,
-    fontSize: 50px, 
-    flexDirection: column,
-    borderRadius: 25px,
-    padding: 10vmin 1rem;
+    font-size: 50px !important, 
+    z-index:5;
+    border-radius: 25px,
+    padding: 30vmin 1rem;
+    padding-top:50px;
+    justify-content: center;
 }
+
   .subHeader{
     font-size: 15px;
     font-style:i italic;
     display: flex;
-    justifyContent: center;
-    color:  --color-primary;
-    
+    justify-content: center;
     border-bottom: #fed715 5px solid;
     border-radius: 5px 20px 5px;
     margin-bottom:10%;
+  }
+
+  h2{
+    display:flex;
+    justify-content:center;
   }
 }
 
@@ -39,6 +40,7 @@ const Styles = styled.div`
       margin: auto 0;
       height:150px;
       color:pink;
+
     }
   }
 
@@ -46,9 +48,9 @@ const Styles = styled.div`
 const Header = () => {
   return (
     <Styles>
-      <div className="header">
+      <div className="header" sticky>
         <h2>Sometimes Quotable!</h2>
-        <h5 className="subHeader element">
+        <h5 className="subHeader">
           "Here's a handful of quotes I enjoy" niels
         </h5>
       </div>

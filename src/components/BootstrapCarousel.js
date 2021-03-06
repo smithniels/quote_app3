@@ -10,16 +10,25 @@ export const BootstrapCarousel = () => {
     <div>
       <Styles>
         <div className="container-fluid">
-          <Carousel>
-            {QuotesRand.map((quote) => (
-              <Carousel.Item>
-                <div key={quote.ID}>
-                  <h1>"{quote.quote}"</h1>
-                  <h5> - {quote.source}</h5>
-                </div>
-              </Carousel.Item>
-            ))}
-          </Carousel>
+          <div>
+            <Carousel
+              fade
+              // keyboard="true"
+              // keyboard
+              keyboard={true}
+              // aria-hidden="true"
+              // className="carousel-control-next-icon"
+            >
+              {QuotesRand.map((quote) => (
+                <Carousel.Item>
+                  <div key={quote.ID}>
+                    <h1>"{quote.quote}"</h1>
+                    <h5> - {quote.source}</h5>
+                  </div>
+                </Carousel.Item>
+              ))}
+            </Carousel>
+          </div>
         </div>
       </Styles>
     </div>

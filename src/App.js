@@ -12,6 +12,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { BootstrapCarousel } from "./components/BootstrapCarousel.js";
 import styled from "styled-components";
 import { Container, Col, Row } from "react-bootstrap";
+import { QuotesFilt } from "./components/Filter.js";
 
 const Styles = styled.div`
   :root {
@@ -83,12 +84,8 @@ const Styles = styled.div`
   .mainBit { 
     color: #1c1c1c; ;
     border: 1.8px solid #fed715;
-    margin-top: 3%;
-    ${"" /* margin-left:10%;
-    margin-right:10%; */}
-    ${"" /* padding-right:5%;
-    padding-left:5%; */}
-    ${"" /* overflow:wrap; */}
+    padding:2%;
+    ${"" /* margin:3% 9%; */}
   }
   
 `;
@@ -104,22 +101,27 @@ class App extends React.Component {
   render() {
     return (
       <Styles>
-        <div className="mainBit">
-          <Container fluid>
-            <Col>
+        <Col>
+          <Header />
+          <div className="mainBit">
+            <Container fluid>
               <Col>
-                <Row>
-                  <Header />
-                </Row>
-                <Row>
-                  <BootstrapCarousel />
-                </Row>
+                <Col>
+                  <Row>
+                    <BootstrapCarousel />
+                    <QuotesFilt />
+                  </Row>
+                  {/* <Row>
+                    Lorem ipsum bjkbg ivouejrbnjwe golwrnegolnw gv reoibnv jeob
+                    voieoiv e gvoon o v{" "}
+                  </Row> */}
+                </Col>
+
                 <Footer />
               </Col>
-              <Col>Doot De Doot</Col>
-            </Col>
-          </Container>
-        </div>
+            </Container>
+          </div>{" "}
+        </Col>
       </Styles>
     );
   }
