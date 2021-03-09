@@ -12,7 +12,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { BootstrapCarousel } from "./components/BootstrapCarousel.js";
 import styled from "styled-components";
 import { Container, Col, Row } from "react-bootstrap";
-import { QuotesFilt } from "./components/Filter.js";
+//import { QuotesFilt } from "./components/Filter.js";
 
 const Styles = styled.div`
 ${
@@ -112,7 +112,7 @@ class App extends React.Component {
                 <Col>
                   <Row>
                     <BootstrapCarousel />
-                    <QuotesFilt />
+                    {/* <QuotesFilt /> */}
                   </Row>
                   {/* <Row>
                     Lorem ipsum bjkbg ivouejrbnjwe golwrnegolnw gv reoibnv jeob

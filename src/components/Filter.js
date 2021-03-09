@@ -12,4 +12,4 @@ var QuotesFilt = filt(QuotesRand);
 console.log("top");
 console.log(QuotesFilt);
 
-export default QuotesFilt;
+//export default QuotesFilt;

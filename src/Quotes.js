@@ -835,7 +835,7 @@ const Quotes = [
   {
     ID: 72,
     quote: "I have brain damage, nothing I do counts",
-    source: "Pierce Hawthorne - Community",
+    source: "Pierce Hawthorne (Chevy Chase) - Community",
     sourcelink: "",
     motiv: false,
     comedy: false,
