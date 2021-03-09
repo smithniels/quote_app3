@@ -15,6 +15,9 @@ import { Container, Col, Row } from "react-bootstrap";
 import { QuotesFilt } from "./components/Filter.js";
 
 const Styles = styled.div`
+${
+  "" /* I don't think this actually does anything, but either way it needs some testing... */
+}
   :root {
     --color-primary: #fed715;
   }
