@@ -1659,7 +1659,7 @@ const Quotes = [
   {
     ID: 146,
     quote:
-      "The first step towards getting somewhere is to decide that you are not going to stay where you are.xt",
+      "The first step towards getting somewhere is to decide that you are not going to stay where you are",
     source: "J.P. Morgan",
     sourcelink: "",
     motive: true,
@@ -1677,7 +1677,7 @@ const Quotes = [
     motive: false,
     comedy: false,
     romantic: false,
-    bigBrain: false,
+    bigBrain: true,
   },
 
   {
