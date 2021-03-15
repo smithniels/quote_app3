@@ -1670,8 +1670,9 @@ const Quotes = [
 
   {
     ID: 147,
-    quote: "Text",
-    source: "Speaker",
+    quote:
+      "Attention is a limited resource, so pay attention to where you pay attention",
+    source: "Howard Rheingold",
     sourcelink: "",
     motive: false,
     comedy: false,
