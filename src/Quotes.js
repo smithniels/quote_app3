@@ -1579,7 +1579,7 @@ const Quotes = [
       "Keep your face always toward the sunshine - and shadows will fall behind you.",
     source: "Walt Whitman",
     sourcelink: "",
-    motive: false,
+    motive: true,
     comedy: false,
     romantic: false,
     bigBrain: false,
@@ -1682,13 +1682,14 @@ const Quotes = [
 
   {
     ID: 148,
-    quote: "Text",
-    source: "Speaker",
+    quote: "Minima Maxima Sunt",
+    source:
+      "Loose Translation from Latin: ~the smallest things can have the most importance",
     sourcelink: "",
     motive: false,
     comedy: false,
     romantic: false,
-    bigBrain: false,
+    bigBrain: true,
   },
 
   {
