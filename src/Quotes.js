@@ -1694,8 +1694,9 @@ const Quotes = [
 
   {
     ID: 149,
-    quote: "Text",
-    source: "Speaker",
+    quote:
+      "Many people are like garbage trucks. They run around full of garbage, full of frustration, full of anger, and full of disappointment. As their garbage piles up, they look for a place to dump it. And if you let them, they’ll dump it on you. So when someone wants to dump on you, don’t take it personally. Just smile, wave, wish them well, and move on. Believe me. You’ll be happier.",
+    source: "Michael Thompson - Medium",
     sourcelink: "",
     motive: false,
     comedy: false,
