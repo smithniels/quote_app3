@@ -1214,7 +1214,7 @@ const Quotes = [
   {
     ID: 107,
     quote: "What does your ideal day look like?",
-    source: "someone - Medium",
+    source: "Somebody - Medium",
     sourcelink: "",
     motive: false,
     comedy: false,
@@ -1684,7 +1684,7 @@ const Quotes = [
     ID: 148,
     quote: "Minima Maxima Sunt",
     source:
-      "Loose Translation from Latin: ~the smallest things can have the most importance",
+      "Loose Translation from Latin: ~the smallest things can have are the most important",
     sourcelink: "",
     motive: false,
     comedy: false,
@@ -1706,13 +1706,14 @@ const Quotes = [
 
   {
     ID: 150,
-    quote: "Text",
-    source: "Speaker",
+    quote:
+      "I believe if there's any kind of God it wouldn't be in any of us, not you or me but just this little space in between. If there's any kind of magic in this world it must be in the attempt of understanding someone sharing something. I know, it's almost impossible to succeed but who cares really? The answer must be in the attempt.",
+    source: "Julie Delpy, Before Sunrise & Before Sunset: Two Screenplays",
     sourcelink: "",
     motive: false,
     comedy: false,
-    romantic: false,
-    bigBrain: false,
+    romantic: true,
+    bigBrain: true,
   },
 
   {
