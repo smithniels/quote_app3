@@ -1316,10 +1316,9 @@ const Quotes = [
 
   {
     ID: 117,
-    quote:
-      "...That means she gets it. (Not the exact quote. I need to rewatch this to find it..",
+    quote: "...That means she gets it.",
     source:
-      "Ralph Fiennes - somewhere in the 2nd half of The Grand Budapest Hotel",
+      "Ralph Fiennes - somewhere in the 2nd half of The Grand Budapest HotelNot the exact quote. I need to rewatch this to find it..",
     sourcelink: "",
     motive: false,
     comedy: false,
