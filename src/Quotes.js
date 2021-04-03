@@ -1306,7 +1306,7 @@ const Quotes = [
   {
     ID: 116,
     quote: "You can't fix people",
-    source: "Karen Hansen-Smith - librarian, Mother, Dane",
+    source: "Karen Hansen-Smith - Librarian, Mother, Dane",
     sourcelink: "",
     motive: false,
     comedy: false,
@@ -1316,9 +1316,9 @@ const Quotes = [
 
   {
     ID: 117,
-    quote: "...That means she gets it.",
+    quote: "...that means she gets it.",
     source:
-      "Ralph Fiennes - somewhere in the 2nd half of The Grand Budapest HotelNot the exact quote. I need to rewatch this to find it..",
+      "Ralph Fiennes - somewhere in the 2nd half of The Grand Budapest Hotel. I need to re-watch this to find it the exact quote",
     sourcelink: "",
     motive: false,
     comedy: false,
