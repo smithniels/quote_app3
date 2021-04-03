@@ -1717,8 +1717,8 @@ const Quotes = [
 
   {
     ID: 151,
-    quote: "Text",
-    source: "Speaker",
+    quote: "Ah, the key to being interesting is to go where you aren’t boring!",
+    source: "Michael Thompson's friend - Medium",
     sourcelink: "",
     motive: false,
     comedy: false,
