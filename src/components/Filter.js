@@ -7,6 +7,7 @@ function filt(array) {
   let motivCheck = QuotesRand.filter((quote) => quote.comedy === true);
   return array;
 }
+
 var QuotesFilt = filt(QuotesRand);
 
 console.log("top");

@@ -1726,16 +1726,17 @@ const Quotes = [
     bigBrain: false,
   },
 
-  // {
-  //   ID: 152,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 152,
+    quote:
+      "Nothing can make our life, or the lives of other people, more beautiful than perpetual kindness",
+    source: "Leo Tolstoy",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
 
   // {
   //   ID: 153,
