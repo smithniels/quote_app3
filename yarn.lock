@@ -4565,6 +4565,13 @@ eslint-plugin-jest@^24.1.0:
   dependencies:
     "@typescript-eslint/experimental-utils" "^4.0.1"
 
+eslint-plugin-jest@^24.3.3:
+  version "24.3.3"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-24.3.3.tgz#4e0f9dd6b1667990e7be3a7d7c9a85b952056df9"
+  integrity sha512-IQ9tLHyKEyBw1BM3IE13WxOXQm03h/7dy1KFknUVkoY2N2+Hw7lb/3YFz/4jwcrxXt2+KhA/GoiK7jt8aK19ww==
+  dependencies:
+    "@typescript-eslint/experimental-utils" "^4.0.1"
+
 eslint-plugin-jsx-a11y@^6.3.1:
   version "6.4.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jsx-a11y/-/eslint-plugin-jsx-a11y-6.4.1.tgz#a2d84caa49756942f42f1ffab9002436391718fd"

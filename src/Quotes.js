@@ -51,7 +51,7 @@ const Quotes = [
   {
     ID: 3,
     quote: "Aren't we all always thinkin' about somewhere else?",
-    source: "Moni - Bread for the City (Washington DC Nonprofit)",
+    source: "Moni - Bread for the City (Washington, DC)",
     sourcelink: "",
     motiv: false,
     comedy: false,

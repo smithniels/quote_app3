@@ -3,7 +3,11 @@ import { Carousel } from "react-bootstrap";
 import QuotesRand from "./Randomizer.js";
 import styled from "styled-components";
 
-const Styles = styled.div``;
+const Styles = styled.div`
+  h5 {
+    margin-bottom: 5%;
+  }
+`;
 
 export const BootstrapCarousel = () => {
   return (
@@ -13,10 +17,11 @@ export const BootstrapCarousel = () => {
           <div>
             <Carousel
               fade
+              // Keyboard functionality would be a nice addition!
               // keyboard="true"
               // keyboard
-              keyboard={true}
-              // aria-hidden="true"
+              // keyboard={true}
+
               // className="carousel-control-next-icon"
             >
               {QuotesRand.map((quote) => (
