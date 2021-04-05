@@ -1738,38 +1738,41 @@ const Quotes = [
     bigBrain: true,
   },
 
-  // {
-  //   ID: 153,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 153,
+    quote:
+      "Never attribute to malice that which is adequately explained by stupidity",
+    source: "Hanlon's Razor (Robert J. Hanlon)",
+    sourcelink: "",
+    motive: false,
+    comedy: true,
+    romantic: false,
+    bigBrain: false,
+  },
 
-  // {
-  //   ID: 154,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  // 2020 Quarantine Workout Mantra
+  {
+    ID: 154,
+    quote: "If something's worth doing, it's worth doing badly",
+    source: "G. K. Chesterton",
+    sourcelink: "",
+    motive: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
 
-  // {
-  //   ID: 155,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 155,
+    quote:
+      "Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself.",
+    source: "Jalal ad-Din Rumi",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
 
   // {
   //   ID:156 ,
