@@ -1774,8 +1774,31 @@ const Quotes = [
     bigBrain: true,
   },
 
+  {
+    ID: 156,
+    quote: "Never take criticism from someone you wouldn’t take advice from.",
+    source: "u/Panda_Burger - Reddit",
+    sourcelink:,
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
+  ,
+
+  {
+    ID: 157,
+    quote: "The bad stuff is easier to believe. You ever notice that?",
+    source: " - Pretty Woman",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
+
   // {
-  //   ID:156 ,
+  //   ID: 158,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1786,7 +1809,18 @@ const Quotes = [
   // },
 
   // {
-  //   ID: 157,
+  //   ID: 159,
+  //   quote: "Text",
+  //   source: "Speaker",
+  //   sourcelink: "",
+  //   motive: false,
+  //   comedy: false,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
+
+  // {
+  //   ID: 160,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
