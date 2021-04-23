@@ -1778,14 +1778,12 @@ const Quotes = [
     ID: 156,
     quote: "Never take criticism from someone you wouldn’t take advice from.",
     source: "u/Panda_Burger - Reddit",
-    sourcelink:,
+    sourcelink: "",
     motive: false,
     comedy: false,
     romantic: false,
-    bigBrain: false,
+    bigBrain: true,
   },
-  ,
-
   {
     ID: 157,
     quote: "The bad stuff is easier to believe. You ever notice that?",
@@ -1794,19 +1792,19 @@ const Quotes = [
     motive: false,
     comedy: false,
     romantic: false,
-    bigBrain: false,
+    bigBrain: true,
   },
 
-  // {
-  //   ID: 158,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 158,
+    quote: "The wound is the place where the light enters you",
+    source: "Rumi",
+    sourcelink: "",
+    motive: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
 
   // {
   //   ID: 159,
