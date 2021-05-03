@@ -2,15 +2,20 @@
 
 import QuotesRand from "./Randomizer.js";
 
-function filt(array) {
+const Motivation = QuotesRand.filter((quote) => quote.motive === true);
+const Lols = QuotesRand.filter((quote) => quote.comedy === true);
+const Romance = QuotesRand.filter((quote) => quote.romantic === true);
+const Bbrain = QuotesRand.filter((quote) => quote.bigBrain === true);
+
+function Filt(array) {
   // Take array and filter
   QuotesRand.filter((quote) => quote.comedy === true);
   console.log(array);
   return array;
 }
 
-var QuotesFilt = filt(QuotesRand);
+var QuotesFilt = Filt(QuotesRand);
 
 // console.log(QuotesFilt);
 
-// export default QuotesFilt;
+export default QuotesFilt;

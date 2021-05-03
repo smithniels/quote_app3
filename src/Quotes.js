@@ -34,7 +34,7 @@ const Quotes = [
     motiv: true,
     comedy: false,
     romantic: false,
-    bigBrain: true,
+    bigBrain: false,
   },
 
   {
@@ -51,7 +51,7 @@ const Quotes = [
   {
     ID: 3,
     quote: "Aren't we all always thinkin' about somewhere else?",
-    source: "Moni - Bread for the City (Washington, DC)",
+    source: "THE Moni - Bread for the City (Washington, DC)",
     sourcelink: "",
     motiv: false,
     comedy: false,
@@ -104,6 +104,7 @@ const Quotes = [
     bigBrain: false,
   },
 
+  // one of the quotes that helped me through a bad time in my life
   {
     ID: 8,
     quote: "The love of your life wouldn't have given up on you",
@@ -146,7 +147,7 @@ const Quotes = [
     motiv: true,
     comedy: false,
     romantic: false,
-    bigBrain: true,
+    bigBrain: false,
   },
 
   {
@@ -197,6 +198,7 @@ const Quotes = [
     bigBrain: false,
   },
 
+  // another one that helped me through those bad times
   {
     ID: 16,
     quote: "They did you a favor",
@@ -217,7 +219,7 @@ const Quotes = [
     motiv: false,
     comedy: false,
     romantic: false,
-    bigBrain: true,
+    bigBrain: false,
   },
 
   {
@@ -254,6 +256,7 @@ const Quotes = [
     bigBrain: false,
   },
 
+  // This is from an excellent interview with JB. What a great man. <33
   {
     ID: 21,
     quote:
@@ -281,7 +284,7 @@ const Quotes = [
   {
     ID: 23,
     quote: "Being nice isn't easy sometimes",
-    source: "Genevie - BFTC Trans People Information Meeting",
+    source: "Genevie - Bread for the City Transgender Information Meeting",
     sourcelink: "",
     motiv: false,
     comedy: false,
@@ -308,7 +311,7 @@ const Quotes = [
     motiv: false,
     comedy: false,
     romantic: false,
-    bigBrain: true,
+    bigBrain: false,
   },
 
   {
@@ -325,7 +328,8 @@ const Quotes = [
   {
     ID: 28,
     quote: "I love you more than one more day",
-    source: "Joan Didion",
+    source:
+      "Joan Didion - A Year of Magical Thinking(I'm not sure this is the exact title)",
     sourcelink: "",
     motiv: false,
     comedy: false,
@@ -348,7 +352,7 @@ const Quotes = [
   {
     ID: 30,
     quote: "You're not going to be this angry forever",
-    source: " Doug Gardner (Michael Rapaport)- Atypical (S2E5)",
+    source: "Doug Gardner (Michael Rapaport) - Atypical (S2E5)",
     sourcelink: "",
     motiv: false,
     comedy: false,
@@ -375,8 +379,8 @@ const Quotes = [
     sourcelink: "",
     motiv: true,
     comedy: false,
-    romantic: true,
-    bigBrain: false,
+    romantic: false,
+    bigBrain: true,
   },
 
   {
@@ -446,13 +450,14 @@ const Quotes = [
     motiv: true,
     comedy: false,
     romantic: false,
-    bigBrain: true,
+    bigBrain: false,
   },
 
+  // redditor or redditter?
   {
     ID: 39,
     quote: "If we do it now, we'll never run out of time",
-    source: "Anonymous Redditor's 6 year old",
+    source: "Redditer's 6 year old child",
     sourcelink: "",
     motiv: true,
     comedy: false,
@@ -468,7 +473,7 @@ const Quotes = [
     sourcelink: "",
     motiv: true,
     comedy: false,
-    romantic: true,
+    romantic: false,
     bigBrain: true,
   },
 
@@ -480,7 +485,7 @@ const Quotes = [
     motiv: true,
     comedy: false,
     romantic: false,
-    bigBrain: true,
+    bigBrain: false,
   },
 
   {
@@ -491,7 +496,7 @@ const Quotes = [
     motiv: false,
     comedy: false,
     romantic: false,
-    bigBrain: true,
+    bigBrain: false,
   },
 
   {
@@ -519,7 +524,7 @@ const Quotes = [
   {
     ID: 45,
     quote: "Say what you mean, mean what you say, and don't say it mean",
-    source: "Al-Anon",
+    source: "Saying from Al-Anon",
     sourcelink: "",
     motiv: false,
     comedy: false,
@@ -559,7 +564,7 @@ const Quotes = [
     sourcelink: "",
     motiv: true,
     comedy: false,
-    romantic: true,
+    romantic: false,
     bigBrain: true,
   },
 
@@ -609,6 +614,7 @@ const Quotes = [
     bigBrain: false,
   },
 
+  // Melanie from 620 had a good pneumonic device for pronouncing Dostoevski. Do I remember it? No...
   {
     ID: 53,
     quote: "There is only one thing I dread, not to be worthy of my suffering",
@@ -693,7 +699,7 @@ const Quotes = [
   {
     ID: 60,
     quote:
-      "The Doctor put her hands over my liver. She told me my resentment’s getting smaller",
+      "The doctor put her hands over my liver. She told me my resentment’s getting smaller",
     source: "Phobe Bridgers - Garden Song",
     sourcelink: "",
     motiv: false,
@@ -713,7 +719,8 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  //This is a fav
+
+  //This is a fav <3333
   {
     ID: 62,
     quote:
@@ -738,11 +745,12 @@ const Quotes = [
     bigBrain: false,
   },
 
+  // But what is this man's last name???
   {
     ID: 64,
     quote:
       "But when exactly can we say that someone is over complicating things? A good rule of thumb is when you’re writing code that solves problems you don’t have.",
-    source: "Daan - Blogger on Medium",
+    source: "Daan _______ - Blogger on Medium",
     sourcelink: "",
     motiv: false,
     comedy: false,
@@ -750,6 +758,7 @@ const Quotes = [
     bigBrain: true,
   },
 
+  // I'm not sure if I understand this one, but it's fun to say lol
   {
     ID: 65,
     quote: "Det är ingen ko på isen så länge halva är på land.",
@@ -762,6 +771,7 @@ const Quotes = [
     bigBrain: true,
   },
 
+  // this is probably form a book
   {
     ID: 66,
     quote:
@@ -785,6 +795,7 @@ const Quotes = [
     bigBrain: false,
   },
 
+  // facts: true;
   {
     ID: 68,
     quote:
@@ -797,6 +808,7 @@ const Quotes = [
     bigBrain: true,
   },
 
+  // this one though...
   {
     ID: 69,
     quote:
@@ -838,7 +850,7 @@ const Quotes = [
     source: "Pierce Hawthorne (Chevy Chase) - Community",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedy: true,
     romantic: false,
     bigBrain: true,
   },
@@ -850,7 +862,7 @@ const Quotes = [
     source: "Oliver Tate",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedy: true,
     romantic: true,
     bigBrain: false,
   },
@@ -930,7 +942,7 @@ const Quotes = [
     motiv: false,
     comedy: true,
     romantic: false,
-    bigBrain: true,
+    bigBrain: false,
   },
 
   {
@@ -941,7 +953,7 @@ const Quotes = [
     motiv: false,
     comedy: true,
     romantic: false,
-    bigBrain: false,
+    bigBrain: true,
   },
 
   {
@@ -1006,7 +1018,7 @@ const Quotes = [
   {
     ID: 88,
     quote:
-      "You can do anything you want, as long as you know what that is. For me, it's Lucky Charms and TV",
+      "You can do anything you want, as long as you know what that is. For me, it's Lucky Charms^tm and TV",
     source: "Abed (Danny Pudi) - Community",
     sourcelink: "",
     motiv: true,
@@ -1060,6 +1072,7 @@ const Quotes = [
     bigBrain: false,
   },
 
+  // <333 this one
   {
     ID: 94,
     quote:
@@ -1095,6 +1108,7 @@ const Quotes = [
     bigBrain: false,
   },
 
+  // Right though?
   {
     ID: 97,
     quote: "Never giving up is how you win",
@@ -1112,7 +1126,7 @@ const Quotes = [
     source: "Anonymous - Reddit",
     sourcelink: "",
     motive: true,
-    comedy: false,
+    comedy: true,
     romantic: false,
     bigBrain: false,
   },
@@ -1129,7 +1143,7 @@ const Quotes = [
     bigBrain: true,
   },
 
-  // One of my favorite quotes!
+  // One of my favorite quotes! <33
   {
     ID: 100,
     quote: "What I regret most in my life are failures of kindness",
@@ -1141,6 +1155,7 @@ const Quotes = [
     bigBrain: true,
   },
 
+  // I know this phrase didn't originate at McClymonds, but that's the first okace I heard it. Sue me. JK I'm not particular fond of litigation. Plus, I don't think what I did here is against the law.
   {
     ID: 101,
     quote: "That's outta pocket.",
@@ -1211,6 +1226,7 @@ const Quotes = [
     bigBrain: false,
   },
 
+  // I should google this to find the source/author
   {
     ID: 107,
     quote: "What does your ideal day look like?",
@@ -1248,7 +1264,7 @@ const Quotes = [
   {
     ID: 111,
     quote:
-      "Religion is like a blind man looking in a black room for a black cat that isn't there, and finding it.",
+      "Religion is like a blind man looking in a black room for a black cat that isn't there... and finding it.",
     source: "Oscar Wilde",
     sourcelink: "",
     motive: false,
@@ -1269,6 +1285,7 @@ const Quotes = [
     bigBrain: true,
   },
 
+  // MS
   {
     ID: 113,
     quote: "What seems to us as bitter trials are often blessings in disguise",
@@ -1289,7 +1306,7 @@ const Quotes = [
     motive: true,
     comedy: true,
     romantic: false,
-    bigBrain: false,
+    bigBrain: true,
   },
 
   {
@@ -1352,7 +1369,7 @@ const Quotes = [
   {
     ID: 120,
     quote:
-      "Oh, it's cool how you found a way for a compliment to shake me to my core. ",
+      "Oh, it's cool how you found a way for a compliment to shake me to my core.",
     source: "Missy (Ayo Edebiri) - Big Mouth",
     sourcelink: "",
     motive: false,
@@ -1468,6 +1485,7 @@ const Quotes = [
     bigBrain: true,
   },
 
+  // lol
   {
     ID: 130,
     quote: "Please stop petitioning my dreams.",
@@ -1501,17 +1519,19 @@ const Quotes = [
     bigBrain: true,
   },
 
+  // Carlin was a comedian, so I'm putting this into Dark Comedy
   {
     ID: 133,
     quote: "Inside every cynical person, there is a disappointed idealist",
     source: "George Carlin",
     sourcelink: "",
     motive: false,
-    comedy: false,
+    comedy: true,
     romantic: false,
     bigBrain: true,
   },
 
+  // I've got mixed feelings on this one. I agree, but I also don't love hypbolicness of it. Painting with broad strokes there Mr. Cuba
   {
     ID: 134,
     quote:
@@ -1548,6 +1568,7 @@ const Quotes = [
     bigBrain: false,
   },
 
+  // How great was Audrey Hepburn? Big respect!
   {
     ID: 137,
     quote:
@@ -1560,6 +1581,7 @@ const Quotes = [
     bigBrain: true,
   },
 
+  // is this from something?
   {
     ID: 138,
     quote:
@@ -1581,7 +1603,7 @@ const Quotes = [
     motive: true,
     comedy: false,
     romantic: false,
-    bigBrain: false,
+    bigBrain: true,
   },
 
   {
@@ -1595,6 +1617,7 @@ const Quotes = [
     bigBrain: false,
   },
 
+  // "seared with scars" is a great expression
   {
     ID: 141,
     quote:
@@ -1607,11 +1630,12 @@ const Quotes = [
     bigBrain: true,
   },
 
+  // I should google which HP book this line is from
   {
     ID: 142,
     quote:
       "Happiness can be found, even in the darkest of times, if only one remembers to turn on the light.",
-    source: "Albus Dumbledore",
+    source: "Albus Dumbledore - Harry Potter",
     sourcelink: "",
     motive: true,
     comedy: false,
@@ -1652,7 +1676,7 @@ const Quotes = [
     motive: false,
     comedy: true,
     romantic: false,
-    bigBrain: true,
+    bigBrain: false,
   },
 
   {
@@ -1664,7 +1688,7 @@ const Quotes = [
     motive: true,
     comedy: false,
     romantic: false,
-    bigBrain: false,
+    bigBrain: true,
   },
 
   {
@@ -1683,7 +1707,7 @@ const Quotes = [
     ID: 148,
     quote: "Minima Maxima Sunt",
     source:
-      "Loose Translation from Latin: ~the smallest things can have are the most important",
+      "Loosish Translation from Latin: ~the smallest things can have are the most important",
     sourcelink: "",
     motive: false,
     comedy: false,
@@ -1700,9 +1724,10 @@ const Quotes = [
     motive: false,
     comedy: false,
     romantic: false,
-    bigBrain: false,
+    bigBrain: true,
   },
 
+  // one of my favorite movies
   {
     ID: 150,
     quote:
@@ -1721,7 +1746,7 @@ const Quotes = [
     source: "Michael Thompson's friend - Medium",
     sourcelink: "",
     motive: false,
-    comedy: false,
+    comedy: true,
     romantic: false,
     bigBrain: false,
   },
@@ -1806,8 +1831,32 @@ const Quotes = [
     bigBrain: true,
   },
 
+  {
+    ID: 159,
+    quote:
+      "Failure is simply the opportunity to begin again, this time more intelligently.",
+    source: "Henry Ford",
+    sourcelink: "",
+    motive: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
+
+  // iPhone wallpaper for the months leading up to my move to Denmark
+  {
+    ID: 160,
+    quote: "I did not come this far to ONLY come this far",
+    source: "Anonymous",
+    sourcelink: "",
+    motive: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
+
   // {
-  //   ID: 159,
+  //   ID: 161,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
@@ -1818,7 +1867,40 @@ const Quotes = [
   // },
 
   // {
-  //   ID: 160,
+  //   ID: 162,
+  //   quote: "Text",
+  //   source: "Speaker",
+  //   sourcelink: "",
+  //   motive: false,
+  //   comedy: false,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
+
+  // {
+  //   ID: 163,
+  //   quote: "Text",
+  //   source: "Speaker",
+  //   sourcelink: "",
+  //   motive: false,
+  //   comedy: false,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
+
+  // {
+  //   ID: 164,
+  //   quote: "Text",
+  //   source: "Speaker",
+  //   sourcelink: "",
+  //   motive: false,
+  //   comedy: false,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
+
+  // {
+  //   ID: 165,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",

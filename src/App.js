@@ -26,7 +26,6 @@ ${"" /* I don't think this actually does anything... */}
     background-attachment: fixed;
     list-style-type: none;
     font-size: calc(10px + 2vmin);
-    /*font-family: "Helvetica Neue", sans-serif !important;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -62,9 +61,7 @@ ${"" /* I don't think this actually does anything... */}
     width: 100%;
     height: 100%;
     z-index: -10;
-    ${
-      "" /* background-image: url("https://picsum.photos/1200/900?grayscale"); */
-    }
+    background-image: url("https://picsum.photos/1200/900?grayscale"); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -87,7 +84,6 @@ ${"" /* I don't think this actually does anything... */}
     color: #1c1c1c; ;
     border: 1.8px solid #fed715;
     padding:2%;
-    ${"" /* margin:3% 9%; */}
   }
   
 `;
@@ -114,11 +110,10 @@ class App extends React.Component {
                     {/* <QuotesFilt /> */}
                   </Row>
                 </Col>
-
                 <Footer />
               </Col>
             </Container>
-          </div>{" "}
+          </div>
         </Col>
       </Styles>
     );
