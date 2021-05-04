@@ -1,6 +1,6 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import QuotesRand from "./Randomizer.js";
+import { QuotesRand } from "./Randomizer.js";
 import styled from "styled-components";
 import QuotesFilt from "./Filter.js";
 
@@ -23,6 +23,7 @@ export const BootstrapCarousel = () => {
               // keyboard
               // keyboard={true}
 
+              // /Users/ehiilmnsst / Documents / GitHub / quote_app3 / src / Quotes.js;
               // className="carousel-control-next-icon"
             >
               {QuotesRand.map((quote) => (

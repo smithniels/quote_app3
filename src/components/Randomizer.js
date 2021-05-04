@@ -11,6 +11,7 @@ function shuffle(array) {
   while (counter > 0) {
     // Pick a random index
     let index = Math.floor(Math.random() * counter);
+    console.log("this is from the Randomizer.js");
     console.log(index); // just curious - ns
     // Decrease counter by 1
     counter--;
@@ -21,6 +22,7 @@ function shuffle(array) {
   }
   return array;
 }
+
 var QuotesRand = shuffle(Quotes);
 
 export default QuotesRand;
