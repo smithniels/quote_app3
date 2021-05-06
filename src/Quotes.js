@@ -1156,7 +1156,8 @@ const Quotes = [
     bigBrain: true,
   },
 
-  // I know this phrase didn't originate at McClymonds, but that's the first okace I heard it. Sue me. JK I'm not particular fond of litigation. Plus, I don't think what I did here is against the law.
+  // I know this phrase didn't originate at McClymonds, but that's the first place I heard it. Sue me. JK I'm not particularly fond of litigation.
+  //Plus, I don't think what I did here is against the law.
   {
     ID: 101,
     quote: "That's outta pocket.",
