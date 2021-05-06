@@ -1,15 +1,17 @@
+/*jshint esversion: 6 */
+
 // Path -->  /Users/nielssmith/Documents/GitHub/quote_app3/src/Quotes.js
 // in Terminal --> cd /Users/nielssmith/Documents/GitHub/quote_app3 && yarn start
 
 // Don't forget:
-//    1. ID is capitalized
+//    1. ID both letters are capitalized
 //    2. source & quote are both lowercase
 
 // NOTES
 // -> I need to figure out how to make line breaks \n  strings work in React
 
 // Things I just realized by chance:
-// -> Selecting a string of characters and hitting: SHIFT + apostrophe (either ' or  ")
+// -> Selecting a string of characters and hitting: SHIFT + apostrophe
 // ---> Will wrap the text in quotation "marks"/parenthesis.
 // ----> Crazy.
 
@@ -22,7 +24,6 @@
 
 // https://www.reddit.com/r/AskReddit/comments/47v7tm/what_quote_has_actually_stuck_with_you_and/
 
-/*jshint esversion: 6 */
 const Quotes = [
   {
     //https://www.goodreads.com/author/quotes/5350.L_M_Montgomery
@@ -1855,16 +1856,16 @@ const Quotes = [
     bigBrain: true,
   },
 
-  // {
-  //   ID: 161,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 161,
+    quote: "It takes as much energy to wish as it does to plan.",
+    source: "Eleanor Roosevelt",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
 
   // {
   //   ID: 162,
@@ -1901,6 +1902,72 @@ const Quotes = [
 
   // {
   //   ID: 165,
+  //   quote: "Text",
+  //   source: "Speaker",
+  //   sourcelink: "",
+  //   motive: false,
+  //   comedy: false,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
+
+  // {
+  //   ID: 166,
+  //   quote: "Text",
+  //   source: "Speaker",
+  //   sourcelink: "",
+  //   motive: false,
+  //   comedy: false,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
+
+  // {
+  //   ID: 167,
+  //   quote: "Text",
+  //   source: "Speaker",
+  //   sourcelink: "",
+  //   motive: false,
+  //   comedy: false,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
+
+  // {
+  //   ID: 168,
+  //   quote: "Text",
+  //   source: "Speaker",
+  //   sourcelink: "",
+  //   motive: false,
+  //   comedy: false,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
+
+  // {
+  //   ID: 169,
+  //   quote: "Text",
+  //   source: "Speaker",
+  //   sourcelink: "",
+  //   motive: false,
+  //   comedy: false,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
+
+  // {
+  //   ID: 170,
+  //   quote: "Text",
+  //   source: "Speaker",
+  //   sourcelink: "",
+  //   motive: false,
+  //   comedy: false,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
+
+  // {
+  //   ID: 171,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
