@@ -1,5 +1,5 @@
 /*jshint esversion: 6 */
-
+/*
 // Path -->  /Users/nielssmith/Documents/GitHub/quote_app3/src/Quotes.js
 // in Terminal --> cd /Users/nielssmith/Documents/GitHub/quote_app3 && yarn start
 
@@ -23,7 +23,7 @@
 // Add in a filer!
 
 // https://www.reddit.com/r/AskReddit/comments/47v7tm/what_quote_has_actually_stuck_with_you_and/
-
+*/
 const Quotes = [
   {
     //https://www.goodreads.com/author/quotes/5350.L_M_Montgomery
