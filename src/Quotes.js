@@ -1645,6 +1645,7 @@ const Quotes = [
     bigBrain: true,
   },
 
+  // I love this one
   {
     ID: 143,
     quote:
@@ -1709,7 +1710,7 @@ const Quotes = [
     ID: 148,
     quote: "Minima Maxima Sunt",
     source:
-      "Loosish Translation from Latin: ~the smallest things can have are the most important",
+      "Loosish Translation from Latin: ~the smallest things are the most important",
     sourcelink: "",
     motive: false,
     comedy: false,
@@ -1865,7 +1866,7 @@ const Quotes = [
     motive: false,
     comedy: false,
     romantic: false,
-    bigBrain: false,
+    bigBrain: true,
   },
 
   // {
