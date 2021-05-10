@@ -2,7 +2,7 @@
 // User: CoolAJ86
 // https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 // Thanks! 😬
-
+// /Users/ehiilmnsst / Documents / GitHub / quote_app3 / src / Quotes.js;
 import Quotes from "../Quotes.js";
 
 function shuffle(array) {

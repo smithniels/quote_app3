@@ -1533,7 +1533,7 @@ const Quotes = [
     bigBrain: true,
   },
 
-  // I've got mixed feelings on this one. I agree, but I also don't love hypbolicness of it. Painting with broad strokes there Mr. Cuba
+  // I've got mixed feelings on this one. I agree, but I also don't love hyperbolicness of it. Painting with broad strokes there, Mr. Cuba..
   {
     ID: 134,
     quote:
