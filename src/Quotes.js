@@ -1868,27 +1868,28 @@ const Quotes = [
     bigBrain: true,
   },
 
-  // {
-  //   ID: 162,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 162,
+    quote:
+      "The optimist proclaims that we live in the best of all possible worlds; and the pessimist fears this is true.",
+    source: "James Branch Cabell - The Silver Stallion",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
 
-  // {
-  //   ID: 163,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 163,
+    quote: "Luck is what happens when preparation meets opportunity.",
+    source: "Seneca",
+    sourcelink: "",
+    motive: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
 
   // {
   //   ID: 164,
