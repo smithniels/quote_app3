@@ -16,7 +16,6 @@
 // ----> Crazy.
 
 //TODOs
-// Add in a Quote adding function/submission
 // Add in a filter(higher order function)!
 // Add a progress bar to show progress? (cool idea)
 // Link up to an api to pull quotes from a site

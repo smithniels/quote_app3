@@ -1,6 +1,5 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-// import { QuotesRand } from "./Randomizer.js";
 import styled from "styled-components";
 import QuotesFilt from "./Filter.js";
 
@@ -18,11 +17,6 @@ export const BootstrapCarousel = () => {
           <div>
             <Carousel
               fade
-              // Keyboard functionality would be a nice addition!
-              // keyboard="true"
-              // keyboard
-              // keyboard={true}
-
               // /Users/ehiilmnsst / Documents / GitHub / quote_app3 / src / Quotes.js;
               // className="carousel-control-next-icon"
             >
@@ -35,7 +29,6 @@ export const BootstrapCarousel = () => {
                 </Carousel.Item>
               ))}
             </Carousel>
-            {/* not sure if this is how to add in an hr in react. I don't know why it wouldn't work though. I'll have to Google it when I have the chance! - Niels in a plane over the Atlantic */}
           </div>
         </div>
       </Styles>

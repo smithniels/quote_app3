@@ -9,12 +9,13 @@ const Bbrain = QuotesRand.filter((quote) => quote.bigBrain === true);
 
 function Filt(array) {
   // Take array and filter
-  QuotesRand.filter((quote) => quote.comedy === true);
+  QuotesRand.filter((quote) => quote.romantic === true);
   console.log(array);
   return array;
 }
 
-var QuotesFilt = Filt(QuotesRand);
+// var QuotesFilt = Filt(QuotesRand);
+var QuotesFilt = Romance;
 
 // console.log(QuotesFilt);
 
