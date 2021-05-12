@@ -1877,7 +1877,7 @@ const Quotes = [
     motive: false,
     comedy: false,
     romantic: false,
-    bigBrain: false,
+    bigBrain: true,
   },
 
   {
@@ -1891,27 +1891,28 @@ const Quotes = [
     bigBrain: false,
   },
 
-  // {
-  //   ID: 164,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 164,
+    quote:
+      "Success is the ability to go from one failure to another with no loss of enthusiasm",
+    source: "Winston Churchill",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
 
-  // {
-  //   ID: 165,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 165,
+    quote: "Always be a little kinder than you need to be",
+    source: "Anonymous",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
 
   // {
   //   ID: 166,
