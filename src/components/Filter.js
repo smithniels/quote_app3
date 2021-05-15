@@ -6,7 +6,7 @@ const Romance = QuotesRand.filter((quote) => quote.romantic === true);
 const Bbrain = QuotesRand.filter((quote) => quote.bigBrain === true);
 
 function Filt(array) {
-  QuotesRand.filter((quote) => quote.romantic === true);
+  QuotesRand.filter((quote) => quote.comedy === true);
   console.log(array);
   return array;
 }

@@ -31,9 +31,6 @@ html {
 }
 
 .container {
-  /* width: 60%;
-  max-width: 500px;
-  min-width: 450px; */
   padding: 20px;
   margin: 0 auto;
   display: flex;
@@ -42,8 +39,6 @@ html {
   flex-wrap: wrap;
   color: #1c1c1c;
 }
-
-/* responsive below */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
   .single-item {

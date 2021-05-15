@@ -107,7 +107,6 @@ class App extends React.Component {
                 <Col>
                   <Row>
                     <BootstrapCarousel />
-                    {/* <QuotesFilt /> */}
                   </Row>
                 </Col>
                 <Footer />
