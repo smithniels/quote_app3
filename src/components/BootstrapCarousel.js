@@ -15,11 +15,7 @@ export const BootstrapCarousel = () => {
       <Styles>
         <div className="container-fluid">
           <div>
-            <Carousel
-              fade
-              // /Users/ehiilmnsst / Documents / GitHub / quote_app3 / src / Quotes.js;
-              // className="carousel-control-next-icon"
-            >
+            <Carousel /*fade*/>
               {QuotesFilt.map((quote) => (
                 <Carousel.Item>
                   <div key={quote.ID}>

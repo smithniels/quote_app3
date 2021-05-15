@@ -1,5 +1,3 @@
-// Filter randomized quotes array by selection
-
 import QuotesRand from "./Randomizer.js";
 
 const Motivation = QuotesRand.filter((quote) => quote.motive === true);
@@ -8,15 +6,11 @@ const Romance = QuotesRand.filter((quote) => quote.romantic === true);
 const Bbrain = QuotesRand.filter((quote) => quote.bigBrain === true);
 
 function Filt(array) {
-  // Take array and filter
   QuotesRand.filter((quote) => quote.romantic === true);
   console.log(array);
   return array;
 }
 
-// var QuotesFilt = Filt(QuotesRand);
-var QuotesFilt = Romance;
-
-// console.log(QuotesFilt);
+var QuotesFilt = Filt(QuotesRand);
 
 export default QuotesFilt;
