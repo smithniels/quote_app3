@@ -1,6 +1,6 @@
 import React from "react";
-import { Carousel } from "react-bootstrap";
 import styled from "styled-components";
+import { Carousel } from "react-bootstrap";
 import QuotesFilt from "./Filter.js";
 
 const Styles = styled.div`
