@@ -110,7 +110,6 @@ class App extends React.Component {
                     <ButtonMenu />
                   </Row>
                   <Row>
-                    {" "}
                     <BootstrapCarousel />
                   </Row>
                 </Col>

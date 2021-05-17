@@ -1,6 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 
+const ButtonGroup = styled.div`
+  display: flex;
+`;
+
 const Button = styled.button`
   background-color: #fed715;
   color: #1c1c1c;
@@ -19,7 +23,12 @@ const Button = styled.button`
 export const ButtonMenu = () => {
   return (
     <div>
-      <Button /*buttonMenu*/>This is the button Menu component!</Button>
+      <ButtonGroup>
+        <Button /*buttonMenu*/>Comedy</Button>
+        <Button /*buttonMenu*/>Movtivation</Button>
+        <Button /*buttonMenu*/>Romance</Button>
+        <Button /*buttonMenu*/>Big Brains</Button>
+      </ButtonGroup>
     </div>
   );
 };
