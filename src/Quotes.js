@@ -1982,16 +1982,17 @@ const Quotes = [
     bigBrain: false,
   },
 
-  // {
-  //   ID: 172,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 172,
+    quote:
+      "Being aware of a single shortcoming within yourself is far more useful than being aware of a thousand in someone else.",
+    source: "Dalai Lama",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
 
   // {
   //   ID: 173,
