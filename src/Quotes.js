@@ -395,7 +395,7 @@ const Quotes = [
   },
 
   {
-    // This one makes little to no sense
+    // This one makes little to no sense. Should it even be marked as comedy?
     ID: 34,
     quote: "Sometimes life gives you lizards",
     source: "Niels Smith",

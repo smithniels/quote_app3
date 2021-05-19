@@ -13,7 +13,7 @@ const Styles = styled.div`
     z-index:5;
     border-radius: 25px,
     padding: 30vmin 1rem;
-    padding-top:50px;
+    padding-top:30px;
     justify-content: center;
 }
 
@@ -40,19 +40,16 @@ const Styles = styled.div`
       margin: auto 0;
       height:150px;
       color:pink;
-
     }
   }
-
 `;
+
 const Header = () => {
   return (
     <Styles>
       <div className="header" sticky>
         <h2>Sometimes Quotable!</h2>
-        <h5 className="subHeader">
-          "Here's a handful of quotes I enjoy" niels
-        </h5>
+        <h5 className="subHeader">"A list of quotes for you peruse" -niels</h5>
       </div>
     </Styles>
   );

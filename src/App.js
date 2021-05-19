@@ -14,7 +14,6 @@ import { BootstrapCarousel } from "./components/BootstrapCarousel.js";
 import styled from "styled-components";
 import { Container, Col, Row } from "react-bootstrap";
 import { ButtonMenu } from "./components/ButtonMenu.js";
-// import { QuotesFilt } from "./components/Filter.js";
 
 const Styles = styled.div`
 ${"" /* I don't think this actually does anything... */}

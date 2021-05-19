@@ -29,16 +29,16 @@ const Footer = () => (
   <Styles>
     <div className="footer">
       <p>
+        Created by Niels Smith
         <a
           href="https://smithniels.github.io/nsPortfolio/"
           target="_blank"
           rel="noreferrer"
         >
-          Niels Smith
+          {" "}
+          (Portfolio)
         </a>
       </p>
-      ~~ {"\n"}
-      <p> Data Analyst & Web Developer</p>
     </div>
   </Styles>
 );

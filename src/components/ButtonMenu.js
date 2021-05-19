@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Container, Col, Row } from "react-bootstrap";
 
 const ButtonGroup = styled.div`
   display: flex;
@@ -8,10 +9,10 @@ const ButtonGroup = styled.div`
 const Button = styled.button`
   background-color: #fed715;
   color: #1c1c1c;
-  font-size: 15px;
+  font-size: 12px;
   padding: 10px 20px;
   border-radius: 5px;
-  margin: 10px 0px;
+  margin: 20px 0px;
   cursor: pointer;
 `;
 
@@ -23,12 +24,20 @@ const Button = styled.button`
 export const ButtonMenu = () => {
   return (
     <div>
-      <ButtonGroup>
-        <Button /*buttonMenu*/>Comedy</Button>
-        <Button /*buttonMenu*/>Movtivation</Button>
-        <Button /*buttonMenu*/>Romance</Button>
-        <Button /*buttonMenu*/>Big Brains</Button>
-      </ButtonGroup>
+      <Container>
+        <ButtonGroup>
+          <Col>
+            <Row>
+              <Button>Comedy</Button>
+              <Button>Movtivation</Button>
+            </Row>
+            <Row>
+              <Button>Romance</Button>
+              <Button>Big Brains</Button>
+            </Row>
+          </Col>
+        </ButtonGroup>
+      </Container>
     </div>
   );
 };
