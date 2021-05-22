@@ -9,13 +9,12 @@
 
 // NOTES
 // -> I need to figure out how to make line breaks \n  strings work in React
-
 // Things I just realized by chance:
 // -> Selecting a string of characters and hitting: SHIFT + apostrophe
 // ---> Will wrap the text in quotation "marks"/parenthesis.
 // ----> Crazy.
 
-//TODOs
+// TODO's
 // Add in a filter(higher order function)!
 // Add a progress bar to show progress? (cool idea)
 // Link up to an api to pull quotes from a site
@@ -648,6 +647,7 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
+
   {
     ID: 56,
     quote:
@@ -1709,7 +1709,7 @@ const Quotes = [
     ID: 148,
     quote: "Minima Maxima Sunt",
     source:
-      "Loosish Translation from Latin: ~the smallest things are the most important",
+      "Loose-ish Translation from Latin: ~the smallest things are the most important",
     sourcelink: "",
     motive: false,
     comedy: false,

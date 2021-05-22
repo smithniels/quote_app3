@@ -16,10 +16,6 @@ import { Container, Col, Row } from "react-bootstrap";
 import { ButtonMenu } from "./components/ButtonMenu.js";
 
 const Styles = styled.div`
-${"" /* I don't think this actually does anything... */}
-  :root {
-    --color-primary: #fed715;
-  }
 
   html {
     box-sizing: border-box;
