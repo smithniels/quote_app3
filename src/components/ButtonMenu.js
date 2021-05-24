@@ -16,28 +16,31 @@ const Button = styled.button`
   cursor: pointer;
 `;
 
-// function buttonMenu = () => {
-// e.preventDefault()
-// console.log("The button's been pressed!")
-// }
+class ButtonMenu extends Component {
+constructor() {
+  super(props);
+  this.sayHello = this.sayHello.bind(this);
+}
 
-export const ButtonMenu = () => {
+sayHello() {
+  alert('Hello!');
+}
+
   return (
-    <div>
       <Container>
         <ButtonGroup>
           <Col>
             <Row>
-              <Button>Comedy</Button>
+              <Button onClick={this.sayHello}>Comedy</Button>
               <Button>Movtivation</Button>
             </Row>
             <Row>
               <Button>Romance</Button>
-              <Button>Big Brains</Button>
+              <Button>Big Brain</Button>
             </Row>
           </Col>
         </ButtonGroup>
-      </Container>
-    </div>
+      </Container>}
   );
-};
+}
+export default ButtonMenu
