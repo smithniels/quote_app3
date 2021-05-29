@@ -7,6 +7,15 @@ const Styles = styled.div`
   h5 {
     margin-bottom: 5%;
   }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    filter: invert(100%);
+  }
+
+  Carousel.Item {
+    width: 5% !important;
+  }
 `;
 
 export const BootstrapCarousel = () => {

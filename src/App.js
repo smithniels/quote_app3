@@ -13,7 +13,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { BootstrapCarousel } from "./components/BootstrapCarousel.js";
 import styled from "styled-components";
 import { Container, Col, Row } from "react-bootstrap";
-import { ButtonMenu } from "./components/ButtonMenu.js";
+// import { ButtonMenu } from "./components/ButtonMenu.js";
 
 const Styles = styled.div`
 
@@ -101,9 +101,7 @@ class App extends React.Component {
             <Container fluid>
               <Col>
                 <Col>
-                  <Row>
-                    <ButtonMenu />
-                  </Row>
+                  <Row>{/* <ButtonMenu /> */}</Row>
                   <Row>
                     <BootstrapCarousel />
                   </Row>
