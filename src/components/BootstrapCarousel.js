@@ -11,10 +11,15 @@ const Styles = styled.div`
   .carousel-control-next,
   .carousel-control-prev {
     filter: invert(100%);
+    opacity: 40%;
   }
 
   Carousel.Item {
-    width: 5% !important;
+    color: red;
+  }
+
+  .Test {
+    color: red !important;
   }
 `;
 
@@ -24,7 +29,7 @@ export const BootstrapCarousel = () => {
       <Styles>
         <div className="container-fluid">
           <div>
-            <Carousel fade>
+            <Carousel fade class="Test">
               {QuotesFilt.map((quote) => (
                 <Carousel.Item>
                   <div key={quote.ID}>

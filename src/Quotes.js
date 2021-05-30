@@ -17,8 +17,8 @@
 // TODO's
 // Add in a filter(higher order function)!
 // Add a progress bar to show progress? (cool idea)
-// Link up to an api to pull quotes from a site
-// Add in a filer!
+// Link up to an api to pull quotes from a quote site
+
 
 // https://www.reddit.com/r/AskReddit/comments/47v7tm/what_quote_has_actually_stuck_with_you_and/
 */
@@ -327,8 +327,7 @@ const Quotes = [
   {
     ID: 28,
     quote: "I love you more than one more day",
-    source:
-      "Joan Didion - A Year of Magical Thinking(I'm not sure this is the exact title)",
+    source: "Joan Didion - The Year of Magical Thinking",
     sourcelink: "",
     motiv: false,
     comedy: false,
