@@ -1939,13 +1939,13 @@ const Quotes = [
 
   {
     ID: 168,
-    quote: "Text",
-    source: "Speaker",
+    quote: "You can't wait until life isn't hard anymore to be happy",
+    source: "nightbird - YouTube",
     sourcelink: "",
-    motive: false,
+    motive: true,
     comedy: false,
     romantic: false,
-    bigBrain: false,
+    bigBrain: true,
   },
 
   {
