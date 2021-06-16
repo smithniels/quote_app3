@@ -1961,13 +1961,14 @@ const Quotes = [
 
   {
     ID: 170,
-    quote: "Text",
-    source: "Speaker",
+    quote:
+      "The sad truth is that most evil is done by people who never make up their minds to be good or evil.",
+    source: "Hannah Arendt - The Banality of Evil",
     sourcelink: "",
     motive: false,
     comedy: false,
     romantic: false,
-    bigBrain: false,
+    bigBrain: true,
   },
 
   {
