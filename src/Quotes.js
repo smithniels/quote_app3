@@ -1950,12 +1950,12 @@ const Quotes = [
 
   {
     ID: 169,
-    quote: "Text",
-    source: "Speaker",
+    quote: "Love is blind despite the world’s attempt to give it eyes.",
+    source: "Matshona Dhliwayo",
     sourcelink: "",
     motive: false,
     comedy: false,
-    romantic: false,
+    romantic: true,
     bigBrain: false,
   },
 
@@ -1994,27 +1994,27 @@ const Quotes = [
     bigBrain: true,
   },
 
-  // {
-  //   ID: 173,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 173,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
 
-  // {
-  //   ID: 174,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 174,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
 
   // {
   //   ID: 175,
