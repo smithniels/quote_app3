@@ -201,7 +201,7 @@ const Quotes = [
   {
     ID: 16,
     quote: "They did you a favor",
-    source: "Mal Blum's Lionel Richie & breakup story",
+    source: "Mal Blum's (Lionel Richie & being broken up with) story",
     sourcelink: "",
     motiv: true,
     comedy: false,
