@@ -2008,13 +2008,13 @@ const Quotes = [
 
   {
     ID: 174,
-    quote: "Text",
-    source: "Speaker",
+    quote: "Nobody's defined by their worst day",
+    source: "Brenan - Dimension20",
     sourcelink: "",
-    motive: false,
+    motive: true,
     comedy: false,
     romantic: false,
-    bigBrain: false,
+    bigBrain: true,
   },
 
   // {
