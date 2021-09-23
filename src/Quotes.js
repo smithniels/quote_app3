@@ -175,7 +175,7 @@ const Quotes = [
 
   {
     ID: 14,
-    quote: "#14",
+    quote: "14",
     source: "",
     sourcelink: "",
     motiv: false,
@@ -268,6 +268,7 @@ const Quotes = [
     bigBrain: true,
   },
 
+  // all I ever wanted tbh
   {
     ID: 22,
     quote:
@@ -451,7 +452,7 @@ const Quotes = [
     bigBrain: false,
   },
 
-  // redditor or redditter?
+  // redditor or redditter? ... it's the first one... propbably
   {
     ID: 39,
     quote: "If we do it now, we'll never run out of time",
@@ -489,7 +490,8 @@ const Quotes = [
   {
     ID: 42,
     quote: "'No' is a complete sentence",
-    source: "CASHI Meeting",
+    source:
+      "CASHI Meeting (This isn't a thing CASHI came up with. That's just where I first heard it)",
     sourcelink: "",
     motiv: false,
     comedy: false,
@@ -1531,7 +1533,7 @@ const Quotes = [
     bigBrain: true,
   },
 
-  // I've got mixed feelings on this one. I agree, but I also don't love hyperbolicness of it. Painting with broad strokes there, Mr. Cuba..
+  // I've got mixed feelings on this one. I agree, but I also don't love hyperbolic-ness of it. Painting with broad strokes there, Mr. Cuba..
   {
     ID: 134,
     quote:
@@ -1810,6 +1812,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
+
   {
     ID: 157,
     quote: "The bad stuff is easier to believe. You ever notice that?",
