@@ -175,13 +175,14 @@ const Quotes = [
 
   {
     ID: 14,
-    quote: "14",
-    source: "",
+    quote:
+      "Be like water making its way through cracks. Do not be assertive, but adjust to the object, and you shall find a way around or through it. If nothing within you stays rigid, outward things will disclose themselves.",
+    source: "Bruce Lee",
     sourcelink: "",
     motiv: false,
     comedy: true,
     romantic: false,
-    bigBrain: false,
+    bigBrain: true,
   },
 
   {
@@ -2077,6 +2078,61 @@ const Quotes = [
 
   // {
   //   ID: 180,
+  //   quote: "Text",
+  //   source: "Speaker",
+  //   sourcelink: "",
+  //   motive: false,
+  //   comedy: false,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
+
+  // {
+  //   ID: 181,
+  //   quote: "Text",
+  //   source: "Speaker",
+  //   sourcelink: "",
+  //   motive: false,
+  //   comedy: false,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
+
+  // {
+  //   ID: 182,
+  //   quote: "Text",
+  //   source: "Speaker",
+  //   sourcelink: "",
+  //   motive: false,
+  //   comedy: false,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
+
+  // {
+  //   ID: 183,
+  //   quote: "Text",
+  //   source: "Speaker",
+  //   sourcelink: "",
+  //   motive: false,
+  //   comedy: false,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
+
+  // {
+  //   ID: 184,
+  //   quote: "Text",
+  //   source: "Speaker",
+  //   sourcelink: "",
+  //   motive: false,
+  //   comedy: false,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
+
+  // {
+  //   ID: 185,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
