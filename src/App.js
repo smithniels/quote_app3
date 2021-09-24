@@ -18,26 +18,26 @@ import { Container, Col, Row } from "react-bootstrap";
 const Styles = styled.div`
 
   html {
+    background-color: #f5f5f5;
+    background-position: right top;
+    background-size: cover;
     box-sizing: border-box;
     background-attachment: fixed;
-    list-style-type: none;
     font-size: calc(10px + 2vmin);
+    padding: 0 auto;
+    list-style-type: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-    background-position: right top;
-    background-color: #f5f5f5;
-    padding: 0 auto;
   }
 
   *,
   ::before,
   ::after {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0) !important;
     box-sizing: inherit;
     list-style-type: none;
     text-decoration: none;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0) !important;
   }
 
   html,
@@ -49,36 +49,36 @@ const Styles = styled.div`
   }
 
   body:before {
+    background-image: url("https://picsum.photos/1200/900?grayscale"); 
+    background-size: cover;
+    background-position: top;
     content: "";
     display: block;
-    position: fixed;
+    height: 100%;
     left: 0;
     top: 0;
+    position: fixed;
     width: 100%;
-    height: 100%;
     z-index: -10;
-    background-image: url("https://picsum.photos/1200/900?grayscale"); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-    background-position: top;
   }
 
   .classic:before {
     content: "";
     display: block;
-    position: fixed;
+    height: 100%;
     left: 0;
     top: 0;
+    position: fixed;
     width: 100%;
-    height: 100%;
     z-index: -10;
   }
 
   .mainBit { 
-    color: #1c1c1c; ;
     border: 1.8px solid #fed715;
+    color: #1c1c1c; ;
     padding:2%;
   }
   

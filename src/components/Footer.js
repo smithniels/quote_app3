@@ -3,15 +3,15 @@ import styled from "styled-components";
 
 const Styles = styled.div`
   .footer {
-    padding: 1rem 0rem;
-    background-color: #fed715;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
     align-content: center;
+    background-color: #fed715;
+    bottom: 0;
+    display: flex;
     justify-content: center;
+    left: 0;
+    padding: 1rem 0rem;
+    position: fixed;
+    width: 100%;
     z-index: 10000;
   }
 
@@ -20,10 +20,6 @@ const Styles = styled.div`
   }
   //
 `;
-// // const Text = styled.Text`
-// //   text-align: left;
-// //   font-size: 20px;
-// `;
 
 const Footer = () => (
   <Styles>

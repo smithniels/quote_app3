@@ -3,27 +3,27 @@ import styled from "styled-components";
 
 const Styles = styled.div`
   .header{
-    margin-bottom:1.4rem
-    display: flex,
-    align-items: center,
-    width: 80%,
+    align-items: center;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
     background-color: #fed715;
-    border: black 2px solid,
-    font-size: 50px !important, 
-    z-index:5;
-    border-radius: 25px,
+    border: black 2px solid;
+    font-size: 50px !important; 
     padding: 30vmin 1rem;
     padding-top:30px;
-    justify-content: center;
+    margin-bottom:1.4rem;
+    width: 80%;
+    z-index:5;
 }
 
   .subHeader{
-    font-size: 15px;
-    font-style:i italic;
+    border-bottom:5px solid #fed715;
+    border-radius: 5px 20px 5px;
     display: flex;
     justify-content: center;
-    border-bottom: #fed715 5px solid;
-    border-radius: 5px 20px 5px;
+    font-size: 15px;
+    font-style: italic;
     margin-bottom:10%;
   }
 
