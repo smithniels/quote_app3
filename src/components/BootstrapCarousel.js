@@ -18,6 +18,10 @@ const Styles = styled.div`
     color: red;
   }
 
+  .mark {
+    font-size: calc(12px + 2vmin);
+  }
+
   .Test {
     color: red !important;
   }
@@ -33,7 +37,7 @@ export const BootstrapCarousel = () => {
               {QuotesFilt.map((quote) => (
                 <Carousel.Item>
                   <div key={quote.ID}>
-                    <h1>"{quote.quote}"</h1>
+                    <h1>"{quote.quote}</h1>
                     <h5> - {quote.source}</h5>
                   </div>
                 </Carousel.Item>
