@@ -4,12 +4,12 @@ import styled from "styled-components";
 const Styles = styled.div`
   .header{
     align-items: center;
-    border-radius: 25px;
-    display: flex;
-    justify-content: center;
     background-color: #fed715;
     border: black 2px solid;
-    font-size: 50px !important; 
+    border-radius: 25px;
+    display: flex;
+    font-size: 50px !important; /* does this make a difference? */
+    justify-content: center;
     padding: 30vmin 1rem;
     padding-top:30px;
     margin-bottom:1.4rem;
@@ -21,9 +21,9 @@ const Styles = styled.div`
     border-bottom:5px solid #fed715;
     border-radius: 5px 20px 5px;
     display: flex;
-    justify-content: center;
     font-size: 15px;
     font-style: italic;
+    justify-content: center;
     margin-bottom:10%;
   }
 
@@ -36,10 +36,10 @@ const Styles = styled.div`
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
     .header{
-      padding: auto;
-      margin: auto 0;
+      color: pink;
       height:150px;
-      color:pink;
+      margin: auto 0;
+      padding: auto;
     }
   }
 `;
