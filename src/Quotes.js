@@ -2010,6 +2010,7 @@ const Quotes = [
     bigBrain: true,
   },
 
+  
   {
     ID: 174,
     quote: "Nobody's defined by their worst day",
@@ -2021,16 +2022,16 @@ const Quotes = [
     bigBrain: true,
   },
 
-  // {
-  //   ID: 175,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 175,
+    quote: "opportunities don’t knock, they whisper. So shut up and listen.",
+    source: "Thomas Leonard",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
 
   // {
   //   ID: 176,
