@@ -1333,12 +1333,11 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-
+  // This line has always held a soft spot in my heart
   {
     ID: 117,
-    quote: "...that means she gets it.",
-    source:
-      "Ralph Fiennes - somewhere in the 2nd half of The Grand Budapest Hotel. I need to re-watch this to find it the exact quote",
+    quote: "That's a good sign you know. That means she gets it.",
+    source: "Ralph Fiennes - Grand Budapest Hotel (1:10:37)",
     sourcelink: "",
     motive: false,
     comedy: false,
@@ -2010,7 +2009,6 @@ const Quotes = [
     bigBrain: true,
   },
 
-  
   {
     ID: 174,
     quote: "Nobody's defined by their worst day",
