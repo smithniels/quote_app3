@@ -9,10 +9,8 @@
 
 // NOTES
 // -> I need to figure out how to make line breaks \n  strings work in React
-// Things I just realized by chance:
+// Things I just realizež by chance:
 // -> Selecting a string of characters and hitting: SHIFT + apostrophe
-// ---> Will wrap the text in quotation "marks"/parenthesis.
-// ----> Crazy.
 
 // TODO's
 // Add in a filter(higher order function)!
@@ -1973,7 +1971,7 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-
+``
   {
     ID: 171,
     quote: "Text",
@@ -2012,7 +2010,7 @@ const Quotes = [
   {
     ID: 174,
     quote: "Nobody's defined by their worst day",
-    source: "Brenan - Dimension20",
+    source: "Brenan Lee Muligan - Dimension20",
     sourcelink: "",
     motive: true,
     comedy: false,
