@@ -1972,16 +1972,17 @@ const Quotes = [
     romantic: false,
     bigBrain: true,
   },
-``
+
   {
     ID: 171,
-    quote: "Text",
-    source: "Speaker",
+    quote:
+      "Money is like a sixth sense without which you cannot make a complete use of the other five.",
+    source: "W. Somerset Maugham",
     sourcelink: "",
     motive: false,
     comedy: false,
     romantic: false,
-    bigBrain: false,
+    bigBrain: true,
   },
 
   {
@@ -2030,16 +2031,16 @@ const Quotes = [
     bigBrain: false,
   },
 
-  // {
-  //   ID: 176,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 176,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
 
   // {
   //   ID: 177,
