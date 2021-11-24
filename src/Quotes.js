@@ -1776,7 +1776,7 @@ const Quotes = [
     bigBrain: false,
   },
 
-  // 2020 Quarantine Workout Mantra
+  // 2020 Quarantine Life/Workout Mantra
   {
     ID: 154,
     quote: "If something's worth doing, it's worth doing badly",
@@ -1814,7 +1814,7 @@ const Quotes = [
   {
     ID: 157,
     quote: "The bad stuff is easier to believe. You ever notice that?",
-    source: " - Pretty Woman",
+    source: "______ - Pretty Woman",
     sourcelink: "",
     motive: false,
     comedy: false,
@@ -1846,6 +1846,7 @@ const Quotes = [
   },
 
   // iPhone wallpaper for the months leading up to my move to Denmark
+  // Tattoo Idea
   {
     ID: 160,
     quote: "I did not come this far to ONLY come this far",
