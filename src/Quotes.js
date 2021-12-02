@@ -2033,6 +2033,18 @@ const Quotes = [
 
   {
     ID: 176,
+    quote:
+      "Forgetting the past is one of humankind's most popular recreational activities",
+    source: "u/Tonspuren - Reddit",
+    sourcelink: "",
+    motive: false,
+    comedy: true,
+    romantic: false,
+    bigBrain: false,
+  },
+
+  {
+    ID: 177,
     quote: "Text",
     source: "Speaker",
     sourcelink: "",
@@ -2041,17 +2053,6 @@ const Quotes = [
     romantic: false,
     bigBrain: false,
   },
-
-  // {
-  //   ID: 177,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
 
   // {
   //   ID: 178,
