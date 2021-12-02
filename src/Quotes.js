@@ -1531,17 +1531,15 @@ const Quotes = [
     bigBrain: true,
   },
 
-  // I've got mixed feelings on this one. I agree, but I also don't love hyperbolic-ness of it. Painting with broad strokes there, Mr. Cuba..
   {
     ID: 134,
-    quote:
-      "What I don’t understand is why so many people think whining has a negative connotation. I don’t. Whining is the first step toward change. It’s the moment when you realize something is very wrong and that you have to take the initiative to do something about it… People who don’t whine are punching bags. They just go about their days, their jobs, their lives, knowing there is nothing they can do to change a darn thing, so why say a word? They see no reason to whine because they know they are incapable of effecting change. Call me a whiner any day.",
-    source: "Mark Cuban",
+    quote: "",
+    source: "",
     sourcelink: "",
-    motive: true,
+    motive: false,
     comedy: false,
     romantic: false,
-    bigBrain: true,
+    bigBrain: false,
   },
 
   {
@@ -1708,7 +1706,7 @@ const Quotes = [
     ID: 148,
     quote: "Minima Maxima Sunt",
     source:
-      "Loose-ish Translation from Latin: ~the smallest things are the most important",
+      "Translation from Latin: ~the smallest things are the most important",
     sourcelink: "",
     motive: false,
     comedy: false,
@@ -1814,7 +1812,7 @@ const Quotes = [
   {
     ID: 157,
     quote: "The bad stuff is easier to believe. You ever notice that?",
-    source: "______ - Pretty Woman",
+    source: "(Julia Roberts) - Pretty Woman",
     sourcelink: "",
     motive: false,
     comedy: false,
@@ -1957,8 +1955,8 @@ const Quotes = [
     sourcelink: "",
     motive: false,
     comedy: false,
-    romantic: true,
-    bigBrain: false,
+    romantic: false,
+    bigBrain: true,
   },
 
   {
@@ -2012,7 +2010,7 @@ const Quotes = [
   {
     ID: 174,
     quote: "Nobody's defined by their worst day",
-    source: "Brenan Lee Muligan - Dimension20",
+    source: "Brenan Lee Muligan - Dimension20 <3",
     sourcelink: "",
     motive: true,
     comedy: false,
@@ -2022,7 +2020,7 @@ const Quotes = [
 
   {
     ID: 175,
-    quote: "opportunities don’t knock, they whisper. So shut up and listen.",
+    quote: "Opportunities don’t knock, they whisper. So shut up and listen.",
     source: "Thomas Leonard",
     sourcelink: "",
     motive: false,
@@ -2045,10 +2043,10 @@ const Quotes = [
 
   {
     ID: 177,
-    quote: "Text",
-    source: "Speaker",
+    quote: "Be tough on the process, but gentle with the output",
+    source: "Dan Brown",
     sourcelink: "",
-    motive: false,
+    motive: true,
     comedy: false,
     romantic: false,
     bigBrain: false,
