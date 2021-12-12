@@ -1,17 +1,17 @@
-import QuotesRand from "./Randomizer.js";
+// import QuotesRand from "./Randomizer.js";
 
-const Motivation = QuotesRand.filter((quote) => quote.motive === true);
-const Lols = QuotesRand.filter((quote) => quote.comedy === true);
-const Romance = QuotesRand.filter((quote) => quote.romantic === true);
-const Bbrain = QuotesRand.filter((quote) => quote.bigBrain === true);
+// const Motivation = QuotesRand.filter((quote) => quote.motive === true);
+// const Lols = QuotesRand.filter((quote) => quote.comedy === true);
+// const Romance = QuotesRand.filter((quote) => quote.romantic === true);
+// const Bbrain = QuotesRand.filter((quote) => quote.bigBrain === true);
 
-function Filt(array) {
-  // QuotesRand.filter((quote) => quote.comedy === true);
-  array = Romance;
-  console.log(array);
-  return array;
-}
+// function Filt(array) {
+//   // QuotesRand.filter((quote) => quote.comedy === true);
+//   array = Motivation;
+//   console.log(array);
+//   return array;
+// }
 
-var QuotesFilt = Filt(QuotesRand);
+// var QuotesFilt = Filt(QuotesRand);
 
-export default QuotesFilt;
+// export default QuotesFilt;
