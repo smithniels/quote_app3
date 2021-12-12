@@ -79,7 +79,7 @@ const Styles = styled.div`
   .mainBit { 
     border: 1.8px solid #fed715;
     color: #1c1c1c; ;
-    padding:2%;
+    padding: 2%;
   }
   
 `;

@@ -1465,7 +1465,7 @@ const Quotes = [
     ID: 128,
     quote:
       "If you can't fly then run, if you can't run then walk, if you can't walk then crawl, but whatever you do you have to keep moving forward.",
-    source: "Martin Luther King Jr .",
+    source: "Martin Luther King Jr.",
     sourcelink: "",
     motive: true,
     comedy: false,
@@ -2049,19 +2049,20 @@ const Quotes = [
     motive: true,
     comedy: false,
     romantic: false,
-    bigBrain: false,
+    bigBrain: true,
   },
 
-  // {
-  //   ID: 178,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 178,
+    quote:
+      "You know, sometimes all you need is twenty seconds of insane courage. Just literally twenty seconds of just embarrassing bravery. And I promise you, something great will come of it.",
+    source: "Benjamin Mee() - We Bought a Zoo",
+    sourcelink: "",
+    motive: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
 
   // {
   //   ID: 179,
