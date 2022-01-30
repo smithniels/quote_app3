@@ -1,26 +1,6 @@
-/*jshint esversion: 6 */
-/*
-// Path -->  /Users/nielssmith/Documents/GitHub/quote_app3/src/Quotes.js
-// in Terminal --> cd /Users/nielssmith/Documents/GitHub/quote_app3 && yarn start
+let Quotes;
 
-// Don't forget:
-//    1. ID both letters are capitalized
-//    2. source & quote are both lowercase
-
-// NOTES
-// -> I need to figure out how to make line breaks \n  strings work in React
-// Things I just realizež by chance:
-// -> Selecting a string of characters and hitting: SHIFT + apostrophe
-
-// TODO's
-// Add in a filter(higher order function)!
-// Add a progress bar to show progress? (cool idea)
-// Link up to an api to pull quotes from a quote site
-
-
-// https://www.reddit.com/r/AskReddit/comments/47v7tm/what_quote_has_actually_stuck_with_you_and/
-*/
-const Quotes = [
+Quotes = [
   {
     //https://www.goodreads.com/author/quotes/5350.L_M_Montgomery
     ID: 1,
@@ -2064,74 +2044,143 @@ const Quotes = [
     bigBrain: true,
   },
 
-  // {
-  //   ID: 179,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 179,
+    quote: "Always do what you’re afraid to do",
+    source: "Ralph Waldo Emerson",
+    sourcelink: "",
+    motive: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
 
-  // {
-  //   ID: 180,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  // One of my favorite quotes ever ❤️
+  {
+    ID: 180,
+    quote:
+      "I have grown to love secrecy. It seems to be the one thing that can make modern life mysterious or marvellous to us. The commonest thing is delightful if only one hides it.",
+    source: "Oscar Wilde",
+    sourcelink: "",
+    motive: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
 
-  // {
-  //   ID: 181,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 181,
+    quote:
+      "I wish it need not have happened in my time, said Frodo. So do I, said Gandalf,and so do all who live to see such times. But that is not for them to decide All we have to decide is what to do with the time that is given us ",
+    source: "JRR Tolkien",
+    sourcelink: "",
+    motive: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
 
-  // {
-  //   ID: 182,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 182,
+    quote:
+      "Courage doesn’t always roar. Sometimes it is a quiet voice at the end of the day saying, I will try again tomorrow",
+    source: "Mary Anne Radmacher",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
 
-  // {
-  //   ID: 183,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 183,
+    quote: "The first draft is just you telling yourself the story",
+    source: "Terry Pratchett",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
 
-  // {
-  //   ID: 184,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 184,
+    quote: `Where you are is a result of who you were, but where you go depends entirely on who you choose to be.`,
+    source: "Hal Elrod",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
 
   // {
   //   ID: 185,
+  //   quote: "Text",
+  //   source: "Speaker",
+  //   sourcelink: "",
+  //   motive: false,
+  //   comedy: false,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
+
+  // {
+  //   ID: 186,
+  //   quote: "Text",
+  //   source: "Speaker",
+  //   sourcelink: "",
+  //   motive: false,
+  //   comedy: false,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
+  // {
+  //   ID: 187,
+  //   quote: "Text",
+  //   source: "Speaker",
+  //   sourcelink: "",
+  //   motive: false,
+  //   comedy: false,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
+
+  // {
+  //   ID: 188,
+  //   quote: "Text",
+  //   source: "Speaker",
+  //   sourcelink: "",
+  //   motive: false,
+  //   comedy: false,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
+
+  // {
+  //   ID: 189,
+  //   quote: "Text",
+  //   source: "Speaker",
+  //   sourcelink: "",
+  //   motive: false,
+  //   comedy: false,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
+
+  // {
+  //   ID: 190,
+  //   quote: "Text",
+  //   source: "Speaker",
+  //   sourcelink: "",
+  //   motive: false,
+  //   comedy: false,
+  //   romantic: false,
+  //   bigBrain: false,
+  // },
+
+  // {
+  //   ID: 191,
   //   quote: "Text",
   //   source: "Speaker",
   //   sourcelink: "",
