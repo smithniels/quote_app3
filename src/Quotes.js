@@ -2114,16 +2114,17 @@ Quotes = [
     bigBrain: false,
   },
 
-  // {
-  //   ID: 185,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 185,
+    quote:
+      "One day at a time - this is enough. Do not look back and grieve over the past, for it is gone; and do not be troubled about the future for it has not yet come. Live in the present, and make it so beautiful that is will be worth remembering",
+    source: "Ida Scott Taylor",
+    sourcelink: "",
+    motive: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
 
   // {
   //   ID: 186,
