@@ -2126,17 +2126,19 @@ Quotes = [
     bigBrain: true,
   },
 
-  // {
-  //   ID: 186,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
-  // {
+  {
+    ID: 186,
+    quote:
+      "I have learned over the years that when one’s mind is made up, this diminishes fear. Knowing what must be done does away with fear.”",
+    source: "Rosa Parks",
+    sourcelink: "",
+    motive: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
+
+  //, {
   //   ID: 187,
   //   quote: "Text",
   //   source: "Speaker",
