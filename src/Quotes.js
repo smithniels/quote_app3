@@ -2138,16 +2138,18 @@ Quotes = [
     bigBrain: false,
   },
 
-  //, {
-  //   ID: 187,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  ,
+  {
+    ID: 187,
+    quote:
+      "When you have exhausted all possibilities, remember this: you haven't.",
+    source: "Thomas Edison",
+    sourcelink: "",
+    motive: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
 
   // {
   //   ID: 188,
