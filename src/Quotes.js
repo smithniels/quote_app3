@@ -2071,7 +2071,7 @@ Quotes = [
   {
     ID: 181,
     quote:
-      "I wish it need not have happened in my time, said Frodo. So do I, said Gandalf,and so do all who live to see such times. But that is not for them to decide All we have to decide is what to do with the time that is given us ",
+      "I wish it need not have happened in my time, said Frodo. So do I, said Gandalf,and so do all who live to see such times. But that is not for them to decide. All we have to decide is what to do with the time that is given us ",
     source: "JRR Tolkien",
     sourcelink: "",
     motive: true,
@@ -2105,7 +2105,7 @@ Quotes = [
 
   {
     ID: 184,
-    quote: `Where you are is a result of who you were, but where you go depends entirely on who you choose to be.`,
+    quote: `Where you are is a result of who you were, but where you go depends entirely on who you choose to be.`,
     source: "Hal Elrod",
     sourcelink: "",
     motive: false,
