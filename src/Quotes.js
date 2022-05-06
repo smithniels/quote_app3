@@ -2151,16 +2151,17 @@ Quotes = [
     bigBrain: true,
   },
 
-  // {
-  //   ID: 188,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 188,
+    quote:
+      "Enjoy the little things, for one day you may look back and realize they were the big things.",
+    source: "Robert Brault",
+    sourcelink: "",
+    motive: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
 
   // {
   //   ID: 189,
