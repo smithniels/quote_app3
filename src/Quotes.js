@@ -2162,39 +2162,109 @@ Quotes = [
     romantic: false,
     bigBrain: true,
   },
+  // here down are new Jun26
+  {
+    ID: 189,
+    quote:
+      "I can accept failure. Everyone fails at something. But I can’t accept not trying.",
+    source: "Michael Jordan",
+    sourcelink: "",
+    motive: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
 
-  // {
-  //   ID: 189,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 190,
+    quote: "If you can laugh in the face of adversity, you're bulletproof",
+    source: "Ricky Gervais",
+    sourcelink: "",
+    motive: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
 
-  // {
-  //   ID: 190,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 191,
+    quote:
+      "When you have exhausted all possibilities, remember this: you haven't.",
+    source: "Thosmas Edison",
+    sourcelink: "",
+    motive: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
 
-  // {
-  //   ID: 191,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 192,
+    quote: "Don't be pushed by your problems. Be led by your dreams.",
+    source: "Ralph Waldo Emerson",
+    sourcelink: "",
+    motive: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
+
+  {
+    ID: 193,
+    quote: "The only difference between a weed and a flower is judgement",
+    source: "Wayne W. Dyer",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
+
+  {
+    ID: 191,
+    quote:
+      "If you listen to your fears, you will die never knowing what a great person you might have been.",
+    source: "Robert Schuller",
+    sourcelink: "",
+    motive: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
+
+  {
+    ID: 192,
+    quote:
+      "A limit of time is fixed for you, which if you do not use for clearing away the clouds from your mind, it will go and you will go, and it will never return.",
+    source: "Marcus Aurelius",
+    sourcelink: "",
+    motive: true,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
+
+  {
+    ID: 193,
+    quote: "If you can be anything in this world, be kind.",
+    source: "Caroline Flack",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
+  },
+
+  {
+    ID: 194,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
 ];
 
 export default Quotes;
