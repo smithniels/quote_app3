@@ -130,7 +130,7 @@ Quotes = [
   {
     ID: 12,
     quote:
-      "If you can’t explain it simply, you don’t understand it well enough.",
+      "If you can't explain it simply, you don't understand it well enough.",
     source: "Albert Einstein",
     sourcelink: "",
     motiv: true,
@@ -142,7 +142,7 @@ Quotes = [
   {
     ID: 13,
     quote:
-      "If you can understand human behavior, it can’t hurt you nearly as much.",
+      "If you can understand human behavior, it can't hurt you nearly as much.",
     source: "Carol Plum-Ucci",
     sourcelink: "",
     motiv: true,
@@ -238,7 +238,7 @@ Quotes = [
   {
     ID: 21,
     quote:
-      "What is it that you wanted me to reconcile myself to. I was born here more than 60 years ago. I'm not going to live another 60 years. You always told me that it's going to take time. It’s taken my father’s time, my mother’s time, my uncle’s time, my brothers’ and my sisters’ time, my nieces' and my nephews' time. How much time do you want for your progress?",
+      "What is it that you wanted me to reconcile myself to. I was born here more than 60 years ago. I'm not going to live another 60 years. You always told me that it's going to take time. It's taken my father's time, my mother's time, my uncle's time, my brothers' and my sisters' time, my nieces' and my nephews' time. How much time do you want for your progress?",
     source: "James Baldwin",
     sourcelink: "",
     motiv: true,
@@ -352,7 +352,7 @@ Quotes = [
   {
     ID: 32,
     quote:
-      "The best way to not feel hopeless is to get up and do something. Don’t wait for good things to happen to you. If you go out and make some good things happen, you will fill the world with hope, you will fill yourself with hope.",
+      "The best way to not feel hopeless is to get up and do something. Don't wait for good things to happen to you. If you go out and make some good things happen, you will fill the world with hope, you will fill yourself with hope.",
     source: "President Barack Obama",
     sourcelink: "",
     motiv: true,
@@ -679,7 +679,7 @@ Quotes = [
   {
     ID: 60,
     quote:
-      "The doctor put her hands over my liver. She told me my resentment’s getting smaller",
+      "The doctor put her hands over my liver. She told me my resentment's getting smaller",
     source: "Phobe Bridgers - Garden Song",
     sourcelink: "",
     motiv: false,
@@ -704,7 +704,7 @@ Quotes = [
   {
     ID: 62,
     quote:
-      "But the only way I’d fall is if I jumped. That’s why you’re afraid to come over here. Because a tiny part of you wants to jump. Because it would be so easy. But, I don’t want to jump, so, I’m not afraid. I would never do that. I’m having too good of a time.",
+      "But the only way I'd fall is if I jumped. That's why you're afraid to come over here. Because a tiny part of you wants to jump. Because it would be so easy. But, I don't want to jump, so, I'm not afraid. I would never do that. I'm having too good of a time.",
     source: "Parker Posey - Louie S03E04",
     sourcelink: "",
     motiv: true,
@@ -716,7 +716,7 @@ Quotes = [
   {
     ID: 63,
     quote:
-      "I am the Saudi Arabia of unhappiness. I have so many reserves of misery that you wouldn’t understand. I actually think that’s part of why I connect with Canadians. I think they understand grinding misery underneath",
+      "I am the Saudi Arabia of unhappiness. I have so many reserves of misery that you wouldn't understand. I actually think that's part of why I connect with Canadians. I think they understand grinding misery underneath",
     source: "Craig Ferguson",
     sourcelink: "",
     motiv: false,
@@ -729,7 +729,7 @@ Quotes = [
   {
     ID: 64,
     quote:
-      "But when exactly can we say that someone is over complicating things? A good rule of thumb is when you’re writing code that solves problems you don’t have.",
+      "But when exactly can we say that someone is over complicating things? A good rule of thumb is when you're writing code that solves problems you don't have.",
     source: "Daan _______ - Blogger on Medium",
     sourcelink: "",
     motiv: false,
@@ -905,7 +905,7 @@ Quotes = [
   {
     ID: 79,
     quote:
-      "When everything is going right, we don’t notice. But when things fall apart, we react. Maybe the key to happiness is just noticing.",
+      "When everything is going right, we don't notice. But when things fall apart, we react. Maybe the key to happiness is just noticing.",
     source: "Shen - Owlturd",
     sourcelink: "",
     motiv: true,
@@ -939,7 +939,7 @@ Quotes = [
   {
     ID: 82,
     quote:
-      "I’ve spent my life trying to undo habits – especially habits of thinking. They narrow your interaction with the world. They’re the phrases that come easily to your mind, like: ‘I know what I think,’ or ‘I know what I like,’ or ‘I know what’s going to happen today.’ If you just replace ‘know’ with ‘don’t know,’ then you start to move into the unknown. And that’s where the interesting stuff happens.",
+      "I've spent my life trying to undo habits – especially habits of thinking. They narrow your interaction with the world. They're the phrases that come easily to your mind, like: ‘I know what I think,' or ‘I know what I like,' or ‘I know what's going to happen today.' If you just replace ‘know' with ‘don't know,' then you start to move into the unknown. And that's where the interesting stuff happens.",
     source: "Stylish elderly woman - Humans of New York",
     sourcelink: "",
     motiv: true,
@@ -1151,7 +1151,7 @@ Quotes = [
   {
     ID: 102,
     quote:
-      "Kill your darlings, kill your darlings, even when it breaks your egocentric little scribbler’s heart, kill your darlings.",
+      "Kill your darlings, kill your darlings, even when it breaks your egocentric little scribbler's heart, kill your darlings.",
     source: "Stephen King",
     sourcelink: "",
     motive: true,
@@ -1175,7 +1175,7 @@ Quotes = [
   {
     ID: 104,
     quote:
-      "When there is overwhelming complexity in a proposed architecture or solution, I always like to take a step back, re-evaluate what we’re really trying to solve/build and think if there is a much simpler way to get to the same goal. Sometimes, you’ll realize",
+      "When there is overwhelming complexity in a proposed architecture or solution, I always like to take a step back, re-evaluate what we're really trying to solve/build and think if there is a much simpler way to get to the same goal. Sometimes, you'll realize",
     source: "Jacky Wong - Medium",
     sourcelink: "",
     motive: true,
@@ -1326,7 +1326,7 @@ Quotes = [
   {
     ID: 118,
     quote:
-      "Life isn’t Jeopardy — you don’t have to jump in with an answer the first chance you get",
+      "Life isn't Jeopardy — you don't have to jump in with an answer the first chance you get",
     source: "Michael Thompson - Medium",
     sourcelink: "",
     motive: false,
@@ -1396,7 +1396,7 @@ Quotes = [
   {
     ID: 124,
     quote:
-      "When you make the courageous decision to deliberately choose discomfort, you prove to yourself that you are no longer satisfied with the way things are and you won’t tolerate it any longer. You’re ready for change, for growth. You are ready to accept and embrace suffering because you want a better life for yourself, your family, and/or your business.",
+      "When you make the courageous decision to deliberately choose discomfort, you prove to yourself that you are no longer satisfied with the way things are and you won't tolerate it any longer. You're ready for change, for growth. You are ready to accept and embrace suffering because you want a better life for yourself, your family, and/or your business.",
     source: "Green Beret, Jason B. A. Van Camp",
     sourcelink: "",
     motive: true,
@@ -1420,7 +1420,7 @@ Quotes = [
   {
     ID: 126,
     quote:
-      "If you can understand human behavior, it can’t hurt you nearly as much.",
+      "If you can understand human behavior, it can't hurt you nearly as much.",
     source: "Carol Plum-Ucci",
     sourcelink: "",
     motive: false,
@@ -1649,7 +1649,7 @@ Quotes = [
   {
     ID: 145,
     quote:
-      "They say the lottery is a tax on people who can’t do the math. I would say arguing on the internet is a tax on people who don’t value their time.",
+      "They say the lottery is a tax on people who can't do the math. I would say arguing on the internet is a tax on people who don't value their time.",
     source: "Sean Kernan - Medium",
     sourcelink: "",
     motive: false,
@@ -1697,7 +1697,7 @@ Quotes = [
   {
     ID: 149,
     quote:
-      "Many people are like garbage trucks. They run around full of garbage, full of frustration, full of anger, and full of disappointment. As their garbage piles up, they look for a place to dump it. And if you let them, they’ll dump it on you. So when someone wants to dump on you, don’t take it personally. Just smile, wave, wish them well, and move on. Believe me. You’ll be happier.",
+      "Many people are like garbage trucks. They run around full of garbage, full of frustration, full of anger, and full of disappointment. As their garbage piles up, they look for a place to dump it. And if you let them, they'll dump it on you. So when someone wants to dump on you, don't take it personally. Just smile, wave, wish them well, and move on. Believe me. You'll be happier.",
     source: "Michael Thompson - Medium",
     sourcelink: "",
     motive: false,
@@ -1721,7 +1721,7 @@ Quotes = [
 
   {
     ID: 151,
-    quote: "Ah, the key to being interesting is to go where you aren’t boring!",
+    quote: "Ah, the key to being interesting is to go where you aren't boring!",
     source: "Michael Thompson's friend - Medium",
     sourcelink: "",
     motive: false,
@@ -1780,7 +1780,7 @@ Quotes = [
 
   {
     ID: 156,
-    quote: "Never take criticism from someone you wouldn’t take advice from.",
+    quote: "Never take criticism from someone you wouldn't take advice from.",
     source: "u/Panda_Burger - Reddit",
     sourcelink: "",
     motive: false,
@@ -1908,7 +1908,7 @@ Quotes = [
   {
     ID: 167,
     quote:
-      "If your actions don’t live up to your words, you have nothing to say.",
+      "If your actions don't live up to your words, you have nothing to say.",
     source: "DaShanne Stokes",
     sourcelink: "",
     motive: false,
@@ -1930,7 +1930,7 @@ Quotes = [
 
   {
     ID: 169,
-    quote: "Love is blind despite the world’s attempt to give it eyes.",
+    quote: "Love is blind despite the world's attempt to give it eyes.",
     source: "Matshona Dhliwayo",
     sourcelink: "",
     motive: false,
@@ -2000,7 +2000,7 @@ Quotes = [
 
   {
     ID: 175,
-    quote: "Opportunities don’t knock, they whisper. So shut up and listen.",
+    quote: "Opportunities don't knock, they whisper. So shut up and listen.",
     source: "Thomas Leonard",
     sourcelink: "",
     motive: false,
@@ -2046,7 +2046,7 @@ Quotes = [
 
   {
     ID: 179,
-    quote: "Always do what you’re afraid to do",
+    quote: "Always do what you're afraid to do",
     source: "Ralph Waldo Emerson",
     sourcelink: "",
     motive: true,
@@ -2083,7 +2083,7 @@ Quotes = [
   {
     ID: 182,
     quote:
-      "Courage doesn’t always roar. Sometimes it is a quiet voice at the end of the day saying, I will try again tomorrow",
+      "Courage doesn't always roar. Sometimes it is a quiet voice at the end of the day saying, I will try again tomorrow",
     source: "Mary Anne Radmacher",
     sourcelink: "",
     motive: false,
@@ -2100,7 +2100,7 @@ Quotes = [
     motive: false,
     comedy: false,
     romantic: false,
-    bigBrain: false,
+    bigBrain: true,
   },
 
   {
@@ -2111,7 +2111,7 @@ Quotes = [
     motive: false,
     comedy: false,
     romantic: false,
-    bigBrain: false,
+    bigBrain: true,
   },
 
   {
@@ -2129,7 +2129,7 @@ Quotes = [
   {
     ID: 186,
     quote:
-      "I have learned over the years that when one’s mind is made up, this diminishes fear. Knowing what must be done does away with fear.”",
+      "I have learned over the years that when one's mind is made up, this diminishes fear. Knowing what must be done does away with fear.”",
     source: "Rosa Parks",
     sourcelink: "",
     motive: true,
@@ -2162,11 +2162,11 @@ Quotes = [
     romantic: false,
     bigBrain: true,
   },
-  // here down are new Jun26
+
   {
     ID: 189,
     quote:
-      "I can accept failure. Everyone fails at something. But I can’t accept not trying.",
+      "I can accept failure. Everyone fails at something. But I can't accept not trying.",
     source: "Michael Jordan",
     sourcelink: "",
     motive: true,
@@ -2189,8 +2189,8 @@ Quotes = [
   {
     ID: 191,
     quote:
-      "When you have exhausted all possibilities, remember this: you haven't.",
-    source: "Thosmas Edison",
+      "No one has the power to shatter your dreams unless you give it to them.",
+    source: "Maeve Greyson",
     sourcelink: "",
     motive: true,
     comedy: false,
@@ -2200,7 +2200,7 @@ Quotes = [
 
   {
     ID: 192,
-    quote: "Don't be pushed by your problems. Be led by your dreams.",
+    quote: "Don't be pushed by your problems. Be led by your dreams.",
     source: "Ralph Waldo Emerson",
     sourcelink: "",
     motive: true,
@@ -2223,7 +2223,7 @@ Quotes = [
   {
     ID: 191,
     quote:
-      "If you listen to your fears, you will die never knowing what a great person you might have been.",
+      "If you listen to your fears, you will die never knowing what a great person you might have been.",
     source: "Robert Schuller",
     sourcelink: "",
     motive: true,
@@ -2246,7 +2246,7 @@ Quotes = [
 
   {
     ID: 193,
-    quote: "If you can be anything in this world, be kind.",
+    quote: "If you can be anything in this world, be kind.",
     source: "Caroline Flack",
     sourcelink: "",
     motive: false,
@@ -2264,6 +2264,178 @@ Quotes = [
     comedy: false,
     romantic: false,
     bigBrain: false,
+  },
+  {
+    ID: 195,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
+  {
+    ID: 196,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
+  {
+    ID: 197,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
+  {
+    ID: 198,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
+  {
+    ID: 199,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
+  {
+    ID: 200,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
+  {
+    ID: 201,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
+  {
+    ID: 202,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
+
+  {
+    ID: 203,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
+  {
+    ID: 204,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
+  {
+    ID: 205,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
+  {
+    ID: 206,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
+  {
+    ID: 207,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
+  {
+    ID: 208,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
+  {
+    ID: 209,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
+  {
+    ID: 210,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
+  {
+    ID: 211,
+    quote:
+      "If you're constantly cruel to yourself, you're going to feel the same as if another person was constantly cruel to you.",
+    source: "Nick Wignall - Medium",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: true,
   },
 ];
 
