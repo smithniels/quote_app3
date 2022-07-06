@@ -2129,7 +2129,7 @@ Quotes = [
   {
     ID: 186,
     quote:
-      "I have learned over the years that when one's mind is made up, this diminishes fear. Knowing what must be done does away with fear.”",
+      "I have learned over the years that when one's mind is made up, this diminishes fear. Knowing what must be done does away with fear.",
     source: "Rosa Parks",
     sourcelink: "",
     motive: true,
@@ -2250,15 +2250,15 @@ Quotes = [
     source: "Caroline Flack",
     sourcelink: "",
     motive: false,
-    comedy: false,
+    comedy: false,2
     romantic: false,
     bigBrain: true,
   },
 
   {
     ID: 194,
-    quote: "Text",
-    source: "Speaker",
+    quote: "If you're constantly cruel to yourself, you're going to feel the same as if another person was constantly cruel to you.",
+    source: "Nick Wignall - Medium",
     sourcelink: "",
     motive: false,
     comedy: false,
