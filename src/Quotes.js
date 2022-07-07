@@ -2265,7 +2265,7 @@ Quotes = [
     romantic: false,
     bigBrain: false,
   },
-  {
+  {``
     ID: 195,
     quote: "Text",
     source: "Speaker",
