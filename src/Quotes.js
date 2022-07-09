@@ -2250,27 +2250,29 @@ Quotes = [
     source: "Caroline Flack",
     sourcelink: "",
     motive: false,
-    comedy: false,2
+    comedy: false,
     romantic: false,
     bigBrain: true,
   },
 
   {
     ID: 194,
-    quote: "If you're constantly cruel to yourself, you're going to feel the same as if another person was constantly cruel to you.",
+    quote:
+      "If you're constantly cruel to yourself, you're going to feel the same as if another person was constantly cruel to you.",
     source: "Nick Wignall - Medium",
     sourcelink: "",
     motive: false,
     comedy: false,
     romantic: false,
-    bigBrain: false,
+    bigBrain: true,
   },
-  {``
+  {
     ID: 195,
-    quote: "Text",
-    source: "Speaker",
+    quote:
+      "What you do today is important because you are exchanging a day of your life for it.",
+    source: "Elizabeth George",
     sourcelink: "",
-    motive: false,
+    motive: true,
     comedy: false,
     romantic: false,
     bigBrain: false,
