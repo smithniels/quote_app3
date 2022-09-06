@@ -2279,8 +2279,9 @@ Quotes = [
   },
   {
     ID: 196,
-    quote: "Text",
-    source: "Speaker",
+    quote:
+      "If you can reframe your data cleaning as an investigation, it will be more fun",
+    source: "Sophie Sommer (CodeAcademy)",
     sourcelink: "",
     motive: false,
     comedy: false,
@@ -2289,18 +2290,20 @@ Quotes = [
   },
   {
     ID: 197,
-    quote: "Text",
-    source: "Speaker",
+    quote:
+      "Have enough courage to trust love one more time and always one more time.",
+    source: "Maya Angelou",
     sourcelink: "",
-    motive: false,
+    motive: true,
     comedy: false,
-    romantic: false,
-    bigBrain: false,
+    romantic: true,
+    bigBrain: true,
   },
   {
     ID: 198,
-    quote: "Text",
-    source: "Speaker",
+    quote:
+      "TThe longer we dwell on our misfortunes, the greater is their power to harm us.ext",
+    source: "Voltaire",
     sourcelink: "",
     motive: false,
     comedy: false,
@@ -2309,18 +2312,19 @@ Quotes = [
   },
   {
     ID: 199,
-    quote: "Text",
-    source: "Speaker",
+    quote: "Aim above morality. Be not simply good, be good for something",
+    source: "Henry David Thoreau",
     sourcelink: "",
-    motive: false,
+    motive: true,
     comedy: false,
     romantic: false,
-    bigBrain: false,
+    bigBrain: true,
   },
   {
     ID: 200,
-    quote: "Text",
-    source: "Speaker",
+    quote:
+      "When you are content to be simply yourself and do not compare or compete, everyone will respect you.",
+    source: "Lao Tzu",
     sourcelink: "",
     motive: false,
     comedy: false,
@@ -2329,8 +2333,9 @@ Quotes = [
   },
   {
     ID: 201,
-    quote: "Text",
-    source: "Speaker",
+    quote:
+      "If it’s your job to eat a frog, it’s best to do it first thing in the morning. And If it’s your job to eat two frogs, it’s best to eat the biggest one ",
+    source: "Mark Twain",
     sourcelink: "",
     motive: false,
     comedy: false,
@@ -2339,8 +2344,9 @@ Quotes = [
   },
   {
     ID: 202,
-    quote: "Text",
-    source: "Speaker",
+    quote:
+      "A goal is not always meant to be reached, it often serves simply as something to aim at.",
+    source: "Bruce Lee",
     sourcelink: "",
     motive: false,
     comedy: false,
@@ -2350,8 +2356,9 @@ Quotes = [
 
   {
     ID: 203,
-    quote: "Text",
-    source: "Speaker",
+    quote:
+      "I think the saddest people always try their hardest to make other people happy, because they know what it's like to feel absolutely worthless and they don't want anybody else to feel like that.",
+    source: "Robin Williams",
     sourcelink: "",
     motive: false,
     comedy: false,
@@ -2360,8 +2367,8 @@ Quotes = [
   },
   {
     ID: 204,
-    quote: "Text",
-    source: "Speaker",
+    quote: "Laughter is the shortest distance between two people.",
+    source: "Victor Borge",
     sourcelink: "",
     motive: false,
     comedy: false,
