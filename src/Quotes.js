@@ -2446,6 +2446,118 @@ Quotes = [
     romantic: false,
     bigBrain: true,
   },
+  {
+    ID: 212,
+    quote: "Challenges are what make life interesting and overcoming them is what makes life meaningful.
+    ",
+    source: "Joshua J. Marine",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
+
+  {
+    ID: 213,
+    quote: "Someone once told me, How far you go in life will be determined by how many difficult conversations you’re willing to have.
+    ",
+    source: "Sean Kernan",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
+
+  {
+    ID: 214,
+    quote: "If you fell down yesterday, stand up today	H.G. Wells",
+    source: "Speaker",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
+
+  {
+    ID: 215,
+    quote: "The walls we build around us to keep sadness out also keeps out the ",
+    source: "Jim Roh",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
+
+  {
+    ID: 216,
+    quote: "It is not uncommon for people to spend their whole life waiting to start living.",
+    source: "Eckhart Tolle",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
+
+  {
+    ID: 217,
+    quote: "“Today I will do what others won't, so tomorrow I can do what others can't.	
+    ",
+    source: "Jerry Rice",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
+
+  {
+    ID: 218,
+    quote: "“Your big opportunity may be right where you are now.",
+    source: "Napoleon Hill",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
+
+  {
+    ID: 219,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
+
+  {
+    ID: 220,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
+
+  {
+    ID: 221,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motive: false,
+    comedy: false,
+    romantic: false,
+    bigBrain: false,
+  },
 ];
 
 export default Quotes;
