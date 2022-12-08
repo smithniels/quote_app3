@@ -2528,13 +2528,13 @@ Quotes = [
 
   {
     ID: 219,
-    quote: "Text",
-    source: "Speaker",
-    sourcelink: "",
-    motive: false,
+    quote: "Don't look at my glory; listen to my story",
+    source: "Markuaan Smith ",
+    sourcelink: "https://www.tiktok.com/t/ZTR433tqh/", // TikTok Warning: The CCP wants your data
+    motive: true,
     comedy: false,
     romantic: false,
-    bigBrain: false,
+    bigBrain: true,
   },
 
   {
