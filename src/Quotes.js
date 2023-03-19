@@ -2539,10 +2539,10 @@ Quotes = [
 
   {
     ID: 220,
-    quote: "Text",
-    source: "Speaker",
+    quote: "Before you can do something you must first be something",
+    source: "Johann Wolfgang Von Goethe",
     sourcelink: "",
-    motive: false,
+    motive: true,
     comedy: false,
     romantic: false,
     bigBrain: false,
