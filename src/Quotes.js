@@ -2550,14 +2550,14 @@ Quotes = [
 
   {
     ID: 221,
-    quote: "Text",
-    source: "Speaker",
+    quote: "Excuses are rocks where our crushed on",
+    source: "Tim Fargo",
     sourcelink: "",
-    motive: false,
+    motive: true,
     comedy: false,
     romantic: false,
     bigBrain: false,
-  },
+  }
 ];
 
 export default Quotes;
