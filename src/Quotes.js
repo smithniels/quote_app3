@@ -9,9 +9,10 @@ Quotes = [
     source: "Lucy Maud Montgomery O.B.E.",
     // sourcelink: "https://www.goodreads.com/author/quotes/5350.L_M_Montgomery",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -20,9 +21,10 @@ Quotes = [
     source: "Viola the Uber driver",
     sourcelink: "",
     motiv: true,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -31,9 +33,10 @@ Quotes = [
     source: "THE Moni - Bread for the City (Washington, DC)",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -42,9 +45,10 @@ Quotes = [
     source: "Woman on phone at DC Amtrak station",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -53,20 +57,22 @@ Quotes = [
     source: "Nicole - Race Equity Workshop",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
     ID: 6,
     quote: "I'm a rebel without a cause who has a personal cause",
-    source: "Karen Hansen-Smith - librarian, Mother, Dane",
+    source: "Karen Hansen-Smith - Librarian, Mother, Dane",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -76,9 +82,10 @@ Quotes = [
     source: "Maya Angelou",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   // one of the quotes that helped me through a bad time in my life
@@ -88,9 +95,10 @@ Quotes = [
     source: "r/breakups - Reddit",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: true,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -100,9 +108,10 @@ Quotes = [
     source: "Oprah Winfrey",
     sourcelink: "",
     motiv: true,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -111,9 +120,10 @@ Quotes = [
     source: "Albert Einstein",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -122,9 +132,10 @@ Quotes = [
     source: "Elyse Willems",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -134,9 +145,10 @@ Quotes = [
     source: "Albert Einstein",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -146,9 +158,10 @@ Quotes = [
     source: "Carol Plum-Ucci",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -158,9 +171,10 @@ Quotes = [
     source: "Bruce Lee",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -171,9 +185,10 @@ Quotes = [
       "Trevor Noah (On growing up mixed race in South Africa) - Born a Crime",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   // another one that helped me through those bad times
@@ -183,9 +198,10 @@ Quotes = [
     source: "Mal Blum's (Lionel Richie & being broken up with) story",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: true,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -195,9 +211,10 @@ Quotes = [
     source: "Dave Barry",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -206,9 +223,10 @@ Quotes = [
     source: "Simon Amstell",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -217,9 +235,10 @@ Quotes = [
     source: "Rudy Francisco",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -229,9 +248,10 @@ Quotes = [
     source: "Sabrina B. - 'Explaining my depression to my mother' ",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   // This is from an excellent interview with JB. What a great man. <33
@@ -242,9 +262,10 @@ Quotes = [
     source: "James Baldwin",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // all I ever wanted tbh
@@ -255,9 +276,10 @@ Quotes = [
     source: "Alabama (Patrica Arquette) - True Romance",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -266,9 +288,10 @@ Quotes = [
     source: "Genevie - Bread for the City Transgender Information Meeting",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -277,9 +300,10 @@ Quotes = [
     source: "Dalai Lama",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -288,9 +312,10 @@ Quotes = [
     source: "Kanye West",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -299,9 +324,10 @@ Quotes = [
     source: "Joan Didion",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -310,9 +336,10 @@ Quotes = [
     source: "Joan Didion - The Year of Magical Thinking",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: true,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -322,9 +349,10 @@ Quotes = [
     source: "Thomas Pynchon, Gravity's Rainbow",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -333,9 +361,10 @@ Quotes = [
     source: "Doug Gardner (Michael Rapaport) - Atypical (S2E5)",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: true,
   },
 
   {
@@ -344,9 +373,10 @@ Quotes = [
     source: "Lloyd Dobler - Say Anything",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: true,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -356,9 +386,10 @@ Quotes = [
     source: "President Barack Obama",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -367,9 +398,10 @@ Quotes = [
     source: "u/if_horses_could_draw - Reddit ",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: true,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -379,9 +411,10 @@ Quotes = [
     source: "Niels Smith",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -391,9 +424,10 @@ Quotes = [
     source: "Natalie Portman - Garden State",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -403,9 +437,10 @@ Quotes = [
     source: "Abe Lincoln",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -415,9 +450,10 @@ Quotes = [
     source: "orace Walpole",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -426,9 +462,10 @@ Quotes = [
     source: "u/magnetic_couch - Reddit ",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   // redditor or redditter? ... it's the first one... propbably
@@ -438,9 +475,10 @@ Quotes = [
     source: "Redditer's 6 year old child",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -450,9 +488,10 @@ Quotes = [
     source: "F. Scott Fitzgerald",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -461,9 +500,10 @@ Quotes = [
     source: "Fortune Cookie",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -473,9 +513,10 @@ Quotes = [
       "CASHI Meeting (This isn't a thing CASHI came up with. That's just where I first heard it)",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -484,9 +525,10 @@ Quotes = [
     source: "Jessica Perlo",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -495,9 +537,10 @@ Quotes = [
     source: "Seth Cohen - The OC",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -506,9 +549,10 @@ Quotes = [
     source: "Saying from Al-Anon",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -518,9 +562,10 @@ Quotes = [
     source: "Steve Maraboli",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -530,9 +575,10 @@ Quotes = [
     source: "Kurt Vonnegut",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -542,9 +588,10 @@ Quotes = [
     source: "Calvin Coolidge",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -553,9 +600,10 @@ Quotes = [
     source: "Timothy Olyphant - Girl Next Door",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -564,9 +612,10 @@ Quotes = [
     source: "Tinder woman in Baltimore",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: true,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -576,9 +625,10 @@ Quotes = [
     source: "Mark Twain",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -588,9 +638,10 @@ Quotes = [
     source: "Mark Twain",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   // Melanie from 620 had a good pneumonic device for pronouncing Dostoevski. Do I remember it? No...
@@ -600,9 +651,10 @@ Quotes = [
     source: "Dostoevski",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -612,9 +664,10 @@ Quotes = [
     source: "James Baldwin",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -623,9 +676,10 @@ Quotes = [
     source: "Candace Plattot",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -635,9 +689,10 @@ Quotes = [
     source: "Fry - Futurama",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -647,9 +702,10 @@ Quotes = [
     source: "Harun Yahya",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -659,9 +715,10 @@ Quotes = [
     source: "Reddit u/sanket_srivastava",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -671,9 +728,10 @@ Quotes = [
     source: "Annie (Allison Brie) - Community",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -683,9 +741,10 @@ Quotes = [
     source: "Phobe Bridgers - Garden Song",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -695,9 +754,10 @@ Quotes = [
     source: "James Baldwin",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   //This is a fav <3333
@@ -708,9 +768,10 @@ Quotes = [
     source: "Parker Posey - Louie S03E04",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -720,9 +781,10 @@ Quotes = [
     source: "Craig Ferguson",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   // But what is this man's last name???
@@ -733,9 +795,10 @@ Quotes = [
     source: "Daan _______ - Blogger on Medium",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // I'm not sure if I understand this one, but it's fun to say lol
@@ -746,9 +809,10 @@ Quotes = [
       "There is no cow on the ice as long as half of it is on land. \n - Translated from Swedish",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // this is probably form a book
@@ -759,9 +823,10 @@ Quotes = [
     source: "Chuck Palahniuk",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: true,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -770,9 +835,10 @@ Quotes = [
     source: "Isabelle Lafleche",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   // facts: true;
@@ -783,9 +849,10 @@ Quotes = [
     source: "Jake - Adventure Time",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // this one though...
@@ -796,9 +863,10 @@ Quotes = [
     source: "David Mitchell on first meeting his wife (Victoria Coren)",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: true,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -808,9 +876,10 @@ Quotes = [
     source: "Tommy Tabermann",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -819,9 +888,10 @@ Quotes = [
     source: "The Sister - Fleabag SE2E6",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: true,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -830,9 +900,10 @@ Quotes = [
     source: "Pierce Hawthorne (Chevy Chase) - Community",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -842,9 +913,10 @@ Quotes = [
     source: "Oliver Tate",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: true,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -853,9 +925,10 @@ Quotes = [
     source: "",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -864,9 +937,10 @@ Quotes = [
     source: "",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -875,9 +949,10 @@ Quotes = [
     source: "Dalinar Kholin",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -886,9 +961,10 @@ Quotes = [
     source: "Rupi Kapur",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -897,9 +973,10 @@ Quotes = [
     source: "David Cross - The Man Show",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -909,9 +986,10 @@ Quotes = [
     source: "Shen - Owlturd",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -920,9 +998,10 @@ Quotes = [
     source: "chavvesty - Tumblr",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -931,9 +1010,10 @@ Quotes = [
     source: "Anonymous",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -943,9 +1023,10 @@ Quotes = [
     source: "Stylish elderly woman - Humans of New York",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -955,9 +1036,10 @@ Quotes = [
     source: "Jorge Luis Borges",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -967,9 +1049,10 @@ Quotes = [
     source: "Anonymous",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -978,9 +1061,10 @@ Quotes = [
     source: "Gershona Annor @herapatra - Twitter",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -990,9 +1074,10 @@ Quotes = [
     source: "James Baldwin",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -1002,9 +1087,10 @@ Quotes = [
     source: "Abed (Danny Pudi) - Community",
     sourcelink: "",
     motiv: true,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -1013,9 +1099,10 @@ Quotes = [
     source: "u/autterpopp - Reddit",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: true,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -1025,9 +1112,10 @@ Quotes = [
     source: "Ernest Hemingway",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1036,9 +1124,10 @@ Quotes = [
     source: "Oscar Wilde",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1047,9 +1136,10 @@ Quotes = [
     source: "Oscar Wilde",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   // <333 this one
@@ -1059,10 +1149,11 @@ Quotes = [
       "Travel and tell no one, live a true love story and tell no one, live happily and tell no one, people ruin beautiful things.",
     source: "Kahlil Gibran",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: true,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1071,10 +1162,11 @@ Quotes = [
       "It's okay if you fall apart sometimes; tacos fall apart and we still love them",
     source: "Gabriel Inglesis",
     sourcelink: "",
-    motive: true,
-    comedy: true,
+    motivational: true,
+    comedic: true,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1082,10 +1174,11 @@ Quotes = [
     quote: "Fuck all the way off, motherfuckers",
     source: "Felicia C. Sullivan - Medium",
     sourcelink: "",
-    motive: false,
-    comedy: true,
+    motivational: false,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   // Right though?
@@ -1094,10 +1187,11 @@ Quotes = [
     quote: "Never giving up is how you win",
     source: "@Adamjk",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1105,10 +1199,11 @@ Quotes = [
     quote: "Chill! Your failures are going to make your TED talk longer",
     source: "Anonymous - Reddit",
     sourcelink: "",
-    motive: true,
-    comedy: true,
+    motivational: true,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -1117,10 +1212,11 @@ Quotes = [
       "Being shot is not as bad as I thought it might be. As long as you can keep the fear from your mind, but I guess you could say that about most anything in life. It's not so bad, as long as you can keep the fear from your life.",
     source: "Agent Dale Cooper (Kyle MacLachlan) - Twin Peaks",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // One of my favorite quotes! <33
@@ -1129,10 +1225,11 @@ Quotes = [
     quote: "What I regret most in my life are failures of kindness",
     source: "George Saunders",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // I know this phrase didn't originate at McClymonds, but that's the first place I heard it. Sue me. JK I'm not particularly fond of litigation.
@@ -1142,10 +1239,11 @@ Quotes = [
     quote: "That's outta pocket.",
     source: "McClymonds High School - West Oakland",
     sourcelink: "",
-    motive: false,
-    comedy: true,
+    motivational: false,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -1154,10 +1252,11 @@ Quotes = [
       "Kill your darlings, kill your darlings, even when it breaks your egocentric little scribbler's heart, kill your darlings.",
     source: "Stephen King",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1166,10 +1265,11 @@ Quotes = [
       "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
     source: "Ralph Waldo Emerson",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1178,10 +1278,11 @@ Quotes = [
       "When there is overwhelming complexity in a proposed architecture or solution, I always like to take a step back, re-evaluate what we're really trying to solve/build and think if there is a much simpler way to get to the same goal. Sometimes, you'll realize",
     source: "Jacky Wong - Medium",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1189,10 +1290,11 @@ Quotes = [
     quote: "Do not, under any circumstances, depend on a partial feeling.",
     source: "Miyamoto Musashi - Dokkōdō (The Path of Aloneness) ",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1201,10 +1303,11 @@ Quotes = [
       "That's the bar we're trying to clear now? You could fucking tunnel over that bar.",
     source: "u/JTCMuehlenkamp - Reddit",
     sourcelink: "",
-    motive: false,
-    comedy: true,
+    motivational: false,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   // I should google this to find the source/author
@@ -1213,10 +1316,11 @@ Quotes = [
     quote: "What does your ideal day look like?",
     source: "Somebody - Medium",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -1225,10 +1329,11 @@ Quotes = [
       "When suffering knocks at your door and you say there is no seat for him, he tells you not to worry because he has brought his own stool.",
     source: "Chinua Achebe",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1236,10 +1341,11 @@ Quotes = [
     quote: "You have to make a habit of challenging yourself.",
     source: "Szymon Adamiak - Medium",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1248,10 +1354,11 @@ Quotes = [
       "Religion is like a blind man looking in a black room for a black cat that isn't there... and finding it.",
     source: "Oscar Wilde",
     sourcelink: "",
-    motive: false,
-    comedy: true,
+    motivational: false,
+    comedic: true,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1260,10 +1367,11 @@ Quotes = [
       "An optimist will tell you the glass is half-full; the pessimist, half-empty; and the engineer will tell you the glass is twice the size it needs to be.",
     source: "Oscar Wilde",
     sourcelink: "",
-    motive: false,
-    comedy: true,
+    motivational: false,
+    comedic: true,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // MS
@@ -1272,10 +1380,11 @@ Quotes = [
     quote: "What seems to us as bitter trials are often blessings in disguise",
     source: "Oscar Wilde",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1284,10 +1393,11 @@ Quotes = [
       "A pessimist is somebody who complains about the noise when opportunity knocks.",
     source: "Oscar Wilde",
     sourcelink: "",
-    motive: true,
-    comedy: true,
+    motivational: true,
+    comedic: true,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1295,10 +1405,11 @@ Quotes = [
     quote: "The best way to enjoy your job is to imagine yourself without one",
     source: "Oscar Wilde",
     sourcelink: "",
-    motive: true,
-    comedy: true,
+    motivational: true,
+    comedic: true,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1306,10 +1417,11 @@ Quotes = [
     quote: "You can't fix people",
     source: "Karen Hansen-Smith - Librarian, Mother, Dane",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
   // This line has always held a soft spot in my heart
   {
@@ -1317,10 +1429,11 @@ Quotes = [
     quote: "That's a good sign you know. That means she gets it.",
     source: "Ralph Fiennes - Grand Budapest Hotel (1:10:37)",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1329,10 +1442,11 @@ Quotes = [
       "Life isn't Jeopardy — you don't have to jump in with an answer the first chance you get",
     source: "Michael Thompson - Medium",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1340,10 +1454,11 @@ Quotes = [
     quote: "Dream big dreams. Small dreams have no magic",
     source: "Dottie Boreyko",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1352,10 +1467,11 @@ Quotes = [
       "Oh, it's cool how you found a way for a compliment to shake me to my core.",
     source: "Missy (Ayo Edebiri) - Big Mouth",
     sourcelink: "",
-    motive: false,
-    comedy: true,
+    motivational: false,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -1364,10 +1480,11 @@ Quotes = [
       "Every great dream begins with a dreamer. Always remember, you have within you the strength, the patience, and the passion to change the world.",
     source: "Harriet Tubman",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1375,10 +1492,11 @@ Quotes = [
     quote: "Whether you think you can, or you think you can't -- you're right.",
     source: "Henry Ford",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // Quarantine motivator circa 2020-2021
@@ -1387,10 +1505,11 @@ Quotes = [
     quote: "I can do this, I thought. Then: And even if I can't, I have to",
     source: "Anonymous",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1399,10 +1518,11 @@ Quotes = [
       "When you make the courageous decision to deliberately choose discomfort, you prove to yourself that you are no longer satisfied with the way things are and you won't tolerate it any longer. You're ready for change, for growth. You are ready to accept and embrace suffering because you want a better life for yourself, your family, and/or your business.",
     source: "Green Beret, Jason B. A. Van Camp",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -1411,10 +1531,11 @@ Quotes = [
       "When I was a boy and I would see scary things in the news, my mother would say to me, 'Look for the helpers. You will always find people who are helping.'",
     source: "Mr. Rogers",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1423,10 +1544,11 @@ Quotes = [
       "If you can understand human behavior, it can't hurt you nearly as much.",
     source: "Carol Plum-Ucci",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1435,10 +1557,11 @@ Quotes = [
       "One of the great tragedies of mankind is that morality has been hijacked by religion.",
     source: "Arthur C. Clarke",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1447,10 +1570,11 @@ Quotes = [
       "If you can't fly then run, if you can't run then walk, if you can't walk then crawl, but whatever you do you have to keep moving forward.",
     source: "Martin Luther King Jr.",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1459,10 +1583,11 @@ Quotes = [
       "You can easily judge the character of a man by how he treats those who can do nothing for him",
     source: "Malcolm S. Forbes",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // lol
@@ -1471,10 +1596,11 @@ Quotes = [
     quote: "Please stop petitioning my dreams.",
     source: "Lindsay Brown - Medium",
     sourcelink: "",
-    motive: false,
-    comedy: true,
+    motivational: false,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -1482,10 +1608,11 @@ Quotes = [
     quote: "Nothing is particularly hard if you divide them into small jobs",
     source: "Henry Ford",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1493,10 +1620,11 @@ Quotes = [
     quote: "Speak only if you can improve the silence",
     source: "Mahatma Gandhi",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // Carlin was a comedian, so I'm putting this into Dark Comedy
@@ -1505,10 +1633,11 @@ Quotes = [
     quote: "Inside every cynical person, there is a disappointed idealist",
     source: "George Carlin",
     sourcelink: "",
-    motive: false,
-    comedy: true,
+    motivational: false,
+    comedic: true,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1516,10 +1645,11 @@ Quotes = [
     quote: "",
     source: "",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -1528,10 +1658,11 @@ Quotes = [
       "Anxiety both overestimates risk and underestimates your ability to cope.",
     source: "u/annieohnotme's therapist",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1540,10 +1671,11 @@ Quotes = [
       "I write while listening to music, mostly because the world beyond my headphones is too chaotic",
     source: "Dean Bakopoulos",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   // How great was Audrey Hepburn? Big respect!
@@ -1553,10 +1685,11 @@ Quotes = [
       "The most important thing is to enjoy your life - to be happy - it's all that matters.",
     source: "Audrey Hepburn",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // is this from something?
@@ -1566,10 +1699,11 @@ Quotes = [
       "We're born alone, we live alone, we die alone. Only through our love and friendship can we create the illusion for the moment that we're not alone.",
     source: "Orson Welles",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -1578,10 +1712,11 @@ Quotes = [
       "Keep your face always toward the sunshine - and shadows will fall behind you.",
     source: "Walt Whitman",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1589,10 +1724,11 @@ Quotes = [
     quote: "It takes a long time to grow an old friend.",
     source: "John Leonard",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   // "seared with scars" is a great expression
@@ -1602,10 +1738,11 @@ Quotes = [
       "Out of suffering have emerged the strongest souls; the most massive characters are seared with scars.",
     source: "Kahlil Gibran",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // I should google which HP book this line is from
@@ -1615,10 +1752,11 @@ Quotes = [
       "Happiness can be found, even in the darkest of times, if only one remembers to turn on the light.",
     source: "Albus Dumbledore - Harry Potter",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // I love this one
@@ -1628,10 +1766,11 @@ Quotes = [
       "No man ever steps in the same river twice, for it's not the same river and he's not the same man.",
     source: "Heraclitus",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1640,10 +1779,11 @@ Quotes = [
       "Standing still is the fastest way of moving backwards in a rapidly changing world.",
     source: "Lauren Bacall",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1652,10 +1792,11 @@ Quotes = [
       "They say the lottery is a tax on people who can't do the math. I would say arguing on the internet is a tax on people who don't value their time.",
     source: "Sean Kernan - Medium",
     sourcelink: "",
-    motive: false,
-    comedy: true,
+    motivational: false,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -1664,10 +1805,11 @@ Quotes = [
       "The first step towards getting somewhere is to decide that you are not going to stay where you are",
     source: "J.P. Morgan",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1676,10 +1818,11 @@ Quotes = [
       "Attention is a limited resource, so pay attention to where you pay attention",
     source: "Howard Rheingold",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1688,10 +1831,11 @@ Quotes = [
     source:
       "Translation from Latin: ~the smallest things are the most important",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1700,10 +1844,11 @@ Quotes = [
       "Many people are like garbage trucks. They run around full of garbage, full of frustration, full of anger, and full of disappointment. As their garbage piles up, they look for a place to dump it. And if you let them, they'll dump it on you. So when someone wants to dump on you, don't take it personally. Just smile, wave, wish them well, and move on. Believe me. You'll be happier.",
     source: "Michael Thompson - Medium",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // one of my favorite movies
@@ -1713,10 +1858,11 @@ Quotes = [
       "I believe if there's any kind of God it wouldn't be in any of us, not you or me but just this little space in between. If there's any kind of magic in this world it must be in the attempt of understanding someone sharing something. I know, it's almost impossible to succeed but who cares really? The answer must be in the attempt.",
     source: "Celine (Julie Delpy), Before Sunrise",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: true,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1724,10 +1870,11 @@ Quotes = [
     quote: "Ah, the key to being interesting is to go where you aren't boring!",
     source: "Michael Thompson's friend - Medium",
     sourcelink: "",
-    motive: false,
-    comedy: true,
+    motivational: false,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -1736,10 +1883,11 @@ Quotes = [
       "Nothing can make our life, or the lives of other people, more beautiful than perpetual kindness",
     source: "Leo Tolstoy",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1748,10 +1896,11 @@ Quotes = [
       "Never attribute to malice that which is adequately explained by stupidity",
     source: "Hanlon's Razor (Robert J. Hanlon)",
     sourcelink: "",
-    motive: false,
-    comedy: true,
+    motivational: false,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   // 2020 Quarantine Life/Workout Mantra
@@ -1760,10 +1909,11 @@ Quotes = [
     quote: "If something's worth doing, it's worth doing badly",
     source: "G. K. Chesterton",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: true,
   },
 
   {
@@ -1772,10 +1922,11 @@ Quotes = [
       "Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself.",
     source: "Jalal ad-Din Rumi",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1783,10 +1934,11 @@ Quotes = [
     quote: "Never take criticism from someone you wouldn't take advice from.",
     source: "u/Panda_Burger - Reddit",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1794,10 +1946,11 @@ Quotes = [
     quote: "The bad stuff is easier to believe. You ever notice that?",
     source: "(Julia Roberts) - Pretty Woman",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1805,10 +1958,11 @@ Quotes = [
     quote: "The wound is the place where the light enters you",
     source: "Rumi",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1817,10 +1971,11 @@ Quotes = [
       "Failure is simply the opportunity to begin again, this time more intelligently.",
     source: "Henry Ford",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // iPhone wallpaper for the months leading up to my move to Denmark
@@ -1830,10 +1985,11 @@ Quotes = [
     quote: "I did not come this far to ONLY come this far",
     source: "Anonymous",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1841,10 +1997,11 @@ Quotes = [
     quote: "It takes as much energy to wish as it does to plan.",
     source: "Eleanor Roosevelt",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1853,10 +2010,11 @@ Quotes = [
       "The optimist proclaims that we live in the best of all possible worlds; and the pessimist fears this is true.",
     source: "James Branch Cabell - The Silver Stallion",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1864,10 +2022,11 @@ Quotes = [
     quote: "Luck is what happens when preparation meets opportunity.",
     source: "Seneca",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1876,10 +2035,11 @@ Quotes = [
       "Success is the ability to go from one failure to another with no loss of enthusiasm",
     source: "Winston Churchill",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1887,10 +2047,11 @@ Quotes = [
     quote: "Always be a little kinder than you need to be",
     source: "Anonymous",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1899,10 +2060,11 @@ Quotes = [
       "To get what you love, you must first be patient with what you hate.",
     source: "Imam Al",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1911,10 +2073,11 @@ Quotes = [
       "If your actions don't live up to your words, you have nothing to say.",
     source: "DaShanne Stokes",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1922,10 +2085,11 @@ Quotes = [
     quote: "You can't wait until life isn't hard anymore to be happy",
     source: "nightbird - YouTube",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1933,10 +2097,11 @@ Quotes = [
     quote: "Love is blind despite the world's attempt to give it eyes.",
     source: "Matshona Dhliwayo",
     sourcelink: "",
-    motive: false,
-    comedy: false,
-    romantic: false,
+    motivational: false,
+    comedic: false,
+    romantic: true,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1945,10 +2110,11 @@ Quotes = [
       "The sad truth is that most evil is done by people who never make up their minds to be good or evil.",
     source: "Hannah Arendt - The Banality of Evil",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1957,10 +2123,11 @@ Quotes = [
       "Money is like a sixth sense without which you cannot make a complete use of the other five.",
     source: "W. Somerset Maugham",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1969,10 +2136,11 @@ Quotes = [
       "Being aware of a single shortcoming within yourself is far more useful than being aware of a thousand in someone else.",
     source: "Dalai Lama",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1981,10 +2149,11 @@ Quotes = [
       "I wish there was a way to know you're in the good old days before you've actually left them",
     source: "Andy Bernard (Ed Helms) - The Office",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1992,10 +2161,11 @@ Quotes = [
     quote: "Nobody's defined by their worst day",
     source: "Brenan Lee Muligan - Dimension20 <3",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -2003,10 +2173,11 @@ Quotes = [
     quote: "Opportunities don't knock, they whisper. So shut up and listen.",
     source: "Thomas Leonard",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -2015,10 +2186,11 @@ Quotes = [
       "Forgetting the past is one of humankind's most popular recreational activities",
     source: "u/Tonspuren - Reddit",
     sourcelink: "",
-    motive: false,
-    comedy: true,
+    motivational: false,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -2026,10 +2198,11 @@ Quotes = [
     quote: "Be tough on the process, but gentle with the output",
     source: "Dan Brown",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -2038,10 +2211,11 @@ Quotes = [
       "You know, sometimes all you need is twenty seconds of insane courage. Just literally twenty seconds of just embarrassing bravery. And I promise you, something great will come of it.",
     source: "Benjamin Mee() - We Bought a Zoo",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -2049,10 +2223,11 @@ Quotes = [
     quote: "Always do what you're afraid to do",
     source: "Ralph Waldo Emerson",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // One of my favorite quotes ever ❤️
@@ -2062,10 +2237,11 @@ Quotes = [
       "I have grown to love secrecy. It seems to be the one thing that can make modern life mysterious or marvellous to us. The commonest thing is delightful if only one hides it.",
     source: "Oscar Wilde",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
-    bigBrain: false,
+    bigBrain: true,
+    biggestBrain: true,
   },
 
   {
@@ -2074,10 +2250,11 @@ Quotes = [
       "I wish it need not have happened in my time, said Frodo. So do I, said Gandalf,and so do all who live to see such times. But that is not for them to decide. All we have to decide is what to do with the time that is given us ",
     source: "JRR Tolkien",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -2086,10 +2263,11 @@ Quotes = [
       "Courage doesn't always roar. Sometimes it is a quiet voice at the end of the day saying, I will try again tomorrow",
     source: "Mary Anne Radmacher",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -2097,10 +2275,11 @@ Quotes = [
     quote: "The first draft is just you telling yourself the story",
     source: "Terry Pratchett",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -2108,10 +2287,11 @@ Quotes = [
     quote: `Where you are is a result of who you were, but where you go depends entirely on who you choose to be.`,
     source: "Hal Elrod",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -2120,10 +2300,11 @@ Quotes = [
       "One day at a time - this is enough. Do not look back and grieve over the past, for it is gone; and do not be troubled about the future for it has not yet come. Live in the present, and make it so beautiful that is will be worth remembering",
     source: "Ida Scott Taylor",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -2132,10 +2313,11 @@ Quotes = [
       "I have learned over the years that when one's mind is made up, this diminishes fear. Knowing what must be done does away with fear.",
     source: "Rosa Parks",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   ,
@@ -2145,10 +2327,11 @@ Quotes = [
       "When you have exhausted all possibilities, remember this: you haven't.",
     source: "Thomas Edison",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -2157,10 +2340,11 @@ Quotes = [
       "Enjoy the little things, for one day you may look back and realize they were the big things.",
     source: "Robert Brault",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -2169,10 +2353,11 @@ Quotes = [
       "I can accept failure. Everyone fails at something. But I can't accept not trying.",
     source: "Michael Jordan",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -2180,10 +2365,11 @@ Quotes = [
     quote: "If you can laugh in the face of adversity, you're bulletproof",
     source: "Ricky Gervais",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -2192,10 +2378,11 @@ Quotes = [
       "No one has the power to shatter your dreams unless you give it to them.",
     source: "Maeve Greyson",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -2203,10 +2390,11 @@ Quotes = [
     quote: "Don't be pushed by your problems. Be led by your dreams.",
     source: "Ralph Waldo Emerson",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -2214,10 +2402,11 @@ Quotes = [
     quote: "The only difference between a weed and a flower is judgement",
     source: "Wayne W. Dyer",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -2226,10 +2415,11 @@ Quotes = [
       "If you listen to your fears, you will die never knowing what a great person you might have been.",
     source: "Robert Schuller",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -2238,10 +2428,11 @@ Quotes = [
       "A limit of time is fixed for you, which if you do not use for clearing away the clouds from your mind, it will go and you will go, and it will never return.",
     source: "Marcus Aurelius",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -2249,10 +2440,11 @@ Quotes = [
     quote: "If you can be anything in this world, be kind.",
     source: "Caroline Flack",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -2261,10 +2453,11 @@ Quotes = [
       "If you're constantly cruel to yourself, you're going to feel the same as if another person was constantly cruel to you.",
     source: "Nick Wignall - Medium",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
   {
     ID: 195,
@@ -2272,10 +2465,11 @@ Quotes = [
       "What you do today is important because you are exchanging a day of your life for it.",
     source: "Elizabeth George",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
   {
     ID: 196,
@@ -2283,10 +2477,11 @@ Quotes = [
       "If you can reframe your data cleaning as an investigation, it will be more fun",
     source: "Sophie Sommer (CodeAcademy)",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
   {
     ID: 197,
@@ -2294,10 +2489,11 @@ Quotes = [
       "Have enough courage to trust love one more time and always one more time.",
     source: "Maya Angelou",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: true,
     bigBrain: true,
+    biggestBrain: false,
   },
   {
     ID: 198,
@@ -2305,20 +2501,22 @@ Quotes = [
       "TThe longer we dwell on our misfortunes, the greater is their power to harm us.ext",
     source: "Voltaire",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
   {
     ID: 199,
     quote: "Aim above morality. Be not simply good, be good for something",
     source: "Henry David Thoreau",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
   {
     ID: 200,
@@ -2326,10 +2524,11 @@ Quotes = [
       "When you are content to be simply yourself and do not compare or compete, everyone will respect you.",
     source: "Lao Tzu",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
   {
     ID: 201,
@@ -2337,10 +2536,11 @@ Quotes = [
       "If it’s your job to eat a frog, it’s best to do it first thing in the morning. And If it’s your job to eat two frogs, it’s best to eat the biggest one ",
     source: "Mark Twain",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
   {
     ID: 202,
@@ -2348,10 +2548,11 @@ Quotes = [
       "A goal is not always meant to be reached, it often serves simply as something to aim at.",
     source: "Bruce Lee",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -2360,80 +2561,88 @@ Quotes = [
       "I think the saddest people always try their hardest to make other people happy, because they know what it's like to feel absolutely worthless and they don't want anybody else to feel like that.",
     source: "Robin Williams",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
   {
     ID: 204,
     quote: "Laughter is the shortest distance between two people.",
     source: "Victor Borge",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
   {
     ID: 205,
     quote: "One life. We get one life",
     source: "u/zinksinks",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
   {
     ID: 206,
     quote: "Text",
     source: "Speaker",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
   {
     ID: 207,
     quote: "Text",
     source: "Speaker",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
   {
     ID: 208,
     quote: "Text",
     source: "Speaker",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
   {
     ID: 209,
     quote: "Text",
     source: "Speaker",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
   {
     ID: 210,
     quote: "Text",
     source: "Speaker",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
   {
     ID: 211,
@@ -2441,10 +2650,11 @@ Quotes = [
       "If you're constantly cruel to yourself, you're going to feel the same as if another person was constantly cruel to you.",
     source: "Nick Wignall - Medium",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
   {
     ID: 212,
@@ -2452,10 +2662,11 @@ Quotes = [
     ",
     source: "Joshua J. Marine",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -2464,10 +2675,11 @@ Quotes = [
     ",
     source: "Sean Kernan",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -2475,10 +2687,11 @@ Quotes = [
     quote: "If you fell down yesterday, stand up today	H.G. Wells",
     source: "Speaker",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -2486,10 +2699,11 @@ Quotes = [
     quote: "The walls we build around us to keep sadness out also keeps out the ",
     source: "Jim Roh",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -2497,10 +2711,11 @@ Quotes = [
     quote: "It is not uncommon for people to spend their whole life waiting to start living.",
     source: "Eckhart Tolle",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -2509,10 +2724,11 @@ Quotes = [
     ",
     source: "Jerry Rice",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -2520,10 +2736,11 @@ Quotes = [
     quote: "“Your big opportunity may be right where you are now.",
     source: "Napoleon Hill",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -2531,10 +2748,11 @@ Quotes = [
     quote: "Don't look at my glory; listen to my story",
     source: "Markuaan Smith ",
     sourcelink: "https://www.tiktok.com/t/ZTR433tqh/", // TikTok Warning: The CCP wants your data
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -2542,10 +2760,11 @@ Quotes = [
     quote: "Before you can do something you must first be something",
     source: "Johann Wolfgang Von Goethe",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -2553,10 +2772,11 @@ Quotes = [
     quote: "Excuses are rocks where our crushed on",
     source: "Tim Fargo",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   }
 ];
 
