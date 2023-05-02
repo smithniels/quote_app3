@@ -28,6 +28,10 @@
       "react-app"
     ]
   },
+  "eslint.workingDirectories": [
+    "./back",
+    "./front"
+  ],
   "browserslist": {
     "production": [
       ">0.2%",

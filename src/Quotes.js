@@ -18,7 +18,7 @@ Quotes = [
   {
     ID: 2,
     quote: "My car goes in reverse not my life",
-    source: "Viola the Uber driver",
+    source: "Viola (Uber driver)",
     sourcelink: "",
     motiv: true,
     comedic: true,
@@ -2658,8 +2658,8 @@ Quotes = [
   },
   {
     ID: 212,
-    quote: "Challenges are what make life interesting and overcoming them is what makes life meaningful.
-    ",
+    quote:
+      "Challenges are what make life interesting and overcoming them is what makes life meaningful.",
     source: "Joshua J. Marine",
     sourcelink: "",
     motivational: false,
@@ -2671,8 +2671,8 @@ Quotes = [
 
   {
     ID: 213,
-    quote: "Someone once told me, How far you go in life will be determined by how many difficult conversations you’re willing to have.
-    ",
+    quote:
+      "Someone once told me, How far you go in life will be determined by how many difficult conversations you’re willing to have.",
     source: "Sean Kernan",
     sourcelink: "",
     motivational: false,
@@ -2696,7 +2696,8 @@ Quotes = [
 
   {
     ID: 215,
-    quote: "The walls we build around us to keep sadness out also keeps out the ",
+    quote:
+      "The walls we build around us to keep sadness out also keeps out the ",
     source: "Jim Roh",
     sourcelink: "",
     motivational: false,
@@ -2708,7 +2709,8 @@ Quotes = [
 
   {
     ID: 216,
-    quote: "It is not uncommon for people to spend their whole life waiting to start living.",
+    quote:
+      "It is not uncommon for people to spend their whole life waiting to start living.",
     source: "Eckhart Tolle",
     sourcelink: "",
     motivational: false,
@@ -2720,8 +2722,8 @@ Quotes = [
 
   {
     ID: 217,
-    quote: "“Today I will do what others won't, so tomorrow I can do what others can't.	
-    ",
+    quote:
+      "Today I will do what others won't, so tomorrow I can do what others can't.	",
     source: "Jerry Rice",
     sourcelink: "",
     motivational: false,
@@ -2733,7 +2735,7 @@ Quotes = [
 
   {
     ID: 218,
-    quote: "“Your big opportunity may be right where you are now.",
+    quote: "Your big opportunity may be right where you are now.",
     source: "Napoleon Hill",
     sourcelink: "",
     motivational: false,
@@ -2769,7 +2771,7 @@ Quotes = [
 
   {
     ID: 221,
-    quote: "Excuses are rocks where our crushed on",
+    quote: "Excuses are rocks where our dreams are crushed on",
     source: "Tim Fargo",
     sourcelink: "",
     motivational: true,
@@ -2777,7 +2779,174 @@ Quotes = [
     romantic: false,
     bigBrain: false,
     biggestBrain: false,
-  }
+  },
+  {
+    ID: 222,
+    quote: "",
+    source: "",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 223,
+    quote: "",
+    source: "",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 224,
+    quote: "",
+    source: "",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 225,
+    quote: "",
+    source: "",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 226,
+    quote: "",
+    source: "",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 227,
+    quote: "",
+    source: "",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 228,
+    quote: "",
+    source: "",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 229,
+    quote: "",
+    source: "",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 230,
+    quote: "",
+    source: "",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 231,
+    quote: "",
+    source: "",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 232,
+    quote: "",
+    source: "",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 233,
+    quote: "",
+    source: "",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 234,
+    quote: "",
+    source: "",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 235,
+    quote: "",
+    source: "",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 236,
+    quote: "",
+    source: "",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
 ];
 
 export default Quotes;
+
+// 206 to 210 need to be filled in with quotes
