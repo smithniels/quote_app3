@@ -2875,10 +2875,11 @@ Quotes = [
   },
   {
     ID: 230,
-    quote: "",
-    source: "",
+    quote:
+      "Success isn't about how your life looks to others. It's about how it feels to you.",
+    source: "Michelle Obama",
     sourcelink: "",
-    motivational: false,
+    motivational: true,
     comedic: false,
     romantic: false,
     bigBrain: false,
