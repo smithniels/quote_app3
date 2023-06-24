@@ -2793,7 +2793,7 @@ Quotes = [
   },
   {
     ID: 223,
-    quote: "In the midst of movement and chaos, keep stillness inside of you.",
+    quote: "In the midst of movement and chaos, keep stillness inside of you.",
     source: "Deepak Chopra",
     sourcelink: "",
     motivational: false,
@@ -2805,7 +2805,7 @@ Quotes = [
   {
     ID: 224,
     quote:
-      "n every job that must be done, there is an element of fun. You find the fun, and - SNAP - the job's a game!",
+      "n every job that must be done, there is an element of fun. You find the fun, and - SNAP - the job's a game!",
     source: "Mary Poppins",
     sourcelink: "",
     motivational: true,
@@ -2817,7 +2817,7 @@ Quotes = [
   {
     ID: 225,
     quote:
-      "Destiny is not a matter of chance; it is a matter of choice. It is not a thing to be waited for, it is a thing to be  achieved.",
+      "Destiny is not a matter of chance; it is a matter of choice. It is not a thing to be waited for, it is a thing to be  achieved.",
     source: "William Jennings Bryan",
     sourcelink: "",
     motivational: false,
@@ -2841,7 +2841,7 @@ Quotes = [
   {
     ID: 227,
     quote:
-      "Happiness is not something you postpone for the future; it is something you design for the present.",
+      "Happiness is not something you postpone for the future; it is something you design for the present.",
     source: "Jim Rohn",
     sourcelink: "",
     motivational: false,
@@ -2864,7 +2864,7 @@ Quotes = [
   },
   {
     ID: 229,
-    quote: "A little nonsense now and then is relished by the wisest people",
+    quote: "A little nonsense now and then is relished by the wisest people",
     source: "Roald Dahl",
     sourcelink: "",
     motivational: false,
@@ -2887,13 +2887,13 @@ Quotes = [
   },
   {
     ID: 231,
-    quote: "",
-    source: "",
+    quote: "“Knowing what must be done does away with fear.”",
+    source: "Rosa Parks",
     sourcelink: "",
-    motivational: false,
+    motivational: true,
     comedic: false,
     romantic: false,
-    bigBrain: false,
+    bigBrain: true,
     biggestBrain: false,
   },
   {
