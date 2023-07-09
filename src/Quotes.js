@@ -1,26 +1,6 @@
-/*jshint esversion: 6 */
-/*
-// Path -->  /Users/nielssmith/Documents/GitHub/quote_app3/src/Quotes.js
-// in Terminal --> cd /Users/nielssmith/Documents/GitHub/quote_app3 && yarn start
+let Quotes;
 
-// Don't forget:
-//    1. ID both letters are capitalized
-//    2. source & quote are both lowercase
-
-// NOTES
-// -> I need to figure out how to make line breaks \n  strings work in React
-// Things I just realizež by chance:
-// -> Selecting a string of characters and hitting: SHIFT + apostrophe
-
-// TODO's
-// Add in a filter(higher order function)!
-// Add a progress bar to show progress? (cool idea)
-// Link up to an api to pull quotes from a quote site
-
-
-// https://www.reddit.com/r/AskReddit/comments/47v7tm/what_quote_has_actually_stuck_with_you_and/
-*/
-const Quotes = [
+Quotes = [
   {
     //https://www.goodreads.com/author/quotes/5350.L_M_Montgomery
     ID: 1,
@@ -29,20 +9,22 @@ const Quotes = [
     source: "Lucy Maud Montgomery O.B.E.",
     // sourcelink: "https://www.goodreads.com/author/quotes/5350.L_M_Montgomery",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
     ID: 2,
     quote: "My car goes in reverse not my life",
-    source: "Viola the Uber driver",
+    source: "Viola (Uber driver)",
     sourcelink: "",
     motiv: true,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -51,9 +33,10 @@ const Quotes = [
     source: "THE Moni - Bread for the City (Washington, DC)",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -62,9 +45,10 @@ const Quotes = [
     source: "Woman on phone at DC Amtrak station",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -73,20 +57,22 @@ const Quotes = [
     source: "Nicole - Race Equity Workshop",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
     ID: 6,
     quote: "I'm a rebel without a cause who has a personal cause",
-    source: "Karen Hansen-Smith - librarian, Mother, Dane",
+    source: "Karen Hansen-Smith - Librarian, Mother, Dane",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -96,9 +82,10 @@ const Quotes = [
     source: "Maya Angelou",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   // one of the quotes that helped me through a bad time in my life
@@ -108,9 +95,10 @@ const Quotes = [
     source: "r/breakups - Reddit",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: true,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -120,9 +108,10 @@ const Quotes = [
     source: "Oprah Winfrey",
     sourcelink: "",
     motiv: true,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -131,9 +120,10 @@ const Quotes = [
     source: "Albert Einstein",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -142,33 +132,36 @@ const Quotes = [
     source: "Elyse Willems",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
     ID: 12,
     quote:
-      "If you can’t explain it simply, you don’t understand it well enough.",
+      "If you can't explain it simply, you don't understand it well enough.",
     source: "Albert Einstein",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
     ID: 13,
     quote:
-      "If you can understand human behavior, it can’t hurt you nearly as much.",
+      "If you can understand human behavior, it can't hurt you nearly as much.",
     source: "Carol Plum-Ucci",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -178,9 +171,10 @@ const Quotes = [
     source: "Bruce Lee",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -191,9 +185,10 @@ const Quotes = [
       "Trevor Noah (On growing up mixed race in South Africa) - Born a Crime",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   // another one that helped me through those bad times
@@ -203,9 +198,10 @@ const Quotes = [
     source: "Mal Blum's (Lionel Richie & being broken up with) story",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: true,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -215,9 +211,10 @@ const Quotes = [
     source: "Dave Barry",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -226,9 +223,10 @@ const Quotes = [
     source: "Simon Amstell",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -237,9 +235,10 @@ const Quotes = [
     source: "Rudy Francisco",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -249,22 +248,24 @@ const Quotes = [
     source: "Sabrina B. - 'Explaining my depression to my mother' ",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   // This is from an excellent interview with JB. What a great man. <33
   {
     ID: 21,
     quote:
-      "What is it that you wanted me to reconcile myself to. I was born here more than 60 years ago. I'm not going to live another 60 years. You always told me that it's going to take time. It’s taken my father’s time, my mother’s time, my uncle’s time, my brothers’ and my sisters’ time, my nieces' and my nephews' time. How much time do you want for your progress?",
+      "What is it that you wanted me to reconcile myself to. I was born here more than 60 years ago. I'm not going to live another 60 years. You always told me that it's going to take time. It's taken my father's time, my mother's time, my uncle's time, my brothers' and my sisters' time, my nieces' and my nephews' time. How much time do you want for your progress?",
     source: "James Baldwin",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // all I ever wanted tbh
@@ -275,9 +276,10 @@ const Quotes = [
     source: "Alabama (Patrica Arquette) - True Romance",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -286,9 +288,10 @@ const Quotes = [
     source: "Genevie - Bread for the City Transgender Information Meeting",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -297,9 +300,10 @@ const Quotes = [
     source: "Dalai Lama",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -308,9 +312,10 @@ const Quotes = [
     source: "Kanye West",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -319,9 +324,10 @@ const Quotes = [
     source: "Joan Didion",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -330,9 +336,10 @@ const Quotes = [
     source: "Joan Didion - The Year of Magical Thinking",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: true,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -342,9 +349,10 @@ const Quotes = [
     source: "Thomas Pynchon, Gravity's Rainbow",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -353,9 +361,10 @@ const Quotes = [
     source: "Doug Gardner (Michael Rapaport) - Atypical (S2E5)",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: true,
   },
 
   {
@@ -364,21 +373,23 @@ const Quotes = [
     source: "Lloyd Dobler - Say Anything",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: true,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
     ID: 32,
     quote:
-      "The best way to not feel hopeless is to get up and do something. Don’t wait for good things to happen to you. If you go out and make some good things happen, you will fill the world with hope, you will fill yourself with hope.",
+      "The best way to not feel hopeless is to get up and do something. Don't wait for good things to happen to you. If you go out and make some good things happen, you will fill the world with hope, you will fill yourself with hope.",
     source: "President Barack Obama",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -387,9 +398,10 @@ const Quotes = [
     source: "u/if_horses_could_draw - Reddit ",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: true,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -399,9 +411,10 @@ const Quotes = [
     source: "Niels Smith",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -411,9 +424,10 @@ const Quotes = [
     source: "Natalie Portman - Garden State",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -423,9 +437,10 @@ const Quotes = [
     source: "Abe Lincoln",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -435,9 +450,10 @@ const Quotes = [
     source: "orace Walpole",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -446,9 +462,10 @@ const Quotes = [
     source: "u/magnetic_couch - Reddit ",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   // redditor or redditter? ... it's the first one... propbably
@@ -458,9 +475,10 @@ const Quotes = [
     source: "Redditer's 6 year old child",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -470,9 +488,10 @@ const Quotes = [
     source: "F. Scott Fitzgerald",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -481,9 +500,10 @@ const Quotes = [
     source: "Fortune Cookie",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -493,9 +513,10 @@ const Quotes = [
       "CASHI Meeting (This isn't a thing CASHI came up with. That's just where I first heard it)",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -504,9 +525,10 @@ const Quotes = [
     source: "Jessica Perlo",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -515,9 +537,10 @@ const Quotes = [
     source: "Seth Cohen - The OC",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -526,9 +549,10 @@ const Quotes = [
     source: "Saying from Al-Anon",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -538,9 +562,10 @@ const Quotes = [
     source: "Steve Maraboli",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -550,9 +575,10 @@ const Quotes = [
     source: "Kurt Vonnegut",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -562,9 +588,10 @@ const Quotes = [
     source: "Calvin Coolidge",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -573,9 +600,10 @@ const Quotes = [
     source: "Timothy Olyphant - Girl Next Door",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -584,9 +612,10 @@ const Quotes = [
     source: "Tinder woman in Baltimore",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: true,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -596,9 +625,10 @@ const Quotes = [
     source: "Mark Twain",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -608,9 +638,10 @@ const Quotes = [
     source: "Mark Twain",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   // Melanie from 620 had a good pneumonic device for pronouncing Dostoevski. Do I remember it? No...
@@ -620,9 +651,10 @@ const Quotes = [
     source: "Dostoevski",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -632,9 +664,10 @@ const Quotes = [
     source: "James Baldwin",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -643,9 +676,10 @@ const Quotes = [
     source: "Candace Plattot",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -655,9 +689,10 @@ const Quotes = [
     source: "Fry - Futurama",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -667,9 +702,10 @@ const Quotes = [
     source: "Harun Yahya",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -679,9 +715,10 @@ const Quotes = [
     source: "Reddit u/sanket_srivastava",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -691,21 +728,23 @@ const Quotes = [
     source: "Annie (Allison Brie) - Community",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
     ID: 60,
     quote:
-      "The doctor put her hands over my liver. She told me my resentment’s getting smaller",
+      "The doctor put her hands over my liver. She told me my resentment's getting smaller",
     source: "Phobe Bridgers - Garden Song",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -715,47 +754,51 @@ const Quotes = [
     source: "James Baldwin",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   //This is a fav <3333
   {
     ID: 62,
     quote:
-      "But the only way I’d fall is if I jumped. That’s why you’re afraid to come over here. Because a tiny part of you wants to jump. Because it would be so easy. But, I don’t want to jump, so, I’m not afraid. I would never do that. I’m having too good of a time.",
+      "But the only way I'd fall is if I jumped. That's why you're afraid to come over here. Because a tiny part of you wants to jump. Because it would be so easy. But, I don't want to jump, so, I'm not afraid. I would never do that. I'm having too good of a time.",
     source: "Parker Posey - Louie S03E04",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
     ID: 63,
     quote:
-      "I am the Saudi Arabia of unhappiness. I have so many reserves of misery that you wouldn’t understand. I actually think that’s part of why I connect with Canadians. I think they understand grinding misery underneath",
+      "I am the Saudi Arabia of unhappiness. I have so many reserves of misery that you wouldn't understand. I actually think that's part of why I connect with Canadians. I think they understand grinding misery underneath",
     source: "Craig Ferguson",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   // But what is this man's last name???
   {
     ID: 64,
     quote:
-      "But when exactly can we say that someone is over complicating things? A good rule of thumb is when you’re writing code that solves problems you don’t have.",
+      "But when exactly can we say that someone is over complicating things? A good rule of thumb is when you're writing code that solves problems you don't have.",
     source: "Daan _______ - Blogger on Medium",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // I'm not sure if I understand this one, but it's fun to say lol
@@ -766,9 +809,10 @@ const Quotes = [
       "There is no cow on the ice as long as half of it is on land. \n - Translated from Swedish",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // this is probably form a book
@@ -779,9 +823,10 @@ const Quotes = [
     source: "Chuck Palahniuk",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: true,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -790,9 +835,10 @@ const Quotes = [
     source: "Isabelle Lafleche",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   // facts: true;
@@ -803,9 +849,10 @@ const Quotes = [
     source: "Jake - Adventure Time",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // this one though...
@@ -816,9 +863,10 @@ const Quotes = [
     source: "David Mitchell on first meeting his wife (Victoria Coren)",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: true,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -828,9 +876,10 @@ const Quotes = [
     source: "Tommy Tabermann",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -839,9 +888,10 @@ const Quotes = [
     source: "The Sister - Fleabag SE2E6",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: true,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -850,9 +900,10 @@ const Quotes = [
     source: "Pierce Hawthorne (Chevy Chase) - Community",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -862,9 +913,10 @@ const Quotes = [
     source: "Oliver Tate",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: true,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -873,9 +925,10 @@ const Quotes = [
     source: "",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -884,9 +937,10 @@ const Quotes = [
     source: "",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -895,9 +949,10 @@ const Quotes = [
     source: "Dalinar Kholin",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -906,9 +961,10 @@ const Quotes = [
     source: "Rupi Kapur",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -917,21 +973,23 @@ const Quotes = [
     source: "David Cross - The Man Show",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
     ID: 79,
     quote:
-      "When everything is going right, we don’t notice. But when things fall apart, we react. Maybe the key to happiness is just noticing.",
+      "When everything is going right, we don't notice. But when things fall apart, we react. Maybe the key to happiness is just noticing.",
     source: "Shen - Owlturd",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -940,9 +998,10 @@ const Quotes = [
     source: "chavvesty - Tumblr",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -951,21 +1010,23 @@ const Quotes = [
     source: "Anonymous",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
     ID: 82,
     quote:
-      "I’ve spent my life trying to undo habits – especially habits of thinking. They narrow your interaction with the world. They’re the phrases that come easily to your mind, like: ‘I know what I think,’ or ‘I know what I like,’ or ‘I know what’s going to happen today.’ If you just replace ‘know’ with ‘don’t know,’ then you start to move into the unknown. And that’s where the interesting stuff happens.",
+      "I've spent my life trying to undo habits – especially habits of thinking. They narrow your interaction with the world. They're the phrases that come easily to your mind, like: ‘I know what I think,' or ‘I know what I like,' or ‘I know what's going to happen today.' If you just replace ‘know' with ‘don't know,' then you start to move into the unknown. And that's where the interesting stuff happens.",
     source: "Stylish elderly woman - Humans of New York",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -975,9 +1036,10 @@ const Quotes = [
     source: "Jorge Luis Borges",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -987,9 +1049,10 @@ const Quotes = [
     source: "Anonymous",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -998,9 +1061,10 @@ const Quotes = [
     source: "Gershona Annor @herapatra - Twitter",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1010,9 +1074,10 @@ const Quotes = [
     source: "James Baldwin",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -1022,9 +1087,10 @@ const Quotes = [
     source: "Abed (Danny Pudi) - Community",
     sourcelink: "",
     motiv: true,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -1033,9 +1099,10 @@ const Quotes = [
     source: "u/autterpopp - Reddit",
     sourcelink: "",
     motiv: false,
-    comedy: false,
+    comedic: false,
     romantic: true,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -1045,9 +1112,10 @@ const Quotes = [
     source: "Ernest Hemingway",
     sourcelink: "",
     motiv: true,
-    comedy: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1056,9 +1124,10 @@ const Quotes = [
     source: "Oscar Wilde",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1067,9 +1136,10 @@ const Quotes = [
     source: "Oscar Wilde",
     sourcelink: "",
     motiv: false,
-    comedy: true,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   // <333 this one
@@ -1079,10 +1149,11 @@ const Quotes = [
       "Travel and tell no one, live a true love story and tell no one, live happily and tell no one, people ruin beautiful things.",
     source: "Kahlil Gibran",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: true,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1091,10 +1162,11 @@ const Quotes = [
       "It's okay if you fall apart sometimes; tacos fall apart and we still love them",
     source: "Gabriel Inglesis",
     sourcelink: "",
-    motive: true,
-    comedy: true,
+    motivational: true,
+    comedic: true,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1102,10 +1174,11 @@ const Quotes = [
     quote: "Fuck all the way off, motherfuckers",
     source: "Felicia C. Sullivan - Medium",
     sourcelink: "",
-    motive: false,
-    comedy: true,
+    motivational: false,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   // Right though?
@@ -1114,10 +1187,11 @@ const Quotes = [
     quote: "Never giving up is how you win",
     source: "@Adamjk",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1125,10 +1199,11 @@ const Quotes = [
     quote: "Chill! Your failures are going to make your TED talk longer",
     source: "Anonymous - Reddit",
     sourcelink: "",
-    motive: true,
-    comedy: true,
+    motivational: true,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -1137,10 +1212,11 @@ const Quotes = [
       "Being shot is not as bad as I thought it might be. As long as you can keep the fear from your mind, but I guess you could say that about most anything in life. It's not so bad, as long as you can keep the fear from your life.",
     source: "Agent Dale Cooper (Kyle MacLachlan) - Twin Peaks",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // One of my favorite quotes! <33
@@ -1149,10 +1225,11 @@ const Quotes = [
     quote: "What I regret most in my life are failures of kindness",
     source: "George Saunders",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // I know this phrase didn't originate at McClymonds, but that's the first place I heard it. Sue me. JK I'm not particularly fond of litigation.
@@ -1162,22 +1239,24 @@ const Quotes = [
     quote: "That's outta pocket.",
     source: "McClymonds High School - West Oakland",
     sourcelink: "",
-    motive: false,
-    comedy: true,
+    motivational: false,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
     ID: 102,
     quote:
-      "Kill your darlings, kill your darlings, even when it breaks your egocentric little scribbler’s heart, kill your darlings.",
+      "Kill your darlings, kill your darlings, even when it breaks your egocentric little scribbler's heart, kill your darlings.",
     source: "Stephen King",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1186,22 +1265,24 @@ const Quotes = [
       "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
     source: "Ralph Waldo Emerson",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
     ID: 104,
     quote:
-      "When there is overwhelming complexity in a proposed architecture or solution, I always like to take a step back, re-evaluate what we’re really trying to solve/build and think if there is a much simpler way to get to the same goal. Sometimes, you’ll realize",
+      "When there is overwhelming complexity in a proposed architecture or solution, I always like to take a step back, re-evaluate what we're really trying to solve/build and think if there is a much simpler way to get to the same goal. Sometimes, you'll realize",
     source: "Jacky Wong - Medium",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1209,10 +1290,11 @@ const Quotes = [
     quote: "Do not, under any circumstances, depend on a partial feeling.",
     source: "Miyamoto Musashi - Dokkōdō (The Path of Aloneness) ",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1221,10 +1303,11 @@ const Quotes = [
       "That's the bar we're trying to clear now? You could fucking tunnel over that bar.",
     source: "u/JTCMuehlenkamp - Reddit",
     sourcelink: "",
-    motive: false,
-    comedy: true,
+    motivational: false,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   // I should google this to find the source/author
@@ -1233,10 +1316,11 @@ const Quotes = [
     quote: "What does your ideal day look like?",
     source: "Somebody - Medium",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -1245,10 +1329,11 @@ const Quotes = [
       "When suffering knocks at your door and you say there is no seat for him, he tells you not to worry because he has brought his own stool.",
     source: "Chinua Achebe",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1256,10 +1341,11 @@ const Quotes = [
     quote: "You have to make a habit of challenging yourself.",
     source: "Szymon Adamiak - Medium",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1268,10 +1354,11 @@ const Quotes = [
       "Religion is like a blind man looking in a black room for a black cat that isn't there... and finding it.",
     source: "Oscar Wilde",
     sourcelink: "",
-    motive: false,
-    comedy: true,
+    motivational: false,
+    comedic: true,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1280,10 +1367,11 @@ const Quotes = [
       "An optimist will tell you the glass is half-full; the pessimist, half-empty; and the engineer will tell you the glass is twice the size it needs to be.",
     source: "Oscar Wilde",
     sourcelink: "",
-    motive: false,
-    comedy: true,
+    motivational: false,
+    comedic: true,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // MS
@@ -1292,10 +1380,11 @@ const Quotes = [
     quote: "What seems to us as bitter trials are often blessings in disguise",
     source: "Oscar Wilde",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1304,10 +1393,11 @@ const Quotes = [
       "A pessimist is somebody who complains about the noise when opportunity knocks.",
     source: "Oscar Wilde",
     sourcelink: "",
-    motive: true,
-    comedy: true,
+    motivational: true,
+    comedic: true,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1315,10 +1405,11 @@ const Quotes = [
     quote: "The best way to enjoy your job is to imagine yourself without one",
     source: "Oscar Wilde",
     sourcelink: "",
-    motive: true,
-    comedy: true,
+    motivational: true,
+    comedic: true,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1326,10 +1417,11 @@ const Quotes = [
     quote: "You can't fix people",
     source: "Karen Hansen-Smith - Librarian, Mother, Dane",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
   // This line has always held a soft spot in my heart
   {
@@ -1337,22 +1429,24 @@ const Quotes = [
     quote: "That's a good sign you know. That means she gets it.",
     source: "Ralph Fiennes - Grand Budapest Hotel (1:10:37)",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
     ID: 118,
     quote:
-      "Life isn’t Jeopardy — you don’t have to jump in with an answer the first chance you get",
+      "Life isn't Jeopardy — you don't have to jump in with an answer the first chance you get",
     source: "Michael Thompson - Medium",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1360,10 +1454,11 @@ const Quotes = [
     quote: "Dream big dreams. Small dreams have no magic",
     source: "Dottie Boreyko",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1372,10 +1467,11 @@ const Quotes = [
       "Oh, it's cool how you found a way for a compliment to shake me to my core.",
     source: "Missy (Ayo Edebiri) - Big Mouth",
     sourcelink: "",
-    motive: false,
-    comedy: true,
+    motivational: false,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -1384,10 +1480,11 @@ const Quotes = [
       "Every great dream begins with a dreamer. Always remember, you have within you the strength, the patience, and the passion to change the world.",
     source: "Harriet Tubman",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1395,10 +1492,11 @@ const Quotes = [
     quote: "Whether you think you can, or you think you can't -- you're right.",
     source: "Henry Ford",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // Quarantine motivator circa 2020-2021
@@ -1407,22 +1505,24 @@ const Quotes = [
     quote: "I can do this, I thought. Then: And even if I can't, I have to",
     source: "Anonymous",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
     ID: 124,
     quote:
-      "When you make the courageous decision to deliberately choose discomfort, you prove to yourself that you are no longer satisfied with the way things are and you won’t tolerate it any longer. You’re ready for change, for growth. You are ready to accept and embrace suffering because you want a better life for yourself, your family, and/or your business.",
+      "When you make the courageous decision to deliberately choose discomfort, you prove to yourself that you are no longer satisfied with the way things are and you won't tolerate it any longer. You're ready for change, for growth. You are ready to accept and embrace suffering because you want a better life for yourself, your family, and/or your business.",
     source: "Green Beret, Jason B. A. Van Camp",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -1431,22 +1531,24 @@ const Quotes = [
       "When I was a boy and I would see scary things in the news, my mother would say to me, 'Look for the helpers. You will always find people who are helping.'",
     source: "Mr. Rogers",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
     ID: 126,
     quote:
-      "If you can understand human behavior, it can’t hurt you nearly as much.",
+      "If you can understand human behavior, it can't hurt you nearly as much.",
     source: "Carol Plum-Ucci",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1455,10 +1557,11 @@ const Quotes = [
       "One of the great tragedies of mankind is that morality has been hijacked by religion.",
     source: "Arthur C. Clarke",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1467,10 +1570,11 @@ const Quotes = [
       "If you can't fly then run, if you can't run then walk, if you can't walk then crawl, but whatever you do you have to keep moving forward.",
     source: "Martin Luther King Jr.",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1479,10 +1583,11 @@ const Quotes = [
       "You can easily judge the character of a man by how he treats those who can do nothing for him",
     source: "Malcolm S. Forbes",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // lol
@@ -1491,10 +1596,11 @@ const Quotes = [
     quote: "Please stop petitioning my dreams.",
     source: "Lindsay Brown - Medium",
     sourcelink: "",
-    motive: false,
-    comedy: true,
+    motivational: false,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -1502,10 +1608,11 @@ const Quotes = [
     quote: "Nothing is particularly hard if you divide them into small jobs",
     source: "Henry Ford",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1513,10 +1620,11 @@ const Quotes = [
     quote: "Speak only if you can improve the silence",
     source: "Mahatma Gandhi",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // Carlin was a comedian, so I'm putting this into Dark Comedy
@@ -1525,10 +1633,11 @@ const Quotes = [
     quote: "Inside every cynical person, there is a disappointed idealist",
     source: "George Carlin",
     sourcelink: "",
-    motive: false,
-    comedy: true,
+    motivational: false,
+    comedic: true,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1536,10 +1645,11 @@ const Quotes = [
     quote: "",
     source: "",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -1548,10 +1658,11 @@ const Quotes = [
       "Anxiety both overestimates risk and underestimates your ability to cope.",
     source: "u/annieohnotme's therapist",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1560,10 +1671,11 @@ const Quotes = [
       "I write while listening to music, mostly because the world beyond my headphones is too chaotic",
     source: "Dean Bakopoulos",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   // How great was Audrey Hepburn? Big respect!
@@ -1573,10 +1685,11 @@ const Quotes = [
       "The most important thing is to enjoy your life - to be happy - it's all that matters.",
     source: "Audrey Hepburn",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // is this from something?
@@ -1586,10 +1699,11 @@ const Quotes = [
       "We're born alone, we live alone, we die alone. Only through our love and friendship can we create the illusion for the moment that we're not alone.",
     source: "Orson Welles",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -1598,10 +1712,11 @@ const Quotes = [
       "Keep your face always toward the sunshine - and shadows will fall behind you.",
     source: "Walt Whitman",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1609,10 +1724,11 @@ const Quotes = [
     quote: "It takes a long time to grow an old friend.",
     source: "John Leonard",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   // "seared with scars" is a great expression
@@ -1622,10 +1738,11 @@ const Quotes = [
       "Out of suffering have emerged the strongest souls; the most massive characters are seared with scars.",
     source: "Kahlil Gibran",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // I should google which HP book this line is from
@@ -1635,10 +1752,11 @@ const Quotes = [
       "Happiness can be found, even in the darkest of times, if only one remembers to turn on the light.",
     source: "Albus Dumbledore - Harry Potter",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // I love this one
@@ -1648,10 +1766,11 @@ const Quotes = [
       "No man ever steps in the same river twice, for it's not the same river and he's not the same man.",
     source: "Heraclitus",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1660,22 +1779,24 @@ const Quotes = [
       "Standing still is the fastest way of moving backwards in a rapidly changing world.",
     source: "Lauren Bacall",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
     ID: 145,
     quote:
-      "They say the lottery is a tax on people who can’t do the math. I would say arguing on the internet is a tax on people who don’t value their time.",
+      "They say the lottery is a tax on people who can't do the math. I would say arguing on the internet is a tax on people who don't value their time.",
     source: "Sean Kernan - Medium",
     sourcelink: "",
-    motive: false,
-    comedy: true,
+    motivational: false,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -1684,10 +1805,11 @@ const Quotes = [
       "The first step towards getting somewhere is to decide that you are not going to stay where you are",
     source: "J.P. Morgan",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1696,10 +1818,11 @@ const Quotes = [
       "Attention is a limited resource, so pay attention to where you pay attention",
     source: "Howard Rheingold",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1708,22 +1831,24 @@ const Quotes = [
     source:
       "Translation from Latin: ~the smallest things are the most important",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
     ID: 149,
     quote:
-      "Many people are like garbage trucks. They run around full of garbage, full of frustration, full of anger, and full of disappointment. As their garbage piles up, they look for a place to dump it. And if you let them, they’ll dump it on you. So when someone wants to dump on you, don’t take it personally. Just smile, wave, wish them well, and move on. Believe me. You’ll be happier.",
+      "Many people are like garbage trucks. They run around full of garbage, full of frustration, full of anger, and full of disappointment. As their garbage piles up, they look for a place to dump it. And if you let them, they'll dump it on you. So when someone wants to dump on you, don't take it personally. Just smile, wave, wish them well, and move on. Believe me. You'll be happier.",
     source: "Michael Thompson - Medium",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // one of my favorite movies
@@ -1733,21 +1858,23 @@ const Quotes = [
       "I believe if there's any kind of God it wouldn't be in any of us, not you or me but just this little space in between. If there's any kind of magic in this world it must be in the attempt of understanding someone sharing something. I know, it's almost impossible to succeed but who cares really? The answer must be in the attempt.",
     source: "Celine (Julie Delpy), Before Sunrise",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: true,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
     ID: 151,
-    quote: "Ah, the key to being interesting is to go where you aren’t boring!",
+    quote: "Ah, the key to being interesting is to go where you aren't boring!",
     source: "Michael Thompson's friend - Medium",
     sourcelink: "",
-    motive: false,
-    comedy: true,
+    motivational: false,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -1756,10 +1883,11 @@ const Quotes = [
       "Nothing can make our life, or the lives of other people, more beautiful than perpetual kindness",
     source: "Leo Tolstoy",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1768,10 +1896,11 @@ const Quotes = [
       "Never attribute to malice that which is adequately explained by stupidity",
     source: "Hanlon's Razor (Robert J. Hanlon)",
     sourcelink: "",
-    motive: false,
-    comedy: true,
+    motivational: false,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   // 2020 Quarantine Life/Workout Mantra
@@ -1780,10 +1909,11 @@ const Quotes = [
     quote: "If something's worth doing, it's worth doing badly",
     source: "G. K. Chesterton",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: true,
   },
 
   {
@@ -1792,21 +1922,23 @@ const Quotes = [
       "Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself.",
     source: "Jalal ad-Din Rumi",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
     ID: 156,
-    quote: "Never take criticism from someone you wouldn’t take advice from.",
+    quote: "Never take criticism from someone you wouldn't take advice from.",
     source: "u/Panda_Burger - Reddit",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1814,10 +1946,11 @@ const Quotes = [
     quote: "The bad stuff is easier to believe. You ever notice that?",
     source: "(Julia Roberts) - Pretty Woman",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1825,10 +1958,11 @@ const Quotes = [
     quote: "The wound is the place where the light enters you",
     source: "Rumi",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1837,10 +1971,11 @@ const Quotes = [
       "Failure is simply the opportunity to begin again, this time more intelligently.",
     source: "Henry Ford",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   // iPhone wallpaper for the months leading up to my move to Denmark
@@ -1850,10 +1985,11 @@ const Quotes = [
     quote: "I did not come this far to ONLY come this far",
     source: "Anonymous",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1861,10 +1997,11 @@ const Quotes = [
     quote: "It takes as much energy to wish as it does to plan.",
     source: "Eleanor Roosevelt",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1873,10 +2010,11 @@ const Quotes = [
       "The optimist proclaims that we live in the best of all possible worlds; and the pessimist fears this is true.",
     source: "James Branch Cabell - The Silver Stallion",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1884,10 +2022,11 @@ const Quotes = [
     quote: "Luck is what happens when preparation meets opportunity.",
     source: "Seneca",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1896,10 +2035,11 @@ const Quotes = [
       "Success is the ability to go from one failure to another with no loss of enthusiasm",
     source: "Winston Churchill",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1907,10 +2047,11 @@ const Quotes = [
     quote: "Always be a little kinder than you need to be",
     source: "Anonymous",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1919,22 +2060,24 @@ const Quotes = [
       "To get what you love, you must first be patient with what you hate.",
     source: "Imam Al",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
     ID: 167,
     quote:
-      "If your actions don’t live up to your words, you have nothing to say.",
+      "If your actions don't live up to your words, you have nothing to say.",
     source: "DaShanne Stokes",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1942,21 +2085,23 @@ const Quotes = [
     quote: "You can't wait until life isn't hard anymore to be happy",
     source: "nightbird - YouTube",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
     ID: 169,
-    quote: "Love is blind despite the world’s attempt to give it eyes.",
+    quote: "Love is blind despite the world's attempt to give it eyes.",
     source: "Matshona Dhliwayo",
     sourcelink: "",
-    motive: false,
-    comedy: false,
-    romantic: false,
+    motivational: false,
+    comedic: false,
+    romantic: true,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1965,10 +2110,11 @@ const Quotes = [
       "The sad truth is that most evil is done by people who never make up their minds to be good or evil.",
     source: "Hannah Arendt - The Banality of Evil",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1977,10 +2123,11 @@ const Quotes = [
       "Money is like a sixth sense without which you cannot make a complete use of the other five.",
     source: "W. Somerset Maugham",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -1989,10 +2136,11 @@ const Quotes = [
       "Being aware of a single shortcoming within yourself is far more useful than being aware of a thousand in someone else.",
     source: "Dalai Lama",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -2001,10 +2149,11 @@ const Quotes = [
       "I wish there was a way to know you're in the good old days before you've actually left them",
     source: "Andy Bernard (Ed Helms) - The Office",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -2012,21 +2161,23 @@ const Quotes = [
     quote: "Nobody's defined by their worst day",
     source: "Brenan Lee Muligan - Dimension20 <3",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
     ID: 175,
-    quote: "Opportunities don’t knock, they whisper. So shut up and listen.",
+    quote: "Opportunities don't knock, they whisper. So shut up and listen.",
     source: "Thomas Leonard",
     sourcelink: "",
-    motive: false,
-    comedy: false,
+    motivational: false,
+    comedic: false,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -2035,10 +2186,11 @@ const Quotes = [
       "Forgetting the past is one of humankind's most popular recreational activities",
     source: "u/Tonspuren - Reddit",
     sourcelink: "",
-    motive: false,
-    comedy: true,
+    motivational: false,
+    comedic: true,
     romantic: false,
     bigBrain: false,
+    biggestBrain: false,
   },
 
   {
@@ -2046,10 +2198,11 @@ const Quotes = [
     quote: "Be tough on the process, but gentle with the output",
     source: "Dan Brown",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
   {
@@ -2058,88 +2211,748 @@ const Quotes = [
       "You know, sometimes all you need is twenty seconds of insane courage. Just literally twenty seconds of just embarrassing bravery. And I promise you, something great will come of it.",
     source: "Benjamin Mee() - We Bought a Zoo",
     sourcelink: "",
-    motive: true,
-    comedy: false,
+    motivational: true,
+    comedic: false,
     romantic: false,
     bigBrain: true,
+    biggestBrain: false,
   },
 
-  // {
-  //   ID: 179,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 179,
+    quote: "Always do what you're afraid to do",
+    source: "Ralph Waldo Emerson",
+    sourcelink: "",
+    motivational: true,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
 
-  // {
-  //   ID: 180,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  // One of my favorite quotes ever ❤️
+  {
+    ID: 180,
+    quote:
+      "I have grown to love secrecy. It seems to be the one thing that can make modern life mysterious or marvellous to us. The commonest thing is delightful if only one hides it.",
+    source: "Oscar Wilde",
+    sourcelink: "",
+    motivational: true,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: true,
+  },
 
-  // {
-  //   ID: 181,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 181,
+    quote:
+      "I wish it need not have happened in my time, said Frodo. So do I, said Gandalf,and so do all who live to see such times. But that is not for them to decide. All we have to decide is what to do with the time that is given us ",
+    source: "JRR Tolkien",
+    sourcelink: "",
+    motivational: true,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
 
-  // {
-  //   ID: 182,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 182,
+    quote:
+      "Courage doesn't always roar. Sometimes it is a quiet voice at the end of the day saying, I will try again tomorrow",
+    source: "Mary Anne Radmacher",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
 
-  // {
-  //   ID: 183,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 183,
+    quote: "The first draft is just you telling yourself the story",
+    source: "Terry Pratchett",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
 
-  // {
-  //   ID: 184,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 184,
+    quote: `Where you are is a result of who you were, but where you go depends entirely on who you choose to be.`,
+    source: "Hal Elrod",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
 
-  // {
-  //   ID: 185,
-  //   quote: "Text",
-  //   source: "Speaker",
-  //   sourcelink: "",
-  //   motive: false,
-  //   comedy: false,
-  //   romantic: false,
-  //   bigBrain: false,
-  // },
+  {
+    ID: 185,
+    quote:
+      "One day at a time - this is enough. Do not look back and grieve over the past, for it is gone; and do not be troubled about the future for it has not yet come. Live in the present, and make it so beautiful that is will be worth remembering",
+    source: "Ida Scott Taylor",
+    sourcelink: "",
+    motivational: true,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
+
+  {
+    ID: 186,
+    quote:
+      "I have learned over the years that when one's mind is made up, this diminishes fear. Knowing what must be done does away with fear.",
+    source: "Rosa Parks",
+    sourcelink: "",
+    motivational: true,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+
+  ,
+  {
+    ID: 187,
+    quote:
+      "When you have exhausted all possibilities, remember this: you haven't.",
+    source: "Thomas Edison",
+    sourcelink: "",
+    motivational: true,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
+
+  {
+    ID: 188,
+    quote:
+      "Enjoy the little things, for one day you may look back and realize they were the big things.",
+    source: "Robert Brault",
+    sourcelink: "",
+    motivational: true,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
+
+  {
+    ID: 189,
+    quote:
+      "I can accept failure. Everyone fails at something. But I can't accept not trying.",
+    source: "Michael Jordan",
+    sourcelink: "",
+    motivational: true,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+
+  {
+    ID: 190,
+    quote: "If you can laugh in the face of adversity, you're bulletproof",
+    source: "Ricky Gervais",
+    sourcelink: "",
+    motivational: true,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
+
+  {
+    ID: 191,
+    quote:
+      "No one has the power to shatter your dreams unless you give it to them.",
+    source: "Maeve Greyson",
+    sourcelink: "",
+    motivational: true,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
+
+  {
+    ID: 192,
+    quote: "Don't be pushed by your problems. Be led by your dreams.",
+    source: "Ralph Waldo Emerson",
+    sourcelink: "",
+    motivational: true,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
+
+  {
+    ID: 193,
+    quote: "The only difference between a weed and a flower is judgement",
+    source: "Wayne W. Dyer",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
+
+  {
+    ID: 191,
+    quote:
+      "If you listen to your fears, you will die never knowing what a great person you might have been.",
+    source: "Robert Schuller",
+    sourcelink: "",
+    motivational: true,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
+
+  {
+    ID: 192,
+    quote:
+      "A limit of time is fixed for you, which if you do not use for clearing away the clouds from your mind, it will go and you will go, and it will never return.",
+    source: "Marcus Aurelius",
+    sourcelink: "",
+    motivational: true,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
+
+  {
+    ID: 193,
+    quote: "If you can be anything in this world, be kind.",
+    source: "Caroline Flack",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
+
+  {
+    ID: 194,
+    quote:
+      "If you're constantly cruel to yourself, you're going to feel the same as if another person was constantly cruel to you.",
+    source: "Nick Wignall - Medium",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
+  {
+    ID: 195,
+    quote:
+      "What you do today is important because you are exchanging a day of your life for it.",
+    source: "Elizabeth George",
+    sourcelink: "",
+    motivational: true,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
+  {
+    ID: 196,
+    quote:
+      "If you can reframe your data cleaning as an investigation, it will be more fun",
+    source: "Sophie Sommer (CodeAcademy)",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 197,
+    quote:
+      "Have enough courage to trust love one more time and always one more time.",
+    source: "Maya Angelou",
+    sourcelink: "",
+    motivational: true,
+    comedic: false,
+    romantic: true,
+    bigBrain: true,
+    biggestBrain: false,
+  },
+  {
+    ID: 198,
+    quote:
+      "TThe longer we dwell on our misfortunes, the greater is their power to harm us.ext",
+    source: "Voltaire",
+    sourcelink: "",
+    motivational: true,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
+  {
+    ID: 199,
+    quote: "Aim above morality. Be not simply good, be good for something",
+    source: "Henry David Thoreau",
+    sourcelink: "",
+    motivational: true,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
+  {
+    ID: 200,
+    quote:
+      "When you are content to be simply yourself and do not compare or compete, everyone will respect you.",
+    source: "Lao Tzu",
+    sourcelink: "",
+    motivational: true,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
+  {
+    ID: 201,
+    quote:
+      "If it’s your job to eat a frog, it’s best to do it first thing in the morning. And If it’s your job to eat two frogs, it’s best to eat the biggest one ",
+    source: "Mark Twain",
+    sourcelink: "",
+    motivational: true,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
+  {
+    ID: 202,
+    quote:
+      "A goal is not always meant to be reached, it often serves simply as something to aim at.",
+    source: "Bruce Lee",
+    sourcelink: "",
+    motivational: true,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
+
+  {
+    ID: 203,
+    quote:
+      "I think the saddest people always try their hardest to make other people happy, because they know what it's like to feel absolutely worthless and they don't want anybody else to feel like that.",
+    source: "Robin Williams",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
+  {
+    ID: 204,
+    quote: "Laughter is the shortest distance between two people.",
+    source: "Victor Borge",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
+  {
+    ID: 205,
+    quote: "One life. We get one life",
+    source: "u/zinksinks",
+    sourcelink: "",
+    motivational: true,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
+  {
+    ID: 206,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 207,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 208,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 209,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 210,
+    quote: "Text",
+    source: "Speaker",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 211,
+    quote:
+      "If you're constantly cruel to yourself, you're going to feel the same as if another person was constantly cruel to you.",
+    source: "Nick Wignall - Medium",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
+  {
+    ID: 212,
+    quote:
+      "Challenges are what make life interesting and overcoming them is what makes life meaningful.",
+    source: "Joshua J. Marine",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+
+  {
+    ID: 213,
+    quote:
+      "Someone once told me, How far you go in life will be determined by how many difficult conversations you’re willing to have.",
+    source: "Sean Kernan",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+
+  {
+    ID: 214,
+    quote: "If you fell down yesterday, stand up today	H.G. Wells",
+    source: "Speaker",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+
+  {
+    ID: 215,
+    quote:
+      "The walls we build around us to keep sadness out also keeps out the ",
+    source: "Jim Roh",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+
+  {
+    ID: 216,
+    quote:
+      "It is not uncommon for people to spend their whole life waiting to start living.",
+    source: "Eckhart Tolle",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+
+  {
+    ID: 217,
+    quote:
+      "Today I will do what others won't, so tomorrow I can do what others can't.	",
+    source: "Jerry Rice",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+
+  {
+    ID: 218,
+    quote: "Your big opportunity may be right where you are now.",
+    source: "Napoleon Hill",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+
+  {
+    ID: 219,
+    quote: "Don't look at my glory; listen to my story",
+    source: "Markuaan Smith ",
+    sourcelink: "https://www.tiktok.com/t/ZTR433tqh/", // TikTok Warning: The CCP wants your data
+    motivational: true,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
+
+  {
+    ID: 220,
+    quote: "Before you can do something you must first be something",
+    source: "Johann Wolfgang Von Goethe",
+    sourcelink: "",
+    motivational: true,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+
+  {
+    ID: 221,
+    quote: "Excuses are rocks where our dreams are crushed on",
+    source: "Tim Fargo",
+    sourcelink: "",
+    motivational: true,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 222,
+    quote: "You are what you do, not what you say you'll do.",
+    source: "Carl Jung",
+    sourcelink: "",
+    motivational: true,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 223,
+    quote: "In the midst of movement and chaos, keep stillness inside of you.",
+    source: "Deepak Chopra",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 224,
+    quote:
+      "n every job that must be done, there is an element of fun. You find the fun, and - SNAP - the job's a game!",
+    source: "Mary Poppins",
+    sourcelink: "",
+    motivational: true,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 225,
+    quote:
+      "Destiny is not a matter of chance; it is a matter of choice. It is not a thing to be waited for, it is a thing to be  achieved.",
+    source: "William Jennings Bryan",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 226,
+    quote:
+      "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.",
+    source: "Antoine de Saint-Exupery",
+    sourcelink: "",
+    motivational: true,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 227,
+    quote:
+      "Happiness is not something you postpone for the future; it is something you design for the present.",
+    source: "Jim Rohn",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
+  {
+    ID: 228,
+    quote:
+      "The walls we build around us to keep sadness out also keeps out the joy.",
+    source: "Jim Rohn",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 229,
+    quote: "A little nonsense now and then is relished by the wisest people",
+    source: "Roald Dahl",
+    sourcelink: "",
+    motivational: false,
+    comedic: true,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
+  {
+    ID: 230,
+    quote:
+      "Success isn't about how your life looks to others. It's about how it feels to you.",
+    source: "Michelle Obama",
+    sourcelink: "",
+    motivational: true,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 231,
+    quote: "“Knowing what must be done does away with fear.”",
+    source: "Rosa Parks",
+    sourcelink: "",
+    motivational: true,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
+  {
+    ID: 232,
+    quote: "",
+    source: "",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 233,
+    quote: "",
+    source: "",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 234,
+    quote: "",
+    source: "",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 235,
+    quote: "",
+    source: "",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 236,
+    quote: "",
+    source: "",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
 ];
 
 export default Quotes;
+
+// 206 to 210 need to be filled in with quotes
