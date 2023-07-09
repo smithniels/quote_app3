@@ -2898,8 +2898,9 @@ Quotes = [
   },
   {
     ID: 232,
-    quote: "",
-    source: "",
+    quote:
+      "Opportunities to find our deeper powers come when life seems most challenging.",
+    source: "Joseph Campbell",
     sourcelink: "",
     motivational: false,
     comedic: false,
