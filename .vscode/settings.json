@@ -25,5 +25,6 @@
         "thinkin",
         "todo",
         "vmin"
-    ]
+    ],
+    "editor.fontFamily": "Monaco, 'Courier New', monospace"
 }
