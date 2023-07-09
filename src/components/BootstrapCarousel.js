@@ -1,8 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Carousel } from "react-bootstrap";
-// import QuotesFilt from "./Filter.js";
-import QuotesRand from "./Randomizer.js";
+import QuotesFilt from "./Filter.js";
 
 const Styles = styled.div`
   h5 {
@@ -35,7 +34,7 @@ export const BootstrapCarousel = () => {
         <div className="container-fluid">
           <div>
             <Carousel fade class="Test">
-              {QuotesRand.map((quote) => (
+              {QuotesFilt.map((quote) => (
                 <Carousel.Item>
                   <div key={quote.ID}>
                     <h1>"{quote.quote}</h1>
