@@ -2805,7 +2805,7 @@ Quotes = [
   {
     ID: 224,
     quote:
-      "n every job that must be done, there is an element of fun. You find the fun, and - SNAP - the job's a game!",
+      "In every job that must be done, there is an element of fun. You find the fun, and - SNAP - the job's a game!",
     source: "Mary Poppins",
     sourcelink: "",
     motivational: true,
@@ -2910,13 +2910,13 @@ Quotes = [
   },
   {
     ID: 233,
-    quote: "",
-    source: "",
+    quote: "Some good was known to come out of bad luck, if you met it head-on",
+    source: "Barbara Kingsolver - Demon Copperhead",
     sourcelink: "",
-    motivational: false,
+    motivational: true,
     comedic: false,
     romantic: false,
-    bigBrain: false,
+    bigBrain: true,
     biggestBrain: false,
   },
   {
