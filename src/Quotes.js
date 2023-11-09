@@ -644,7 +644,7 @@ Quotes = [
     biggestBrain: false,
   },
 
-  // Melanie from 620 had a good pneumonic device for pronouncing Dostoevski. Do I remember it? No...
+  // Melanie from 620 had a good mnemonic device for pronouncing Dostoevski. Do I remember it? No...
   {
     ID: 53,
     quote: "There is only one thing I dread, not to be worthy of my suffering",
@@ -764,7 +764,7 @@ Quotes = [
   {
     ID: 62,
     quote:
-      "But the only way I'd fall is if I jumped. That's why you're afraid to come over here. Because a tiny part of you wants to jump. Because it would be so easy. But, I don't want to jump, so, I'm not afraid. I would never do that. I'm having too good of a time.",
+      "But the only way I'd fall is if I jumped. That's why you're afraid to come over here. Because a tiny part of you wants to jump. Because it would be so easy. But, I don't want to jump, so I'm not afraid. I would never do that. I'm having too good of a time.",
     source: "Parker Posey - Louie S03E04",
     sourcelink: "",
     motiv: true,
@@ -2921,10 +2921,11 @@ Quotes = [
   },
   {
     ID: 234,
-    quote: "",
-    source: "",
+    quote:
+      "You must expect failure as part of your journey of success, failure and success go hand in hand,  you cannot have one without the other",
+    source: "Richard Parkes Cordock",
     sourcelink: "",
-    motivational: false,
+    motivational: true,
     comedic: false,
     romantic: false,
     bigBrain: false,
@@ -2932,6 +2933,30 @@ Quotes = [
   },
   {
     ID: 235,
+    quote: "Enjoy the progress not the result",
+    source: "Jimmy Carr",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
+  {
+    ID: 236,
+    quote:
+      "Whatever you're meant to do, do it now. The conditions are always impossible.",
+    source: "Doris Lessing",
+    sourcelink: "",
+    motivational: true,
+    comedic: false,
+    romantic: false,
+    bigBrain: true,
+    biggestBrain: false,
+  },
+
+  {
+    ID: 237,
     quote: "",
     source: "",
     sourcelink: "",
@@ -2942,7 +2967,51 @@ Quotes = [
     biggestBrain: false,
   },
   {
-    ID: 236,
+    ID: 238,
+    quote: "",
+    source: "",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 239,
+    quote: "",
+    source: "",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 240,
+    quote: "",
+    source: "",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 241,
+    quote: "",
+    source: "",
+    sourcelink: "",
+    motivational: false,
+    comedic: false,
+    romantic: false,
+    bigBrain: false,
+    biggestBrain: false,
+  },
+  {
+    ID: 242,
     quote: "",
     source: "",
     sourcelink: "",
