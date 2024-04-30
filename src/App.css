@@ -1,0 +1,48 @@
+:root {
+  --color-primary: red;
+}
+
+html {
+  box-sizing: border-box;
+  background-attachment: fixed;
+  list-style-type: none;
+  font-family: "Playfair Display", serif !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: right top;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+  list-style-type: none;
+  text-decoration: none;
+  box-shadow: 0 0 1px #1c1c1c !important;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: #1c1c1c;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .single-item {
+    margin: 10px;
+    padding: 5px;
+  }
+}
