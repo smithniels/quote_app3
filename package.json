@@ -23,6 +23,12 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "resolutions": {
+    "immer": "9.0.12"
+  },
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions"
+  },
   "eslintConfig": {
     "extends": [
       "react-app"
